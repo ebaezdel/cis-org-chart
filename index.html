@@ -565,15 +565,40 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
 }
+/* Jira status-category palette (matches the badges shown on the Jira backlog). */
 .ticket-status-tag {
   display: inline-flex;
-  padding: 1px 6px;
-  border-radius: 8px;
-  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  font-family: 'Inter', system-ui, sans-serif;
 }
-.ticket-status-tag.done    { background: #EDFAF3; color: #1A7A45; }
-.ticket-status-tag.indeterminate { background: #FFF8E6; color: #A05F00; }
-.ticket-status-tag.new     { background: #F0F4FA; color: #4A6EA0; }
+.ticket-status-tag.color-green     { background: #DCFFF1; color: #006644; }
+.ticket-status-tag.color-yellow    { background: #FFF7D6; color: #974F0C; }
+.ticket-status-tag.color-blue-gray { background: #DFE1E6; color: #42526E; }
+.ticket-status-tag.color-medium-gray { background: #DFE1E6; color: #42526E; }
+
+/* Issue-type icon (Jira-style 16px square next to the key). */
+.issue-type-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  vertical-align: -2px;
+}
+
+/* Real assignee avatar in the IC row (image overrides the fallback solid-color avatar). */
+.ic-avatar.has-image {
+  background: var(--bg);
+  overflow: hidden;
+}
+.ic-avatar.has-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .drawer-footer {
   padding: 12px 20px;
@@ -761,8 +786,13 @@ function buildICList(groupId, ics, dept, groupNameMatches) {
       });
     }
 
+    const avatarUrl = (enriched.icAvatars || {})[name];
+    const avatarHtml = avatarUrl
+      ? `<span class="ic-avatar ${dept} has-image"><img src="${avatarUrl}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image');this.replaceWith(document.createTextNode('${initials(name)}'));"></span>`
+      : `<span class="ic-avatar ${dept}">${initials(name)}</span>`;
+
     row.innerHTML = `
-      <span class="ic-avatar ${dept}">${initials(name)}</span>
+      ${avatarHtml}
       <span class="ic-name">${name}</span>
       ${capPillHtml}
     `;
@@ -936,8 +966,12 @@ function render() {
           row.className = 'ic-row';
           if (matchesSearch(p.name)) row.classList.add('match');
           const fromLabel = p.from === 'marissa' ? 'From Marissa' : 'From Saloni';
+          const avatarUrl = (enriched.icAvatars || {})[p.name];
+          const avatarHtml = avatarUrl
+            ? `<span class="ic-avatar techmod has-image"><img src="${avatarUrl}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image');this.replaceWith(document.createTextNode('${initials(p.name)}'));"></span>`
+            : `<span class="ic-avatar techmod">${initials(p.name)}</span>`;
           row.innerHTML = `
-            <span class="ic-avatar techmod">${initials(p.name)}</span>
+            ${avatarHtml}
             <span>${p.name}</span>
             <span class="ic-origin from-${p.from}">${fromLabel}</span>
           `;
@@ -1202,13 +1236,18 @@ function openDrawer(name) {
 
 function renderTicketRow(t) {
   const sp = t.sp ? `<span class="ticket-sp">${t.sp} SP</span>` : '';
-  const statusCls = t.statusCat === 'done' ? 'done' : (t.statusCat === 'indeterminate' ? 'indeterminate' : 'new');
+  // Jira's own status-category color name (green / yellow / blue-gray) — fall back to medium-gray for safety.
+  const colorCls = t.statusColor ? `color-${t.statusColor}` : 'color-medium-gray';
+  const typeIcon = t.issueTypeIcon
+    ? `<img class="issue-type-icon" src="${t.issueTypeIcon}" alt="${t.issueType || 'issue'}" title="${t.issueType || ''}" loading="lazy">`
+    : '';
   return `
     <a class="ticket-row" href="${t.url}" target="_blank" rel="noopener">
       <div style="flex:1;min-width:0;">
         <div style="display:flex;gap:6px;align-items:center;">
+          ${typeIcon}
           <span class="ticket-key">${t.key}</span>
-          <span class="ticket-status-tag ${statusCls}">${t.status}</span>
+          <span class="ticket-status-tag ${colorCls}">${t.status}</span>
         </div>
         <div class="ticket-summary">${t.summary || ''}</div>
         <div class="ticket-meta">
