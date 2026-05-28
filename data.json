@@ -1,0 +1,163 @@
+{
+  "lastUpdated": "2026-05-28T17:34:58.489Z",
+  "source": "test-fixture.mmd",
+  "overlayApplied": true,
+  "departments": [
+    "engineering",
+    "operations",
+    "industry",
+    "pe",
+    "tpm",
+    "techmod"
+  ],
+  "org": [
+    {
+      "id": "SS",
+      "name": "Saloni Sharma",
+      "role": "Content Engineering",
+      "dept": "engineering",
+      "groups": [
+        {
+          "type": "manager",
+          "id": "YM",
+          "name": "Yan Medvedev",
+          "role": "Content Ingestion - Foundational",
+          "ics": [
+            "Stephen McLaughlin",
+            "Christopher Bond",
+            "Louis Varndell",
+            "Jeremy Kisner",
+            "Anton Troshin"
+          ]
+        },
+        {
+          "type": "manager",
+          "id": "NK",
+          "name": "Nilesh Karwa",
+          "role": "Content Ingestion - Growth",
+          "ics": [
+            "Kaitlin Caponsacco",
+            "Surekha Pachipulusu",
+            "Akshat Koshta",
+            "Amit Kulkarni",
+            "Shwetha S",
+            "Neeraj Mude",
+            "Serge Rizov",
+            "Marian Serban"
+          ]
+        },
+        {
+          "type": "manager",
+          "id": "YQ",
+          "name": "Yihan Qian",
+          "role": "Content Platform",
+          "ics": [
+            "Mikael Hinton",
+            "Sara Marlowe",
+            "Sam Yoo",
+            "Daniel LeVert"
+          ]
+        },
+        {
+          "type": "team",
+          "id": "CS",
+          "name": "Content Services",
+          "role": "Team",
+          "ics": [
+            "Aryan Chordia",
+            "Navneet Goel",
+            "Preetham A",
+            "Maverick Chan",
+            "Zac Wen",
+            "Samiha Binte Hassan",
+            "Bhimraju Kenchappa",
+            "Maximilian Cunningham",
+            "Kaviyarasan Selvakalathi",
+            "Sanagonda Manohar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MH",
+      "name": "Marissa Hun",
+      "role": "Content & Industry Operations",
+      "dept": "operations",
+      "directICs": [
+        "Justin Rumer",
+        "Ryan Jenkins",
+        "Oleg Gareys",
+        "Karen Hiller",
+        "Christina Gaglio",
+        "Naga Shamili Kommuru",
+        "Laoura Atoyan",
+        "Harsha Thumma",
+        "Fernando Alonso",
+        "Erick Suarez Zavala",
+        "Paul Bond"
+      ]
+    },
+    {
+      "id": "MD",
+      "name": "Maria Dalarcao",
+      "role": "Industry Tools & Syndication",
+      "dept": "industry",
+      "directICs": [
+        "Steve Gunno",
+        "David Spano",
+        "Alex Life",
+        "Jorge Nava",
+        "Amy Olesh",
+        "Rafael Roman",
+        "Murari Bilikuri",
+        "Max Eve",
+        "Sebastian Lopez",
+        "Ramani Pukkella",
+        "Andres Peruyero"
+      ]
+    },
+    {
+      "id": "JB",
+      "name": "Jeffrey Byrd",
+      "role": "PE",
+      "dept": "pe",
+      "directICs": []
+    },
+    {
+      "id": "EB",
+      "name": "Ezdraz Baez",
+      "role": "TPM",
+      "dept": "tpm",
+      "directICs": []
+    },
+    {
+      "id": "TM",
+      "name": "TechMod",
+      "role": "Cross-functional · Marissa + Saloni",
+      "dept": "techmod",
+      "shared": true,
+      "sharedICs": [
+        {
+          "name": "Sukanya Ganguwar",
+          "from": "marissa"
+        },
+        {
+          "name": "Swathi Kulkarni",
+          "from": "marissa"
+        },
+        {
+          "name": "Sandhya Rani",
+          "from": "marissa"
+        },
+        {
+          "name": "Narendra Devireddi",
+          "from": "saloni"
+        },
+        {
+          "name": "Sivapuram Jagruthi",
+          "from": "saloni"
+        }
+      ]
+    }
+  ]
+}

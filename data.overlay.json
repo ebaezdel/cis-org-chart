@@ -1,0 +1,19 @@
+{
+  "_comment": "Manual additions on top of Tyler's .mmd. The parser appends these to the org array if their id is not already present.",
+  "add": [
+    {
+      "id": "TM",
+      "name": "TechMod",
+      "role": "Cross-functional · Marissa + Saloni",
+      "dept": "techmod",
+      "shared": true,
+      "sharedICs": [
+        { "name": "Sukanya Ganguwar", "from": "marissa" },
+        { "name": "Swathi Kulkarni", "from": "marissa" },
+        { "name": "Sandhya Rani", "from": "marissa" },
+        { "name": "Narendra Devireddi", "from": "saloni" },
+        { "name": "Sivapuram Jagruthi", "from": "saloni" }
+      ]
+    }
+  ]
+}

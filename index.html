@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Content & Industry Services — Org Chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:        #F9F9F8;
+  --surface:   #FFFFFF;
+  --border:    #E8E8E5;
+  --border2:   #D5D5D0;
+  --text:      #1A1A18;
+  --text2:     #5A5A55;
+  --text3:     #9A9A95;
+  --accent:    #D97757;
+  --accent2:   #C96442;
+  --header-bg: #1A1A18;
+  --header-fg: #F9F9F8;
+
+  --em-saloni:   #4A90D9;
+  --em-marissa:  #D97757;
+  --em-maria:    #50B878;
+  --em-jeffrey:  #E0A030;
+  --em-ezdraz:   #9B59B6;
+  --em-techmod:  #0D9488;
+
+  --pill-bg-saloni:  #EAF4FF; --pill-fg-saloni:  #1060B0;
+  --pill-bg-marissa: #FFF2E8; --pill-fg-marissa: #C05010;
+  --pill-bg-maria:   #EDFAF3; --pill-fg-maria:   #1A7A45;
+  --pill-bg-jeffrey: #FFF8E6; --pill-fg-jeffrey: #A05F00;
+  --pill-bg-ezdraz:  #F3ECF7; --pill-fg-ezdraz:  #6A3A8A;
+  --pill-bg-techmod: #E6F7F4; --pill-fg-techmod: #0A6B62;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 13px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.4;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+.header {
+  background: var(--header-bg);
+  color: var(--header-fg);
+  padding: 0 24px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 4px rgba(0,0,0,.18);
+}
+.header-logo { display: flex; align-items: center; gap: 10px; }
+.header-logo .dot {
+  width: 26px; height: 26px;
+  background: var(--accent);
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700; color: #fff;
+}
+.header-logo h1 { font-size: 14px; font-weight: 600; letter-spacing: -.2px; color: #fff; white-space: nowrap; }
+.header-sep { width: 1px; height: 20px; background: #333; }
+.header-meta { font-size: 11px; color: #888; }
+.header-actions { margin-left: auto; display: flex; gap: 8px; }
+
+/* ── Buttons ── */
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; border-radius: 6px; border: none;
+  font-size: 12px; font-weight: 600; cursor: pointer;
+  font-family: inherit; transition: all .15s;
+  white-space: nowrap;
+}
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { background: var(--accent2); }
+.btn-ghost { background: rgba(255,255,255,.1); color: #ddd; border: 1px solid #444; }
+.btn-ghost:hover { background: rgba(255,255,255,.18); color: #fff; }
+.btn-sm { padding: 4px 10px; font-size: 11px; border-radius: 5px; }
+.btn-outline { background: #fff; color: var(--text2); border: 1px solid var(--border2); }
+.btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Toolbar ── */
+.toolbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-group { display: flex; align-items: center; gap: 8px; }
+.filter-group label {
+  font-size: 11px; font-weight: 600; color: var(--text3);
+  text-transform: uppercase; letter-spacing: .4px; white-space: nowrap;
+}
+.filter-group input[type="text"] {
+  background: var(--bg);
+  border: 1px solid var(--border2);
+  color: var(--text);
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  min-width: 240px;
+  transition: border-color .15s;
+}
+.filter-group input[type="text"]:focus { outline: none; border-color: var(--accent); }
+.filter-group select {
+  background: var(--bg);
+  border: 1px solid var(--border2);
+  color: var(--text);
+  padding: 5px 28px 5px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239A9A95'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  transition: border-color .15s;
+  min-width: 160px;
+}
+.filter-group select:focus { outline: none; border-color: var(--accent); }
+.filter-group select.has-value { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.toolbar-sep { width: 1px; height: 22px; background: var(--border); }
+
+.dept-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.dept-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px; font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border2);
+  background: var(--surface);
+  color: var(--text2);
+  transition: all .12s;
+  white-space: nowrap;
+  user-select: none;
+}
+.dept-pill:hover { border-color: var(--text3); }
+.dept-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+
+.dept-pill.all.active           { background: var(--text); color: #fff; border-color: var(--text); }
+.dept-pill[data-dept="engineering"].active { background: var(--pill-bg-saloni); color: var(--pill-fg-saloni); border-color: var(--em-saloni); }
+.dept-pill[data-dept="operations"].active  { background: var(--pill-bg-marissa); color: var(--pill-fg-marissa); border-color: var(--em-marissa); }
+.dept-pill[data-dept="industry"].active    { background: var(--pill-bg-maria); color: var(--pill-fg-maria); border-color: var(--em-maria); }
+.dept-pill[data-dept="pe"].active          { background: var(--pill-bg-jeffrey); color: var(--pill-fg-jeffrey); border-color: var(--em-jeffrey); }
+.dept-pill[data-dept="tpm"].active         { background: var(--pill-bg-ezdraz); color: var(--pill-fg-ezdraz); border-color: var(--em-ezdraz); }
+.dept-pill[data-dept="techmod"].active     { background: var(--pill-bg-techmod); color: var(--pill-fg-techmod); border-color: var(--em-techmod); }
+
+/* ── Content ── */
+.content { padding: 20px 24px; }
+
+/* ── KPI strip ── */
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px 16px;
+  transition: box-shadow .15s;
+}
+.kpi-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.kpi-label {
+  font-size: 10px; font-weight: 600; color: var(--text3);
+  text-transform: uppercase; letter-spacing: .5px; margin-bottom: 6px;
+}
+.kpi-value { font-size: 24px; font-weight: 700; color: var(--text); letter-spacing: -1px; line-height: 1; }
+.kpi-value.accent { color: var(--accent); }
+.kpi-sub { font-size: 10px; color: var(--text3); margin-top: 4px; }
+
+/* ── Section heading ── */
+.section-heading {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin: 20px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section-heading::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+/* ── Org root ── */
+.org-root {
+  display: flex; justify-content: center;
+  margin-bottom: 20px;
+}
+.root-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 24px;
+  text-align: center;
+  min-width: 240px;
+  position: relative;
+}
+.root-card .role-tag {
+  display: inline-block;
+  font-size: 9px; font-weight: 700;
+  color: var(--text3);
+  text-transform: uppercase; letter-spacing: .5px;
+  margin-bottom: 4px;
+}
+.root-card .name { font-size: 15px; font-weight: 700; color: var(--text); }
+
+/* ── Leaders grid ── */
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 14px;
+}
+.leader-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow .15s;
+  display: flex;
+  flex-direction: column;
+}
+.leader-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.07); }
+
+.leader-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid var(--em-saloni);
+  background: var(--surface);
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+}
+.leader-header.dept-engineering { border-left-color: var(--em-saloni); }
+.leader-header.dept-operations  { border-left-color: var(--em-marissa); }
+.leader-header.dept-industry    { border-left-color: var(--em-maria); }
+.leader-header.dept-pe          { border-left-color: var(--em-jeffrey); }
+.leader-header.dept-tpm         { border-left-color: var(--em-ezdraz); }
+.leader-header.dept-techmod     { border-left-color: var(--em-techmod); }
+
+.leader-name { font-size: 14px; font-weight: 700; color: var(--text); letter-spacing: -.2px; }
+.leader-role { font-size: 11px; color: var(--text3); margin-top: 2px; }
+.leader-count {
+  display: inline-flex; align-items: center;
+  padding: 3px 9px;
+  border-radius: 20px;
+  font-size: 10px; font-weight: 700;
+  background: var(--bg);
+  color: var(--text2);
+  border: 1px solid var(--border);
+}
+
+.leader-body { padding: 12px 16px; flex: 1; }
+
+.team-group { margin-bottom: 12px; }
+.team-group:last-child { margin-bottom: 0; }
+
+.team-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 6px;
+  transition: background .12s;
+  user-select: none;
+}
+.team-header.manager {
+  background: #F0F8FF;
+  border: 1px solid #D6E8F8;
+}
+.team-header.team {
+  background: #F5F5F3;
+  border: 1px solid var(--border);
+}
+.team-header:hover { filter: brightness(.97); }
+
+.team-info { flex: 1; }
+.team-name { font-size: 12px; font-weight: 700; color: var(--text); }
+.team-role { font-size: 10px; color: var(--text3); margin-top: 1px; }
+
+.team-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 10px; font-weight: 600; color: var(--text3);
+}
+.team-toggle .chev {
+  width: 14px; height: 14px;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 10px;
+  transition: transform .15s;
+}
+.team-header.collapsed .chev { transform: rotate(-90deg); }
+
+.team-count {
+  display: inline-flex; align-items: center;
+  padding: 1px 7px;
+  border-radius: 10px;
+  font-size: 10px; font-weight: 700;
+  background: rgba(0,0,0,.05);
+  color: var(--text2);
+}
+
+.ic-list {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 4px 0 4px 12px;
+  border-left: 1px dashed var(--border2);
+  margin-left: 6px;
+}
+.ic-list.collapsed { display: none; }
+
+.ic-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: var(--text);
+  transition: background .12s;
+}
+.ic-row:hover { background: var(--bg); }
+.ic-row.match { background: #FFF8E6; box-shadow: inset 0 0 0 1px #FFD97A; }
+.ic-avatar {
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--text3);
+  color: #fff;
+  font-size: 9px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.ic-avatar.engineering { background: var(--em-saloni); }
+.ic-avatar.operations  { background: var(--em-marissa); }
+.ic-avatar.industry    { background: var(--em-maria); }
+.ic-avatar.pe          { background: var(--em-jeffrey); }
+.ic-avatar.tpm         { background: var(--em-ezdraz); }
+.ic-avatar.techmod     { background: var(--em-techmod); }
+
+/* Shared/co-owned card styling */
+.leader-header.shared {
+  background: linear-gradient(90deg, rgba(217,119,87,.06) 0%, rgba(74,144,217,.06) 100%);
+  border-left: 3px solid var(--em-techmod);
+  border-image: linear-gradient(180deg, var(--em-marissa) 0%, var(--em-saloni) 100%) 1 100%;
+  border-left-style: solid;
+  position: relative;
+}
+.leader-header.shared::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--em-marissa) 0%, var(--em-saloni) 100%);
+}
+.shared-tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 9px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .4px;
+  color: var(--em-techmod);
+  background: var(--pill-bg-techmod);
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.ic-origin {
+  margin-left: auto;
+  font-size: 9px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .4px;
+  color: var(--text3);
+  background: var(--bg);
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.ic-origin.from-marissa { color: var(--pill-fg-marissa); background: var(--pill-bg-marissa); border-color: transparent; }
+.ic-origin.from-saloni  { color: var(--pill-fg-saloni);  background: var(--pill-bg-saloni);  border-color: transparent; }
+
+.empty-card {
+  padding: 18px;
+  text-align: center;
+  color: var(--text3);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.empty-grid {
+  grid-column: 1 / -1;
+  text-align: center; padding: 40px; color: var(--text3); font-size: 13px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #B0B0A8; }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<div class="header">
+  <div class="header-logo">
+    <div class="dot">C</div>
+    <h1>Content &amp; Industry Services — Org Chart</h1>
+  </div>
+  <div class="header-sep"></div>
+  <div class="header-meta" id="meta">Tyler Romeo's organization · interactive view</div>
+  <div class="header-actions">
+    <button class="btn btn-ghost btn-sm" id="expand-all">Expand all</button>
+    <button class="btn btn-primary btn-sm" id="collapse-all">Collapse all</button>
+  </div>
+</div>
+
+<!-- ── TOOLBAR ── -->
+<div class="toolbar">
+  <div class="filter-group">
+    <label>Search</label>
+    <input type="text" id="search" placeholder="Type a name…">
+  </div>
+  <div class="toolbar-sep"></div>
+  <div class="filter-group">
+    <label>EM</label>
+    <select id="em-filter">
+      <option value="">All EMs</option>
+    </select>
+  </div>
+  <div class="toolbar-sep"></div>
+  <div class="filter-group">
+    <label>Department</label>
+    <div class="dept-pills" id="filter-pills">
+      <span class="dept-pill all active" data-dept="all">All</span>
+      <span class="dept-pill active" data-dept="engineering"><span class="dot" style="background: var(--em-saloni);"></span>Content Engineering</span>
+      <span class="dept-pill active" data-dept="operations"><span class="dot" style="background: var(--em-marissa);"></span>Content &amp; Industry Ops</span>
+      <span class="dept-pill active" data-dept="industry"><span class="dot" style="background: var(--em-maria);"></span>Industry Tools &amp; Syndication</span>
+      <span class="dept-pill active" data-dept="pe"><span class="dot" style="background: var(--em-jeffrey);"></span>PE</span>
+      <span class="dept-pill active" data-dept="tpm"><span class="dot" style="background: var(--em-ezdraz);"></span>TPM</span>
+      <span class="dept-pill active" data-dept="techmod"><span class="dot" style="background: var(--em-techmod);"></span>TechMod</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── CONTENT ── -->
+<div class="content">
+
+  <!-- KPI strip -->
+  <div class="kpi-strip" id="kpi-strip"></div>
+
+  <!-- Org root (Tyler) -->
+  <div class="section-heading">Organization</div>
+  <div class="org-root">
+    <div class="root-card">
+      <div class="role-tag">Org Lead</div>
+      <div class="name">Tyler Romeo</div>
+    </div>
+  </div>
+
+  <!-- Leaders -->
+  <div class="section-heading">Direct Reports &amp; Teams</div>
+  <div class="leaders-grid" id="leaders-grid"></div>
+</div>
+
+<script>
+let data = [];
+let ALL_DEPTS = [];
+let activeDepts = new Set();
+let searchTerm = '';
+let emFilter = ''; // '' = none. Top-level id (SS/MH/MD/JB/EB/TM) or sub-manager id (YM/NK/YQ)
+let collapsedGroups = new Set();
+
+const grid = document.getElementById('leaders-grid');
+const searchInput = document.getElementById('search');
+const filterPills = document.getElementById('filter-pills');
+const kpiStrip = document.getElementById('kpi-strip');
+
+function initials(name) {
+  return name.split(' ').filter(Boolean).slice(0,2).map(p => p[0]).join('').toUpperCase();
+}
+
+function matchesSearch(text) {
+  if (!searchTerm) return false;
+  return text.toLowerCase().includes(searchTerm.toLowerCase());
+}
+
+function buildICList(groupId, ics, dept, groupNameMatches) {
+  const list = document.createElement('div');
+  list.className = 'ic-list';
+  list.id = `ics-${groupId}`;
+
+  // When searching, force-expand groups with matches; otherwise honor collapsed state.
+  const forceExpand = searchTerm && (groupNameMatches || ics.some(matchesSearch));
+  if (!forceExpand && collapsedGroups.has(groupId)) list.classList.add('collapsed');
+
+  // If searching and the group name matches, show all ICs. Otherwise filter to matches.
+  const visibleICs = searchTerm && !groupNameMatches
+    ? ics.filter(matchesSearch)
+    : ics;
+
+  visibleICs.forEach(name => {
+    const row = document.createElement('div');
+    row.className = 'ic-row';
+    if (matchesSearch(name)) row.classList.add('match');
+    row.innerHTML = `
+      <span class="ic-avatar ${dept}">${initials(name)}</span>
+      <span>${name}</span>
+    `;
+    list.appendChild(row);
+  });
+  return list;
+}
+
+function buildGroupHeader(g, kind, dept) {
+  const header = document.createElement('div');
+  const isCollapsed = collapsedGroups.has(g.id);
+  header.className = `team-header ${kind}` + (isCollapsed ? ' collapsed' : '');
+  if (matchesSearch(g.name)) header.classList.add('match');
+  header.dataset.target = g.id;
+
+  header.innerHTML = `
+    <div class="team-info">
+      <div class="team-name">${g.name}</div>
+      ${g.role ? `<div class="team-role">${g.role}</div>` : ''}
+    </div>
+    <div class="team-toggle">
+      <span class="team-count">${g.ics.length}</span>
+      <span class="chev">▾</span>
+    </div>
+  `;
+  header.addEventListener('click', () => {
+    if (collapsedGroups.has(g.id)) collapsedGroups.delete(g.id);
+    else collapsedGroups.add(g.id);
+    render();
+  });
+  return header;
+}
+
+// EM filter override: build a synthetic data array based on emFilter.
+function getFilteredData() {
+  if (!emFilter) return data.filter(l => activeDepts.has(l.dept));
+
+  // Top-level direct: show that whole card as-is
+  const topLevel = data.find(l => l.id === emFilter);
+  if (topLevel) return [topLevel];
+
+  // Sub-manager (YM/NK/YQ) or unmanaged team (CS): pull just that group out and present as a card
+  const parent = data.find(l => l.groups && l.groups.some(g => g.id === emFilter));
+  if (parent) {
+    const g = parent.groups.find(x => x.id === emFilter);
+    const roleLine = g.type === 'team'
+      ? `Manager TBD · reports to ${parent.name}`
+      : `${g.role} · reports to ${parent.name}`;
+    return [{
+      id: g.id,
+      name: g.name,
+      role: roleLine,
+      dept: parent.dept,
+      directICs: g.ics
+    }];
+  }
+  return [];
+}
+
+function render() {
+  grid.innerHTML = '';
+  const visible = getFilteredData();
+
+  if (visible.length === 0) {
+    const msg = emFilter
+      ? 'No matches for the selected EM.'
+      : 'No departments selected. Click a pill to show people.';
+    grid.innerHTML = `<div class="empty-grid">${msg}</div>`;
+    renderKPIs();
+    return;
+  }
+
+  visible.forEach(leader => {
+    const card = document.createElement('div');
+    card.className = 'leader-card';
+
+    const totalReports = leader.groups
+      ? leader.groups.reduce((sum, g) => sum + g.ics.length + (g.type === 'manager' ? 1 : 0), 0)
+      : (leader.sharedICs ? leader.sharedICs.length : (leader.directICs ? leader.directICs.length : 0));
+
+    const head = document.createElement('div');
+    head.className = `leader-header dept-${leader.dept}` + (leader.shared ? ' shared' : '');
+    head.innerHTML = `
+      <div>
+        <div class="leader-name">${leader.name}${leader.shared ? '<span class="shared-tag">Shared</span>' : ''}</div>
+        <div class="leader-role">${leader.role}</div>
+      </div>
+      <div class="leader-count">${totalReports} ${totalReports === 1 ? 'report' : 'reports'}</div>
+    `;
+    card.appendChild(head);
+
+    const body = document.createElement('div');
+    body.className = 'leader-body';
+
+    // Determine if leader card has any match when searching
+    const leaderMatches = matchesSearch(leader.name);
+    let cardHasMatch = leaderMatches;
+
+    if (leader.groups) {
+      leader.groups.forEach(g => {
+        const groupNameMatches = matchesSearch(g.name);
+        const anyICMatches = g.ics.some(matchesSearch);
+        // Skip groups entirely when searching and nothing matches
+        if (searchTerm && !leaderMatches && !groupNameMatches && !anyICMatches) return;
+        if (groupNameMatches || anyICMatches) cardHasMatch = true;
+
+        const wrap = document.createElement('div');
+        wrap.className = 'team-group';
+        wrap.appendChild(buildGroupHeader(g, g.type === 'manager' ? 'manager' : 'team', leader.dept));
+        wrap.appendChild(buildICList(g.id, g.ics, leader.dept, groupNameMatches || leaderMatches));
+        body.appendChild(wrap);
+      });
+    } else if (leader.sharedICs && leader.sharedICs.length > 0) {
+      const names = leader.sharedICs.map(p => p.name);
+      const anyICMatches = names.some(matchesSearch);
+      if (!searchTerm || leaderMatches || anyICMatches) {
+        if (anyICMatches) cardHasMatch = true;
+        const groupId = `${leader.id}-shared`;
+        const isCollapsed = collapsedGroups.has(groupId);
+        const forceExpand = searchTerm && (leaderMatches || anyICMatches);
+
+        const headerEl = document.createElement('div');
+        headerEl.className = 'team-header team' + (!forceExpand && isCollapsed ? ' collapsed' : '');
+        headerEl.innerHTML = `
+          <div class="team-info">
+            <div class="team-name">Cross-functional team</div>
+            <div class="team-role">Co-owned by Marissa &amp; Saloni</div>
+          </div>
+          <div class="team-toggle">
+            <span class="team-count">${leader.sharedICs.length}</span>
+            <span class="chev">▾</span>
+          </div>
+        `;
+        headerEl.addEventListener('click', () => {
+          if (collapsedGroups.has(groupId)) collapsedGroups.delete(groupId);
+          else collapsedGroups.add(groupId);
+          render();
+        });
+
+        const list = document.createElement('div');
+        list.className = 'ic-list';
+        if (!forceExpand && isCollapsed) list.classList.add('collapsed');
+
+        const visible = searchTerm && !leaderMatches
+          ? leader.sharedICs.filter(p => matchesSearch(p.name))
+          : leader.sharedICs;
+
+        visible.forEach(p => {
+          const row = document.createElement('div');
+          row.className = 'ic-row';
+          if (matchesSearch(p.name)) row.classList.add('match');
+          const fromLabel = p.from === 'marissa' ? 'From Marissa' : 'From Saloni';
+          row.innerHTML = `
+            <span class="ic-avatar techmod">${initials(p.name)}</span>
+            <span>${p.name}</span>
+            <span class="ic-origin from-${p.from}">${fromLabel}</span>
+          `;
+          list.appendChild(row);
+        });
+
+        const wrap = document.createElement('div');
+        wrap.className = 'team-group';
+        wrap.appendChild(headerEl);
+        wrap.appendChild(list);
+        body.appendChild(wrap);
+      }
+    } else if (leader.directICs && leader.directICs.length > 0) {
+      const anyICMatches = leader.directICs.some(matchesSearch);
+      if (!searchTerm || leaderMatches || anyICMatches) {
+        if (anyICMatches) cardHasMatch = true;
+        const direct = { id: `${leader.id}-direct`, name: 'Direct reports', role: '', ics: leader.directICs };
+        const wrap = document.createElement('div');
+        wrap.className = 'team-group';
+        wrap.appendChild(buildGroupHeader(direct, 'team', leader.dept));
+        wrap.appendChild(buildICList(direct.id, leader.directICs, leader.dept, leaderMatches));
+        body.appendChild(wrap);
+      }
+    } else {
+      // PE / TPM individual contributors with no reports
+      if (!searchTerm || leaderMatches) {
+        const empty = document.createElement('div');
+        empty.className = 'empty-card';
+        empty.textContent = 'Individual contributor — no direct reports';
+        body.appendChild(empty);
+      }
+    }
+
+    card.appendChild(body);
+
+    // Hide entire card when searching and nothing inside matches
+    if (searchTerm && !cardHasMatch) return;
+
+    grid.appendChild(card);
+  });
+
+  // If search produced no visible cards
+  if (searchTerm && grid.children.length === 0) {
+    grid.innerHTML = `<div class="empty-grid">No results for "${searchTerm}".</div>`;
+  }
+
+  renderKPIs();
+}
+
+function countLeader(l) {
+  let people = 1;
+  let managers = 0, teams = 0;
+  if (l.groups) {
+    l.groups.forEach(g => {
+      teams += 1;
+      if (g.type === 'manager') { managers += 1; people += 1; }
+      people += g.ics.length;
+    });
+  } else if (l.sharedICs) {
+    if (l.sharedICs.length > 0) teams += 1;
+    people += l.sharedICs.length;
+  } else if (l.directICs) {
+    if (l.directICs.length > 0) teams += 1;
+    people += l.directICs.length;
+  }
+  return { people, managers, teams };
+}
+
+function renderKPIs() {
+  const totals = data.reduce((acc, l) => {
+    const c = countLeader(l);
+    return { people: acc.people + c.people, managers: acc.managers + c.managers, teams: acc.teams + c.teams };
+  }, { people: 1, managers: 1, teams: 0 }); // +Tyler
+
+  const visibleData = getFilteredData();
+  const visibleCounts = visibleData.reduce((acc, l) => {
+    const c = countLeader(l);
+    return { people: acc.people + c.people, managers: acc.managers + c.managers, teams: acc.teams + c.teams };
+  }, { people: 0, managers: 0, teams: 0 });
+  // Tyler is visible if at least one direct under him is in view
+  const visiblePeople = visibleCounts.people + (visibleCounts.people > 0 ? 1 : 0);
+  const totalPeople = totals.people;
+  const totalManagers = totals.managers;
+  const totalTeams = totals.teams;
+
+  kpiStrip.innerHTML = `
+    <div class="kpi-card">
+      <div class="kpi-label">Visible</div>
+      <div class="kpi-value accent">${visiblePeople}</div>
+      <div class="kpi-sub">of ${totalPeople} total people</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">${emFilter ? 'EM Filter' : 'Departments'}</div>
+      <div class="kpi-value">${emFilter ? '1' : activeDepts.size}<span style="font-size:14px;color:var(--text3);font-weight:500;"> / ${emFilter ? '10' : ALL_DEPTS.length}</span></div>
+      <div class="kpi-sub">${emFilter ? 'EM isolated' : 'depts filtered'}</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Direct Reports</div>
+      <div class="kpi-value">${data.length}</div>
+      <div class="kpi-sub">to Tyler</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Managers</div>
+      <div class="kpi-value">${totalManagers}</div>
+      <div class="kpi-sub">incl. Tyler &amp; sub-managers</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Teams</div>
+      <div class="kpi-value">${totalTeams}</div>
+      <div class="kpi-sub">groups across the org</div>
+    </div>
+  `;
+}
+
+function syncPillUI() {
+  document.querySelectorAll('.dept-pill').forEach(p => {
+    const d = p.dataset.dept;
+    if (d === 'all') {
+      p.classList.toggle('active', activeDepts.size === ALL_DEPTS.length);
+    } else {
+      p.classList.toggle('active', activeDepts.has(d));
+    }
+  });
+}
+
+filterPills.addEventListener('click', (e) => {
+  const pill = e.target.closest('.dept-pill');
+  if (!pill) return;
+  const dept = pill.dataset.dept;
+
+  if (dept === 'all') {
+    activeDepts = new Set(ALL_DEPTS);
+  } else {
+    const allActive = activeDepts.size === ALL_DEPTS.length;
+    const onlyThisActive = activeDepts.size === 1 && activeDepts.has(dept);
+
+    if (allActive)        activeDepts = new Set([dept]);
+    else if (onlyThisActive) activeDepts = new Set(ALL_DEPTS);
+    else if (activeDepts.has(dept)) activeDepts.delete(dept);
+    else activeDepts.add(dept);
+  }
+  syncPillUI();
+  render();
+});
+
+searchInput.addEventListener('input', (e) => {
+  searchTerm = e.target.value.trim();
+  render();
+});
+
+const emSelect = document.getElementById('em-filter');
+emSelect.addEventListener('change', (e) => {
+  emFilter = e.target.value;
+  emSelect.classList.toggle('has-value', !!emFilter);
+  // EM filter overrides depts: visually dim the dept pills when EM is active
+  document.getElementById('filter-pills').style.opacity = emFilter ? '.4' : '1';
+  document.getElementById('filter-pills').style.pointerEvents = emFilter ? 'none' : 'auto';
+  render();
+});
+
+document.getElementById('expand-all').addEventListener('click', () => {
+  collapsedGroups.clear();
+  render();
+});
+document.getElementById('collapse-all').addEventListener('click', () => {
+  data.forEach(l => {
+    if (l.groups) l.groups.forEach(g => collapsedGroups.add(g.id));
+    if (l.sharedICs && l.sharedICs.length) collapsedGroups.add(`${l.id}-shared`);
+    if (l.directICs && l.directICs.length) collapsedGroups.add(`${l.id}-direct`);
+  });
+  render();
+});
+
+// Load org data from data.json (regenerated from Tyler's .mmd by GitHub Actions)
+fetch('data.json', { cache: 'no-store' })
+  .then(r => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  })
+  .then(json => {
+    data = json.org || [];
+    ALL_DEPTS = json.departments || [];
+    activeDepts = new Set(ALL_DEPTS);
+    if (json.lastUpdated) {
+      document.getElementById('meta').textContent =
+        `Tyler Romeo's organization · last synced ${new Date(json.lastUpdated).toLocaleString()}`;
+    }
+    rebuildEMSelect();
+    render();
+  })
+  .catch(err => {
+    document.getElementById('leaders-grid').innerHTML =
+      `<div class="empty-grid">Failed to load data.json — ${err.message}</div>`;
+  });
+
+function rebuildEMSelect() {
+  const sel = document.getElementById('em-filter');
+  sel.innerHTML = '<option value="">All EMs</option>';
+  const directs = document.createElement('optgroup');
+  directs.label = 'Direct reports to Tyler';
+  data.forEach(l => {
+    const opt = document.createElement('option');
+    opt.value = l.id;
+    opt.textContent = l.name + (l.shared ? ' (Shared)' : '');
+    directs.appendChild(opt);
+  });
+  sel.appendChild(directs);
+
+  data.forEach(parent => {
+    if (!parent.groups) return;
+    const group = document.createElement('optgroup');
+    group.label = `Engineering Managers (${parent.name})`;
+    parent.groups.forEach(g => {
+      const opt = document.createElement('option');
+      opt.value = g.id;
+      opt.textContent = g.type === 'team'
+        ? `${g.name} — TBD (no manager yet)`
+        : `${g.name} — ${g.role}`;
+      group.appendChild(opt);
+    });
+    sel.appendChild(group);
+  });
+}
+</script>
+</body>
+</html>

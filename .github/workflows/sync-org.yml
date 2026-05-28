@@ -1,0 +1,94 @@
+name: Sync org chart from Tyler's .mmd
+
+# How this gets triggered:
+#   1. repository_dispatch — Tyler's repo fires a webhook to this repo
+#      curl -X POST -H "Authorization: Bearer $TOKEN" \
+#        https://api.github.com/repos/ebaezdel/cis-org-chart/dispatches \
+#        -d '{"event_type":"org-chart-updated"}'
+#   2. workflow_dispatch — manually triggered from the Actions tab
+#   3. push to main — keeps things in sync after a parser change
+#
+# When TYLER_REPO is configured (repo variable), the workflow fetches
+# org_chart_updated.mmd from that repo, runs the parser, and commits the
+# resulting data.json. data.overlay.json is preserved across runs.
+
+on:
+  repository_dispatch:
+    types: [org-chart-updated]
+  workflow_dispatch:
+    inputs:
+      tyler_repo:
+        description: "Override Tyler's repo (owner/repo) for this run"
+        required: false
+        default: ""
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/parse-mmd.js'
+      - 'data.overlay.json'
+      - '.github/workflows/sync-org.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Determine Tyler's repo
+        id: tyler
+        run: |
+          REPO="${{ github.event.inputs.tyler_repo }}"
+          if [ -z "$REPO" ]; then REPO="${{ vars.TYLER_REPO }}"; fi
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+          if [ -z "$REPO" ]; then
+            echo "::warning::TYLER_REPO not set. Skipping fetch — will only re-run parser on existing fixture."
+          fi
+
+      - name: Fetch org_chart_updated.mmd from Tyler's repo
+        if: steps.tyler.outputs.repo != ''
+        env:
+          GH_TOKEN: ${{ secrets.TYLER_REPO_TOKEN || github.token }}
+        run: |
+          set -e
+          REPO="${{ steps.tyler.outputs.repo }}"
+          # Try main first, fall back to master
+          for BRANCH in main master; do
+            URL="https://raw.githubusercontent.com/$REPO/$BRANCH/org_chart_updated.mmd"
+            echo "Trying $URL"
+            if curl -fsSL -H "Authorization: Bearer $GH_TOKEN" -o source.mmd "$URL"; then
+              echo "Fetched from $BRANCH"
+              exit 0
+            fi
+          done
+          echo "::error::Could not fetch org_chart_updated.mmd from $REPO"
+          exit 1
+
+      - name: Use bundled fixture if no upstream configured
+        if: steps.tyler.outputs.repo == ''
+        run: cp scripts/test-fixture.mmd source.mmd
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Parse .mmd → data.json
+        run: node scripts/parse-mmd.js source.mmd data.json
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: sync org chart from Tyler's .mmd
+
+Triggered by: ${{ github.event_name }}
+Source: ${{ steps.tyler.outputs.repo || 'bundled fixture' }}"
+            git push
+          fi
