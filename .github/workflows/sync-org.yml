@@ -79,6 +79,9 @@ jobs:
         run: node scripts/parse-mmd.js source.mmd data.json
 
       - name: Commit and push if changed
+        env:
+          EVENT: ${{ github.event_name }}
+          SRC: ${{ steps.tyler.outputs.repo }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -86,9 +89,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync org chart from Tyler's .mmd
-
-Triggered by: ${{ github.event_name }}
-Source: ${{ steps.tyler.outputs.repo || 'bundled fixture' }}"
+            SRC_LABEL="${SRC:-bundled fixture}"
+            git commit -m "chore: sync org chart from Tyler's .mmd" -m "Triggered by: $EVENT" -m "Source: $SRC_LABEL"
             git push
           fi
