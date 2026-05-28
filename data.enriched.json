@@ -1,0 +1,2593 @@
+{
+  "generatedAt": "2026-05-28T20:57:10.156Z",
+  "spField": "customfield_10034",
+  "capacityCap": 10,
+  "boardToManager": {
+    "FC": "SS",
+    "CSS": "SS",
+    "CEGEO": "SS",
+    "QAS": "SS",
+    "TSC": "MD",
+    "MSV": "MD",
+    "RPS": "MD",
+    "TCET": "MH",
+    "TLCC": "YM",
+    "QUA": "YM"
+  },
+  "managerHealth": {
+    "SS": {
+      "committed": 163,
+      "done": 53,
+      "pct": 33,
+      "ticketCount": 99,
+      "sprintNames": [
+        "CSS.FY26.Q4.S23",
+        "FC.FY26.Q4.S23",
+        "TL-CEGEO.FY26.Q4S23",
+        "TL-QAS.FY26.Q4S23"
+      ]
+    },
+    "MD": {
+      "committed": 120,
+      "done": 30,
+      "pct": 25,
+      "ticketCount": 55,
+      "sprintNames": [
+        "FIND.FY26.Q4.S23",
+        "LHSC.FY26.Q4.S23",
+        "MSV-FY26.Q4.S23"
+      ]
+    },
+    "MH": {
+      "committed": 58,
+      "done": 11,
+      "pct": 19,
+      "ticketCount": 41,
+      "sprintNames": [
+        "TCET.FY26.Q4.S23"
+      ]
+    },
+    "YM": {
+      "committed": 68,
+      "done": 15,
+      "pct": 22,
+      "ticketCount": 49,
+      "sprintNames": [
+        "FCRI.FY26.Q4.S23",
+        "TLCC.FY26.Q4.S23"
+      ]
+    }
+  },
+  "icTickets": {
+    "Sam Yoo": [
+      {
+        "key": "FC-1803",
+        "summary": "Sam - onboarding",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1803"
+      },
+      {
+        "key": "FC-1651",
+        "summary": "Team Agreement - Data Wrangler Field Type Correctness (guardrail in onboarding)",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1651"
+      },
+      {
+        "key": "FC-1818",
+        "summary": "Spike - Observability Exploration",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1818"
+      },
+      {
+        "key": "FC-1817",
+        "summary": "Anomaly Detection POC — MLS Feed Health & Pipeline Health",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1817"
+      }
+    ],
+    "Sara Marlowe": [
+      {
+        "key": "FC-1733",
+        "summary": "SDS to consume plans and subdivisions from Content Ranch (cont'd)",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1733"
+      },
+      {
+        "key": "FC-1811",
+        "summary": "Stakeholder onboarding support",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1811"
+      },
+      {
+        "key": "FC-1810",
+        "summary": "Sara - onboarding support",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1810"
+      },
+      {
+        "key": "FC-1800",
+        "summary": "[New Homes redesign] Decision on approach",
+        "sp": 3,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1800"
+      },
+      {
+        "key": "FC-1776",
+        "summary": "[content-end-to-end-latency-report-generator] Enforce HTTPS-only access on S3 report buckets",
+        "sp": 3,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1776"
+      },
+      {
+        "key": "FC-1807",
+        "summary": "Sara - team roadmap review and planning FY27",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1807"
+      }
+    ],
+    "Mikael Hinton": [
+      {
+        "key": "FC-1799",
+        "summary": "event-wrangler: Alerting & Process for reporting non-retryable failures",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1799"
+      },
+      {
+        "key": "FC-1809",
+        "summary": "Mikael - onboarding support",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1809"
+      },
+      {
+        "key": "FC-1794",
+        "summary": "Add dependabot.yml to event-wrangler",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1794"
+      }
+    ],
+    "Yihan Qian": [
+      {
+        "key": "FC-1796",
+        "summary": "Migration Plan: ElastiCache Redis node from cache.t4g.small to non-burstable instance type",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1796"
+      },
+      {
+        "key": "FC-1768",
+        "summary": "Team - team roadmap review and planning FY27",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1768"
+      },
+      {
+        "key": "FC-1808",
+        "summary": "Yihan - team roadmap review and planning FY27",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1808"
+      }
+    ],
+    "Unassigned": [
+      {
+        "key": "CEGEO-1212",
+        "summary": "Code review",
+        "sp": 0,
+        "status": "To Do",
+        "statusCat": "new",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1212"
+      },
+      {
+        "key": "FC-1775",
+        "summary": "AppSec: content-example-python-app: Add USER instruction to Dockerfile (APPSEC-90871)",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1775"
+      },
+      {
+        "key": "FC-1774",
+        "summary": "AppSec: content-example-python-app: Upgrade python-black to fix CVE-2026-32274 (APPSEC-108495)",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1774"
+      },
+      {
+        "key": "FC-1804",
+        "summary": "[New Homes redesign] Cost analysis",
+        "sp": 0,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1804"
+      },
+      {
+        "key": "TCET-531",
+        "summary": "Create binder source flag for new home data for listhub to consume",
+        "sp": 0,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-531"
+      }
+    ],
+    "Daniel LeVert": [
+      {
+        "key": "FC-1802",
+        "summary": "Daniel - onboarding",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1802"
+      },
+      {
+        "key": "FC-1690",
+        "summary": "event-wrangler: Include changed_id_name in NewRelic Consumer",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "FC",
+        "sprint": "FC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/FC-1690"
+      }
+    ],
+    "Maverick Chan": [
+      {
+        "key": "CSS-2160",
+        "summary": "[FY27] Future State architecture diagrams",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2160"
+      },
+      {
+        "key": "CSS-2295",
+        "summary": "[insights-plugin-framework] Remediate AWS S3 security controls",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2295"
+      },
+      {
+        "key": "CSS-2292",
+        "summary": "[retcon.address.parser.infrastructure] Remediate AWS S3 security",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2292"
+      },
+      {
+        "key": "CSS-2265",
+        "summary": "[sdsw.infrastructure] Remediate AWS S3 security controls for sdswrite_* accounts",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2265"
+      },
+      {
+        "key": "CSS-2300",
+        "summary": "[sdsw.infrastructure] Run s3-harden.sh for sdswrite-backups and sds-terraform-states buckets",
+        "sp": 0,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2300"
+      },
+      {
+        "key": "CSS-2296",
+        "summary": "[sds.terraform] Remediate AWS S3 security controls",
+        "sp": 0,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2296"
+      },
+      {
+        "key": "CSS-2258",
+        "summary": "Flush Stale Listings in QA for Unit Rental Sources",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2258"
+      },
+      {
+        "key": "CSS-1960",
+        "summary": "[AppSec] moverdc/sds.lambda.logging",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-1960"
+      },
+      {
+        "key": "CSS-2275",
+        "summary": "[content-qas-service] Enforce HTTPS-only access on S3 buckets (deadline: 2026-05-29)",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2275"
+      }
+    ],
+    "Navneet Goel": [
+      {
+        "key": "CSS-2270",
+        "summary": "[Geo Tagging] Migrate from property-triggered envelope schema to listing-triggered flat schema",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2270"
+      },
+      {
+        "key": "CSS-2290",
+        "summary": "[QAS Review] Review QAS work",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2290"
+      },
+      {
+        "key": "CSS-2279",
+        "summary": "moverdc/inspector : Missing User Instruction",
+        "sp": 1,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2279"
+      },
+      {
+        "key": "CSS-2276",
+        "summary": "moverdc/content-ml-text-tagging-insights : python-black",
+        "sp": 1,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2276"
+      },
+      {
+        "key": "CSS-2274",
+        "summary": "[Data Wrangler] Add missing listing DynamoDB fields to GraphQL schema",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2274"
+      }
+    ],
+    "Aryan Chordia": [
+      {
+        "key": "CSS-2251",
+        "summary": "Test and refine /content:cicd-standardize skill on pilot repos (RC-branch model)",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2251"
+      },
+      {
+        "key": "CSS-2228",
+        "summary": "[HESTIA MIGRATION][Week 3] Review testing framework and test cases",
+        "sp": 3,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2228"
+      },
+      {
+        "key": "CSS-2289",
+        "summary": "Create repo standardization spreadsheet for CI/CD and release tags effort",
+        "sp": 0,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2289"
+      },
+      {
+        "key": "CSS-2282",
+        "summary": "[ON-CALL] 05/20 - 05/26",
+        "sp": 5,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2282"
+      },
+      {
+        "key": "CSS-2227",
+        "summary": "[HESTIA MIGRATION][Week 2] Review testing framework and test cases",
+        "sp": 3,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2227"
+      },
+      {
+        "key": "CSS-2268",
+        "summary": "[media-api-serverless] Fix TypeError when downstream Lambda returns top-level error dict",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2268"
+      },
+      {
+        "key": "CSS-2288",
+        "summary": "Schedule retro + FY27 planning sessions action items recap meeting",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2288"
+      }
+    ],
+    "Bhimraju Kenchappa": [
+      {
+        "key": "CSS-2283",
+        "summary": "[ON-CALL] 05/26 - 06/02",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2283"
+      },
+      {
+        "key": "CSS-2261",
+        "summary": "MRED listing-level data suppression - decorator option",
+        "sp": 3,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2261"
+      },
+      {
+        "key": "CSS-2193",
+        "summary": "[image-service] Add pre-commit hooks, configure ruff/mypy/black, and enable py-lint and smoke test CI gates",
+        "sp": 2,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2193"
+      },
+      {
+        "key": "CSS-2191",
+        "summary": "[image-service] Fix NewRelic telemetry SDK serialization error in consolidate_result",
+        "sp": 1,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2191"
+      }
+    ],
+    "Kaviyarasan Selvakalathi": [
+      {
+        "key": "CSS-2264",
+        "summary": "Remediate AWS S3 security controls for dataagg_* accounts",
+        "sp": 5,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2264"
+      },
+      {
+        "key": "CSS-2273",
+        "summary": "[APPSEC][image_service] fix(deps): upgrade urllib3 to >=2.7.0 to remediate CVE-2026-44432 and CVE-2026-44431",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2273"
+      },
+      {
+        "key": "CSS-2272",
+        "summary": "[APPSEC][media_ngi_feeder] Security: Upgrade axios to >=1.15.1 in media_ngi_feeder (CVE-2026-42043)",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2272"
+      },
+      {
+        "key": "CSS-2281",
+        "summary": "moverdc/media_ngi_feeder : npm-axios",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2281"
+      },
+      {
+        "key": "CSS-2277",
+        "summary": "moverdc/image_service : python-urllib3",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2277"
+      }
+    ],
+    "Preetham A": [
+      {
+        "key": "CSS-2135",
+        "summary": "[content-home-subgraph] Remediate EOL containers - bump Alpine + migrate AWS SDK Go v2",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2135"
+      },
+      {
+        "key": "CSS-1406",
+        "summary": "AI Search: Hestia exposes resolver for ML batch processing",
+        "sp": 3,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-1406"
+      },
+      {
+        "key": "CSS-2262",
+        "summary": "Update has_suppress_lead_form to include auction properties",
+        "sp": 2,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2262"
+      },
+      {
+        "key": "CSS-2278",
+        "summary": "moverdc/media_api_serverless : python-urllib3",
+        "sp": 1,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2278"
+      },
+      {
+        "key": "CSS-2280",
+        "summary": "moverdc/tours_api-reports : python-certifi",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2280"
+      }
+    ],
+    "Zac Wen": [
+      {
+        "key": "CEGEO-1120",
+        "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1120"
+      },
+      {
+        "key": "CEGEO-1205",
+        "summary": "Do full sync on all the ArgoCD applications",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1205"
+      },
+      {
+        "key": "CEGEO-1213",
+        "summary": "Deployments",
+        "sp": 0,
+        "status": "To Do",
+        "statusCat": "new",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1213"
+      },
+      {
+        "key": "CEGEO-1211",
+        "summary": "Run performance test for the optimization impact",
+        "sp": 0,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1211"
+      },
+      {
+        "key": "CEGEO-1210",
+        "summary": "Apply query optimization",
+        "sp": 0,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1210"
+      },
+      {
+        "key": "CEGEO-1127",
+        "summary": "[GLP] Schools Data Sync Solution Design ",
+        "sp": 3,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1127"
+      },
+      {
+        "key": "CEGEO-1203",
+        "summary": "[Appsec] Upgrade moverdc/rezone.schools.api : npm-underscore",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1203"
+      },
+      {
+        "key": "CEGEO-1202",
+        "summary": "[Appsec] Upgrade moverdc/rezone.schools.api : npm-@hapi/content",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1202"
+      },
+      {
+        "key": "CEGEO-1201",
+        "summary": "[Appsec] Upgrade moverdc/rezone.schools.api : npm-axios",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1201"
+      },
+      {
+        "key": "CEGEO-1200",
+        "summary": "[Appsec] Upgrade moverdc/sds.geo.importer : npm-lodash",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1200"
+      },
+      {
+        "key": "CEGEO-1199",
+        "summary": "[Appsec] Upgrade moverdc/rezone.schools.api : npm-protobufjs",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1199"
+      },
+      {
+        "key": "CEGEO-1198",
+        "summary": "[Appsec] Upgrade moverdc/rezone.schools.api : npm-lodash",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1198"
+      },
+      {
+        "key": "CEGEO-1197",
+        "summary": "[Appsec] Encrypt SNS topic used by geo-flush",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1197"
+      },
+      {
+        "key": "CEGEO-1209",
+        "summary": "Run performance test for baseline",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1209"
+      },
+      {
+        "key": "CEGEO-1208",
+        "summary": "Gather sample queries and try optimization solutions",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1208"
+      },
+      {
+        "key": "CEGEO-1156",
+        "summary": "Design review with GLP team",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1156"
+      },
+      {
+        "key": "CEGEO-1155",
+        "summary": "Solution design",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1155"
+      },
+      {
+        "key": "CEGEO-1154",
+        "summary": "Review requirements document from GLP team. Clarify data contract.",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1154"
+      }
+    ],
+    "Samiha Binte Hassan": [
+      {
+        "key": "CEGEO-1204",
+        "summary": "Fix security risks on S3 buckets ",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1204"
+      },
+      {
+        "key": "CEGEO-1121",
+        "summary": "[MT API] Optimize the UNIN ALL query used in geo_insights endpoint",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1121"
+      },
+      {
+        "key": "CEGEO-1131",
+        "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+        "sp": 5,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1131"
+      },
+      {
+        "key": "CEGEO-1170",
+        "summary": "Create May + Historical data schema ",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1170"
+      },
+      {
+        "key": "CEGEO-1169",
+        "summary": "Historical data insert for all attributes ",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1169"
+      },
+      {
+        "key": "CEGEO-1168",
+        "summary": "Create new schema w econStats historical data",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1168"
+      },
+      {
+        "key": "CEGEO-1164",
+        "summary": "Stakeholder verification",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1164"
+      },
+      {
+        "key": "CEGEO-1163",
+        "summary": "PR review",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1163"
+      },
+      {
+        "key": "CEGEO-1162",
+        "summary": "Dev/local verification ",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1162"
+      },
+      {
+        "key": "CEGEO-1161",
+        "summary": "Code changes ",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1161"
+      }
+    ],
+    "Sanagonda Manohar": [
+      {
+        "key": "CEGEO-1136",
+        "summary": "Create agentic workflow to create CR from PR template",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1136"
+      },
+      {
+        "key": "CEGEO-1171",
+        "summary": "Replace Deprecated request and request-promise Packages with Modern Alternatives(axios) in MT api",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1171"
+      },
+      {
+        "key": "CEGEO-1189",
+        "summary": "Fix AppID tagging logic of stack \"mtv2-importer-[env]\" defined in repo: \"local.honeybadger.utils\"",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1189"
+      }
+    ],
+    "Maximilian Cunningham": [
+      {
+        "key": "CEGEO-1126",
+        "summary": "[MT API] Decrease the TTL of Redis Cache",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1126"
+      },
+      {
+        "key": "CEGEO-1176",
+        "summary": "[Appsec] moverdc/local.markettrend.api : npm-lodash",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1176"
+      },
+      {
+        "key": "CEGEO-1022",
+        "summary": "Automate Schools Diff Report Generation",
+        "sp": 3,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1022"
+      }
+    ],
+    "Narendra Devireddi": [
+      {
+        "key": "QAS-39",
+        "summary": "[content-qas-service] Implement GET /health and GET /ready endpoints",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-39"
+      },
+      {
+        "key": "QAS-68",
+        "summary": "Create a adhoc job to run test on /verify endpoint on 100K address test dataset",
+        "sp": 2,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-68"
+      },
+      {
+        "key": "QAS-69",
+        "summary": "[Option B][content-qas-service] Add EFS for shared QAS dataset volume",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-69"
+      }
+    ],
+    "Sivapuram Vidya": [
+      {
+        "key": "QAS-47",
+        "summary": "[content-qas-service] Add New Relic APM instrumentation and alerts",
+        "sp": 5,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-47"
+      },
+      {
+        "key": "QAS-67",
+        "summary": "Achieve full parity on original_quality_code field in /verify endpoint response",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-67"
+      },
+      {
+        "key": "QAS-40",
+        "summary": "[content-qas-service] Achieve zero-diff parity with legacy QAS system",
+        "sp": 5,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-40"
+      },
+      {
+        "key": "QAS-65",
+        "summary": "Make Code Changes to achieve zero-diff parity with old /verify endpoint",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-65"
+      },
+      {
+        "key": "QAS-64",
+        "summary": "Run the initial test on /verify endpoint on Test Dataset",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "QAS",
+        "sprint": "TL-QAS.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/QAS-64"
+      }
+    ],
+    "Mahesh Srikakula": [
+      {
+        "key": "TSC-2064",
+        "summary": "Upgrade the geocoder database to 8.4",
+        "sp": 0,
+        "status": "To Do",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2064"
+      },
+      {
+        "key": "TSC-2054",
+        "summary": "Upgrade the email database to 8.4",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2054"
+      }
+    ],
+    "Sebastian Lopez": [
+      {
+        "key": "TSC-1973",
+        "summary": "AppSec tickets for listhub part III",
+        "sp": 8,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1973"
+      },
+      {
+        "key": "TSC-1635",
+        "summary": "Listhub Web Application and RESO Web API Pen Testing Results - Addressing AppSec Vulnerabilities",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1635"
+      },
+      {
+        "key": "TSC-2048",
+        "summary": "fix: UrlPayload http:// upgrade regression causing ImageMagick image fetch failures",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2048"
+      },
+      {
+        "key": "TSC-2058",
+        "summary": "fix: restore CSRF token injection for authenticated users with expired HTTP sessions",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2058"
+      },
+      {
+        "key": "TSC-2055",
+        "summary": "fix: disable BuildKit provenance attestation to fix ECR push failure",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2055"
+      }
+    ],
+    "Ramani Pukkella": [
+      {
+        "key": "TSC-2050",
+        "summary": "Evaluate Upgrade listings-db Aurora PostgreSQL 14 → 16 before EOL (Jan 31, 2027)",
+        "sp": 5,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2050"
+      },
+      {
+        "key": "TSC-2053",
+        "summary": "Pending Onboarding (Training)",
+        "sp": 3,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2053"
+      },
+      {
+        "key": "TSC-1969",
+        "summary": "Change Source Syndication Status for CDAARID MLS",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1969"
+      },
+      {
+        "key": "TSC-1968",
+        "summary": "Backfill existing user-created accounts to Full Opt-Out for ",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1968"
+      }
+    ],
+    "Andres Peruyero": [
+      {
+        "key": "TSC-2051",
+        "summary": "Pending Onboarding (Training)",
+        "sp": 3,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2051"
+      },
+      {
+        "key": "TSC-1983",
+        "summary": "AppSec Critical - moverdc/syndication-subgraph",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1983"
+      },
+      {
+        "key": "TSC-978",
+        "summary": "Investigation IAM Database Auth Not Enabled",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-978"
+      },
+      {
+        "key": "TSC-1944",
+        "summary": "AppSec Major - moverdc/bombilla-listing-helper-scripts",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1944"
+      },
+      {
+        "key": "TSC-1930",
+        "summary": "Move syndication applications out of argo namespace to correct team namespace",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1930"
+      }
+    ],
+    "Rafael Roman": [
+      {
+        "key": "TSC-1261",
+        "summary": "UI and Endpoint Clean-up",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1261"
+      },
+      {
+        "key": "TSC-1883",
+        "summary": "Evaluate QA Environment Set-up",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1883"
+      },
+      {
+        "key": "TSC-2049",
+        "summary": "AppSec Major - moverdc/listhub-mfe",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2049"
+      },
+      {
+        "key": "TSC-1943",
+        "summary": "AppSec Major - moverdc/truss",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1943"
+      },
+      {
+        "key": "TSC-1937",
+        "summary": "AppSec Major - moverdc/lh-tools",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1937"
+      }
+    ],
+    "Paul Bond": [
+      {
+        "key": "TSC-2046",
+        "summary": "Update Terraform Configuration for MySQL 8.4 RDS Instances",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2046"
+      },
+      {
+        "key": "TSC-2044",
+        "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2044"
+      },
+      {
+        "key": "TSC-2045",
+        "summary": "Decommission history2-prod RDS Instance",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2045"
+      },
+      {
+        "key": "TSC-2043",
+        "summary": "Merge TSC-1317 channel runner stats doc branch to main (listhub repo)",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2043"
+      }
+    ],
+    "Alex Life": [
+      {
+        "key": "TSC-2042",
+        "summary": "Performance, Load & Scalability Testing for Syndication Feedback Pipeline",
+        "sp": 5,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2042"
+      },
+      {
+        "key": "TSC-1953",
+        "summary": "Prism Streaming API integration",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1953"
+      }
+    ],
+    "David Spano": [
+      {
+        "key": "TSC-1716",
+        "summary": "Implement UserSync in LHDP for Realogy",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1716"
+      },
+      {
+        "key": "TSC-2041",
+        "summary": "On-Call Rotation Support & LHAPI Incident Tracking",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2041"
+      },
+      {
+        "key": "TSC-1984",
+        "summary": "Update  On Call Rotation Procedure V.2",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1984"
+      },
+      {
+        "key": "TSC-1714",
+        "summary": "Update Agent MDD Record to Account for Added Fields",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1714"
+      }
+    ],
+    "Amy Olesh": [
+      {
+        "key": "MSV-523",
+        "summary": "KTLO - Upgrade AWS SDK from v2 to v3 for mls-value-metrics-lambda",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "MSV",
+        "sprint": "MSV-FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/MSV-523"
+      },
+      {
+        "key": "MSV-634",
+        "summary": "MLS Values - Update unqualified column references in prism-dbt",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "MSV",
+        "sprint": "MSV-FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/MSV-634"
+      },
+      {
+        "key": "MSV-635",
+        "summary": "AppSec Critical/Major - moverdc/mls-accounts-ui",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "MSV",
+        "sprint": "MSV-FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/MSV-635"
+      },
+      {
+        "key": "TSC-1987",
+        "summary": "request-throttler: normalize non-conforming cacheKeys to preserve per-key throttle isolation",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1987"
+      },
+      {
+        "key": "TSC-1940",
+        "summary": "AppSec Major -   moverdc/listhub-accounts-api",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1940"
+      },
+      {
+        "key": "TSC-1939",
+        "summary": "AppSec Major - moverdc/dev-listhub-redirect",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1939"
+      },
+      {
+        "key": "MSV-633",
+        "summary": "MLS Values - Review AWS S3 HTTP/Public Buckets",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "MSV",
+        "sprint": "MSV-FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/MSV-633"
+      }
+    ],
+    "Jorge Nava": [
+      {
+        "key": "TSC-1592",
+        "summary": "Cleanup ListHub containers",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1592"
+      },
+      {
+        "key": "TSC-1972",
+        "summary": "Review S3 resources",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1972"
+      },
+      {
+        "key": "TSC-1663",
+        "summary": "AppSec Major - moverdc/listhub-cronjobs",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1663"
+      },
+      {
+        "key": "TSC-1942",
+        "summary": "AppSec Major - moverdc/synd-exp-module",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1942"
+      }
+    ],
+    "Steve Gunno": [
+      {
+        "key": "TSC-1955",
+        "summary": "Event redrive strategy",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1955"
+      },
+      {
+        "key": "TSC-1954",
+        "summary": "Create sf-internal-api dashboard resources",
+        "sp": 5,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1954"
+      }
+    ],
+    "Max Eve": [
+      {
+        "key": "TSC-1816",
+        "summary": "Frontend Integration — SysAdmin Compliance MVP",
+        "sp": 5,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1816"
+      },
+      {
+        "key": "TSC-1842",
+        "summary": "Frontend Integration Spike — SysAdmin Compliance UI",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1842"
+      },
+      {
+        "key": "TSC-1815",
+        "summary": "API Implementation — Compliance Dashboard Endpoints",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1815"
+      }
+    ],
+    "Murari Bilikuri": [
+      {
+        "key": "RPS-2619",
+        "summary": "Find 1.0 Appsec issues - Reflected_XSS",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2619"
+      },
+      {
+        "key": "RPS-1966",
+        "summary": "Add Mandatory Tags for S3 Buckets of Find application",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-1966"
+      },
+      {
+        "key": "RPS-2671",
+        "summary": "Processing error in FIND",
+        "sp": 2,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2671"
+      },
+      {
+        "key": "RPS-2144",
+        "summary": "Flyer modal : Email field validation error",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2144"
+      },
+      {
+        "key": "RPS-2676",
+        "summary": "Internet-facing container using an image with initial access vulnerabilities",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2676"
+      },
+      {
+        "key": "RPS-2674",
+        "summary": "Google Maps Client ID Migration for Find-Fesl",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2674"
+      },
+      {
+        "key": "RPS-2672",
+        "summary": "Share Button on Find.2 Site is unresponsive",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2672"
+      },
+      {
+        "key": "RPS-2578",
+        "summary": "Checkmarx PR merge policy violation blocking",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "RPS",
+        "sprint": "FIND.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/RPS-2578"
+      }
+    ],
+    "Marian Serban": [
+      {
+        "key": "TCET-590",
+        "summary": "Add QA source types to the Centralized Splunk Dashboard that will replace DMS",
+        "sp": 3,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-590"
+      },
+      {
+        "key": "TCET-529",
+        "summary": "DMS alert replacement from Splunk dashboard",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-529"
+      },
+      {
+        "key": "TCET-618",
+        "summary": "Add RMNYN flag to broker, franchise and team extract sps",
+        "sp": 1,
+        "status": "Development Complete",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-618"
+      },
+      {
+        "key": "TCET-586",
+        "summary": "FY-27 Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-586"
+      },
+      {
+        "key": "TCET-609",
+        "summary": "Backfilling VT URL for offmarket listings",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-609"
+      },
+      {
+        "key": "TCET-582",
+        "summary": "VT SP prod release and backfill",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-582"
+      }
+    ],
+    "Serge Rizov": [
+      {
+        "key": "TCET-562",
+        "summary": "Migration of Brokerfeed showcase repo to GHC",
+        "sp": 5,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-562"
+      },
+      {
+        "key": "TCET-608",
+        "summary": "Test/Adjust Brokerfeed REBF(realogy) roster maps",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-608"
+      },
+      {
+        "key": "TCET-607",
+        "summary": "Brokerfeed enterprise essential feeds prod release",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-607"
+      },
+      {
+        "key": "TCET-584",
+        "summary": "FY-27 planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-584"
+      },
+      {
+        "key": "TCET-483",
+        "summary": "Debug mapping service issue for empty file creation in gator",
+        "sp": 0,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-483"
+      }
+    ],
+    "Akshat Koshta": [
+      {
+        "key": "TCET-557",
+        "summary": "APPSEC AVM API",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-557"
+      },
+      {
+        "key": "TCET-605",
+        "summary": "FY-27 Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-605"
+      },
+      {
+        "key": "TCET-576",
+        "summary": "QVM Consumer - Setup CI/CD pipeline, devportal and AWS SM",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-576"
+      },
+      {
+        "key": "TCET-573",
+        "summary": "RTB: Feed monitoring in loader and resolve failures",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-573"
+      },
+      {
+        "key": "TCET-572",
+        "summary": "Deprecate MLS and OPIS loader",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-572"
+      },
+      {
+        "key": "TCET-558",
+        "summary": "APPSEC AWS resource utilities repo",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-558"
+      },
+      {
+        "key": "TCET-575",
+        "summary": "QVM Consumer - Setup repo, create consumer from template",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-575"
+      },
+      {
+        "key": "TCET-565",
+        "summary": "APPSEC-109673 CLA consumer",
+        "sp": 0,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-565"
+      }
+    ],
+    "Amit Kulkarni": [
+      {
+        "key": "TCET-587",
+        "summary": "Deed OT and Mortgage consumer e2e testing",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-587"
+      },
+      {
+        "key": "TCET-604",
+        "summary": "FY-27 Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-604"
+      },
+      {
+        "key": "TCET-589",
+        "summary": "Create RAM splunk dashboard",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-589"
+      },
+      {
+        "key": "TCET-461",
+        "summary": "HPIF Consumer - Analysis on SDP and implement the steps in consumer",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-461"
+      },
+      {
+        "key": "TCET-566",
+        "summary": "APPSEC for pypi module",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-566"
+      },
+      {
+        "key": "TCET-560",
+        "summary": "APPSEC - TopHap consumer",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-560"
+      },
+      {
+        "key": "TCET-559",
+        "summary": "clean-up tax incremental consumer stack",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-559"
+      }
+    ],
+    "Nilesh Karwa": [
+      {
+        "key": "TCET-581",
+        "summary": "On call activities",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-581"
+      },
+      {
+        "key": "TCET-408",
+        "summary": "Tax consumer e2e testing and rollout plan",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-408"
+      },
+      {
+        "key": "TCET-588",
+        "summary": "FY-27 Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-588"
+      },
+      {
+        "key": "TCET-511",
+        "summary": "Building permit consumer e2e testing",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-511"
+      },
+      {
+        "key": "TCET-603",
+        "summary": "Hestia migration testing review",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-603"
+      },
+      {
+        "key": "TCET-591",
+        "summary": "RAM consumer prod rollout and rollback plan",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-591"
+      }
+    ],
+    "Shwetha S": [
+      {
+        "key": "TCET-569",
+        "summary": "NAR migration changes in content mapping services",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-569"
+      },
+      {
+        "key": "TCET-536",
+        "summary": "Gator implementation for the NAR migartion",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-536"
+      },
+      {
+        "key": "TCET-537",
+        "summary": "NAR migration Gator testing",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-537"
+      },
+      {
+        "key": "TCET-585",
+        "summary": "FY-27 Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-585"
+      }
+    ],
+    "Neeraj Mude": [
+      {
+        "key": "TCET-434",
+        "summary": "Reduce gator jar build time",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-434"
+      },
+      {
+        "key": "TCET-583",
+        "summary": "FY 27 planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-583"
+      },
+      {
+        "key": "TCET-561",
+        "summary": "Move - Strengthening Cloud Security with New AWS Preventative Controls",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-561"
+      },
+      {
+        "key": "TCET-544",
+        "summary": "Admin API - rollback procedure and prod release with gator",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-544"
+      }
+    ],
+    "Louis Varndell": [
+      {
+        "key": "TLCC-367",
+        "summary": "Clean up orphaned AWS resources for collection-source-tunnel",
+        "sp": 2,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-367"
+      },
+      {
+        "key": "TLCC-344",
+        "summary": "NGI - Conversation on LOE to support s3",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-344"
+      },
+      {
+        "key": "TLCC-380",
+        "summary": "AppSec Remediation: industryplatforms/reso-v2-config-ui",
+        "sp": 1,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-380"
+      },
+      {
+        "key": "TLCC-379",
+        "summary": "AppSec Remediation: moverdc/reso-v2-config-ui",
+        "sp": 1,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-379"
+      },
+      {
+        "key": "TLCC-378",
+        "summary": "AppSec Remediation: moverdc/goreso-ui",
+        "sp": 1,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-378"
+      },
+      {
+        "key": "TLCC-359",
+        "summary": "[Data-Collection-V2] Get up to speed on current status",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-359"
+      },
+      {
+        "key": "TLCC-383",
+        "summary": "industryplatforms/tarball-segregation-push-lambda : index.py : Path_Traversal",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-383"
+      },
+      {
+        "key": "TLCC-366",
+        "summary": "[data-agg-push] Update builder.Dockerfile to golang:1.22-alpine3.23 to resolve EOL Alpine vulnerability (CVM-57480)",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-366"
+      }
+    ],
+    "Stephen McLaughlin": [
+      {
+        "key": "TLCC-382",
+        "summary": "Image auth: code review, testing, and release for MLSGrid object auth",
+        "sp": 2,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-382"
+      },
+      {
+        "key": "TLCC-381",
+        "summary": "Assist Dan with data-collection v2 rollout strategy documentation",
+        "sp": 2,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-381"
+      },
+      {
+        "key": "TLCC-374",
+        "summary": "[data-collection-architecture] Pain Points",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-374"
+      },
+      {
+        "key": "TLCC-360",
+        "summary": "[Data-Collection-V2] Get up to speed on current status",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-360"
+      },
+      {
+        "key": "TLCC-235",
+        "summary": "Wire up Data-Collection to be able to access configurations from the data-collection-configurations bucket",
+        "sp": 2,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-235"
+      }
+    ],
+    "Christopher Bond": [
+      {
+        "key": "TLCC-376",
+        "summary": "[data-collection-architecture] Contingency Options",
+        "sp": 2,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-376"
+      },
+      {
+        "key": "TLCC-373",
+        "summary": "[data-collection-architecture] Rollout Plan",
+        "sp": 2,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-373"
+      },
+      {
+        "key": "TLCC-289",
+        "summary": "[data-collection] - Investigate Custom Sources for Secrets in Code",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-289"
+      },
+      {
+        "key": "TLCC-377",
+        "summary": "[data-collection-architecture] SQL documentation",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-377"
+      },
+      {
+        "key": "TLCC-317",
+        "summary": "[lishub-account] - Build out missing next steps for remaining lambdas",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-317"
+      },
+      {
+        "key": "TLCC-212",
+        "summary": "Housekeeping",
+        "sp": 0,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-212"
+      }
+    ],
+    "Jeremy Kisner": [
+      {
+        "key": "TLCC-363",
+        "summary": "[Data-Collection-V2] Review the Feed Files (Community focused)",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-363"
+      },
+      {
+        "key": "TLCC-362",
+        "summary": "[Data-Collection-V2] Review the RESO processes",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-362"
+      },
+      {
+        "key": "TLCC-361",
+        "summary": "[Data-Collection-V2] Review the RETS processes",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-361"
+      },
+      {
+        "key": "TLCC-370",
+        "summary": "[data-collection] - Add cleanup/purge job support to scheduler API",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-370"
+      },
+      {
+        "key": "TLCC-364",
+        "summary": "[galleon] - Redirect from Data-Collection-Services to Data-Collection-Scheduler",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-364"
+      },
+      {
+        "key": "TLCC-358",
+        "summary": "[Data-Collection-V2] Get up to speed on current status",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "TLCC",
+        "sprint": "TLCC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TLCC-358"
+      }
+    ],
+    "Anton Troshin": [
+      {
+        "key": "QUA-1961",
+        "summary": "Create API endpoint to get, update, delete the job flags from DynamoDB",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1961"
+      },
+      {
+        "key": "QUA-1813",
+        "summary": "Multithreading in worker dev/qa testing with fbs stream integration",
+        "sp": 2,
+        "status": "Blocked",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1813"
+      },
+      {
+        "key": "QUA-1964",
+        "summary": "Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1964"
+      },
+      {
+        "key": "QUA-1919",
+        "summary": "content-enhancement: Deed OT build pipeline & local test",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1919"
+      },
+      {
+        "key": "QUA-1915",
+        "summary": "content-enhancement: Deed MTG build pipeline & local test",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1915"
+      },
+      {
+        "key": "QUA-1902",
+        "summary": "content-enhancement: BuildingPermits pipeline E2E test and Prod",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1902"
+      },
+      {
+        "key": "QUA-1969",
+        "summary": "Add \"fileDate\" metadata to the S3 feed-processor step",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1969"
+      },
+      {
+        "key": "QUA-1968",
+        "summary": "Errors logged as nil",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1968"
+      },
+      {
+        "key": "QUA-1966",
+        "summary": "increase ephemeral storage limits for data-collection-large",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1966"
+      },
+      {
+        "key": "QUA-1926",
+        "summary": "content-enhancement: RAM E2E and release to Prod",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1926"
+      },
+      {
+        "key": "QUA-1925",
+        "summary": "content-enhancement: RAM pipeline E2E test",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1925"
+      },
+      {
+        "key": "QUA-1960",
+        "summary": "Rework Kafka Producer messaging mode and allow custom and metadata fields on any mode",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1960"
+      }
+    ],
+    "Surekha Pachipulusu": [
+      {
+        "key": "QUA-1954",
+        "summary": "Address remaining AWS certs using email validation",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1954"
+      },
+      {
+        "key": "QUA-1739",
+        "summary": "Data-Collection: When a record is soft deleted, the SourceModificationTimestamp should not be set to 0 time",
+        "sp": 3,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1739"
+      },
+      {
+        "key": "QUA-1965",
+        "summary": "Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1965"
+      },
+      {
+        "key": "QUA-1959",
+        "summary": "prod deployments for repos affected by code freeze",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1959"
+      },
+      {
+        "key": "QUA-1957",
+        "summary": "APPSEC - galleon",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1957"
+      },
+      {
+        "key": "QUA-1797",
+        "summary": "FBS data set up, validate payloads/throughput",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1797"
+      },
+      {
+        "key": "QUA-1956",
+        "summary": "Address remaining AWS certs using email validation",
+        "sp": 3,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1956"
+      }
+    ],
+    "Kaitlin Caponsacco": [
+      {
+        "key": "QUA-1818",
+        "summary": "FBS sources streaming config creation (not data translation config, not job config)",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1818"
+      },
+      {
+        "key": "QUA-1963",
+        "summary": "Planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1963"
+      },
+      {
+        "key": "QUA-1958",
+        "summary": "prod deployments for repos affected by code freeze",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1958"
+      },
+      {
+        "key": "QUA-1815",
+        "summary": "validate config service settings",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1815"
+      },
+      {
+        "key": "QUA-1730",
+        "summary": "Add first 6 sources to config service OUID endpoint ",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "board": "QUA",
+        "sprint": "FCRI.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/QUA-1730"
+      }
+    ]
+  }
+}
