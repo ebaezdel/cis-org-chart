@@ -210,10 +210,13 @@ body {
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 12px 24px;
-  text-align: center;
   min-width: 240px;
   position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
+.root-card .root-text { text-align: center; flex: 1; }
 .root-card .role-tag {
   display: inline-block;
   font-size: 9px; font-weight: 700;
@@ -274,6 +277,7 @@ body {
 
 .team-header {
   display: flex; align-items: center; justify-content: space-between;
+  gap: 10px;
   padding: 8px 12px;
   border-radius: 6px;
   cursor: pointer;
@@ -349,6 +353,9 @@ body {
 .ic-avatar.pe          { background: var(--em-jeffrey); }
 .ic-avatar.tpm         { background: var(--em-ezdraz); }
 .ic-avatar.techmod     { background: var(--em-techmod); }
+/* Bigger avatars for leaders & sub-managers */
+.ic-avatar.lg { width: 32px; height: 32px; font-size: 11px; }
+.ic-avatar.xl { width: 44px; height: 44px; font-size: 14px; }
 
 /* Shared/co-owned card styling */
 .leader-header.shared {
@@ -674,7 +681,7 @@ body {
   <!-- Org root (Tyler) -->
   <div class="section-heading">Organization</div>
   <div class="org-root">
-    <div class="root-card">
+    <div class="root-card" id="root-card">
       <div class="role-tag">Org Lead</div>
       <div class="name">Tyler Romeo</div>
     </div>
@@ -716,6 +723,17 @@ const kpiStrip = document.getElementById('kpi-strip');
 
 function initials(name) {
   return name.split(' ').filter(Boolean).slice(0,2).map(p => p[0]).join('').toUpperCase();
+}
+
+// Renders an avatar span: real Jira image if we have one, else a colored initials bubble.
+// `extraCls` is appended to .ic-avatar (use 'lg' for leader-size).
+function renderAvatar(name, deptCls, extraCls = '') {
+  const url = (enriched.icAvatars || {})[name];
+  const cls = `ic-avatar ${deptCls} ${extraCls}`.trim();
+  if (url) {
+    return `<span class="${cls} has-image"><img src="${url}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image');this.replaceWith(document.createTextNode('${initials(name)}'));"></span>`;
+  }
+  return `<span class="${cls}">${initials(name)}</span>`;
 }
 
 function healthClass(pct) {
@@ -786,13 +804,8 @@ function buildICList(groupId, ics, dept, groupNameMatches) {
       });
     }
 
-    const avatarUrl = (enriched.icAvatars || {})[name];
-    const avatarHtml = avatarUrl
-      ? `<span class="ic-avatar ${dept} has-image"><img src="${avatarUrl}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image');this.replaceWith(document.createTextNode('${initials(name)}'));"></span>`
-      : `<span class="ic-avatar ${dept}">${initials(name)}</span>`;
-
     row.innerHTML = `
-      ${avatarHtml}
+      ${renderAvatar(name, dept)}
       <span class="ic-name">${name}</span>
       ${capPillHtml}
     `;
@@ -817,7 +830,11 @@ function buildGroupHeader(g, kind, dept) {
     subCapPill = `<span class="ic-cap-pill ${capClass(used, cap)}" data-open-name="${g.name}" title="Click to view ${g.name}'s tickets">${used}/${cap} SP</span>`;
   }
 
+  const managerAvatar = kind === 'manager'
+    ? renderAvatar(g.name, dept || '', 'lg')
+    : '';
   header.innerHTML = `
+    ${managerAvatar}
     <div class="team-info">
       <div class="team-name">${g.name}</div>
       ${g.role ? `<div class="team-role">${g.role}</div>` : ''}
@@ -894,7 +911,9 @@ function render() {
 
     const head = document.createElement('div');
     head.className = `leader-header dept-${leader.dept}` + (leader.shared ? ' shared' : '');
+    const avatarHtml = leader.shared ? '' : renderAvatar(leader.name, leader.dept, 'lg');
     head.innerHTML = `
+      ${avatarHtml}
       <div style="flex:1;min-width:0;">
         <div class="leader-name">${leader.name}${leader.shared ? '<span class="shared-tag">Shared</span>' : ''}</div>
         <div class="leader-role">${leader.role}</div>
@@ -966,14 +985,25 @@ function render() {
           row.className = 'ic-row';
           if (matchesSearch(p.name)) row.classList.add('match');
           const fromLabel = p.from === 'marissa' ? 'From Marissa' : 'From Saloni';
-          const avatarUrl = (enriched.icAvatars || {})[p.name];
-          const avatarHtml = avatarUrl
-            ? `<span class="ic-avatar techmod has-image"><img src="${avatarUrl}" alt="" loading="lazy" onerror="this.parentElement.classList.remove('has-image');this.replaceWith(document.createTextNode('${initials(p.name)}'));"></span>`
-            : `<span class="ic-avatar techmod">${initials(p.name)}</span>`;
+
+          const hasTickets = !!enriched.icTickets[p.name];
+          let capPillHtml = '';
+          if (hasTickets) {
+            row.classList.add('has-tickets');
+            const used = icCommittedSP(p.name);
+            const cap = enriched.capacityCap || 10;
+            capPillHtml = `<span class="ic-cap-pill ${capClass(used, cap)}">${used}/${cap} SP</span>`;
+            row.addEventListener('click', (e) => {
+              e.stopPropagation();
+              openDrawer(p.name);
+            });
+          }
+
           row.innerHTML = `
-            ${avatarHtml}
-            <span>${p.name}</span>
+            ${renderAvatar(p.name, 'techmod')}
+            <span class="ic-name">${p.name}</span>
             <span class="ic-origin from-${p.from}">${fromLabel}</span>
+            ${capPillHtml}
           `;
           list.appendChild(row);
         });
@@ -1299,12 +1329,25 @@ Promise.all([
     document.getElementById('meta').textContent = metaText;
 
     rebuildEMSelect();
+    renderRoot();
     render();
   })
   .catch(err => {
     document.getElementById('leaders-grid').innerHTML =
       `<div class="empty-grid">Failed to load data.json — ${err.message}</div>`;
   });
+
+function renderRoot() {
+  const card = document.getElementById('root-card');
+  if (!card) return;
+  card.innerHTML = `
+    ${renderAvatar('Tyler Romeo', '', 'xl')}
+    <div class="root-text">
+      <div class="role-tag">Org Lead</div>
+      <div class="name">Tyler Romeo</div>
+    </div>
+  `;
+}
 
 function rebuildEMSelect() {
   const sel = document.getElementById('em-filter');
