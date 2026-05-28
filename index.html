@@ -1123,23 +1123,50 @@ const drawerFooter = document.getElementById('drawer-footer');
 function openDrawer(name) {
   const tickets = enriched.icTickets[name] || [];
   const cap = enriched.capacityCap || 10;
-  const used = tickets.reduce((s, t) => s + (t.sp || 0), 0);
-  const overCap = used > cap;
-  const fillPct = Math.min((used / cap) * 100, 100);
-  const fillCls = overCap ? (used > cap * 1.3 ? 'red' : 'amber') : '';
+  const committedSp = tickets.reduce((s, t) => s + (t.sp || 0), 0);
+  const doneSp = tickets.filter(t => t.statusCat === 'done').reduce((s, t) => s + (t.sp || 0), 0);
+  const totalCount = tickets.length;
+  const doneCount = tickets.filter(t => t.statusCat === 'done').length;
+
+  // Kanban fallback: when no SP are tracked at all, show progress by ticket count.
+  const isKanban = committedSp === 0;
+  const num   = isKanban ? doneCount  : doneSp;
+  const denom = isKanban ? totalCount : committedSp;
+  const pct   = denom > 0 ? Math.round((num / denom) * 100) : 0;
+  const unit  = isKanban ? (totalCount === 1 ? 'ticket' : 'tickets') : 'SP';
+  const progressLabel = isKanban ? 'Sprint progress (kanban)' : 'Sprint progress';
+  const fillCls = pct >= 80 ? '' : (pct >= 50 ? 'amber' : 'red');
+
+  // Capacity (SP-based, only meaningful when SP are tracked).
+  const overCap = !isKanban && committedSp > cap;
+  const capLine = isKanban
+    ? `${totalCount} ${unit} in flight`
+    : `<b>${committedSp}</b> / ${cap} SP committed${overCap
+        ? ` · <span style="color:#B23A38;font-weight:700;">over by ${committedSp - cap}</span>`
+        : ''}`;
+
+  // Unique active sprint names across this IC's tickets.
+  const sprintNames = [...new Set(tickets.map(t => t.sprint).filter(Boolean))];
 
   drawerName.textContent = name;
-  const open = tickets.filter(t => t.statusCat !== 'done').length;
-  const done = tickets.length - open;
-  drawerSub.textContent = `${tickets.length} active-sprint ticket${tickets.length === 1 ? '' : 's'} · ${open} open · ${done} done`;
+  const open = totalCount - doneCount;
+  const sprintSummary = sprintNames.length
+    ? ` · ${sprintNames.join(', ')}`
+    : '';
+  drawerSub.textContent =
+    `${totalCount} active-sprint ticket${totalCount === 1 ? '' : 's'} · ${open} open · ${doneCount} done${sprintSummary}`;
 
   drawerCap.innerHTML = `
     <div class="drawer-cap-row">
-      <span>Committed SP</span>
-      <span><b>${used}</b> / ${cap} SP cap${overCap ? ` · <span style="color:#B23A38;font-weight:700;">over by ${used - cap}</span>` : ''}</span>
+      <span>${progressLabel}</span>
+      <span><b>${num}</b> / ${denom} ${unit} done · <b>${pct}%</b></span>
     </div>
     <div class="drawer-cap-bar">
-      <div class="drawer-cap-fill ${fillCls}" style="width:${fillPct}%"></div>
+      <div class="drawer-cap-fill ${fillCls}" style="width:${pct}%"></div>
+    </div>
+    <div class="drawer-cap-row" style="margin-top:8px;">
+      <span>Capacity</span>
+      <span>${capLine}</span>
     </div>
   `;
 
