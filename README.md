@@ -28,7 +28,7 @@ Interactive organization chart for **Tyler Romeo's Content & Industry Services**
 |---|---|
 | `index.html` | The interactive chart. Loads `data.json` at runtime. |
 | `data.json` | Generated org tree. Don't edit by hand — regenerated on every sync. |
-| `data.overlay.json` | Manual additions (e.g. TechMod cross-functional team) merged on top of Tyler's .mmd. |
+| `data.overlay.json` | *(optional, not committed)* Ad-hoc additions for local testing. Lower priority than `PERMANENT_ADDITIONS` in the parser. |
 | `scripts/parse-mmd.js` | Mermaid graph → JSON tree. Tier-aware (uses `style fill:#...` to classify nodes). |
 | `scripts/test-fixture.mmd` | Bundled fixture used when no upstream is configured. |
 | `.github/workflows/sync-org.yml` | Triggered by webhook / manual / parser changes. |
@@ -66,9 +66,23 @@ From the **Actions** tab → **Sync org chart from Tyler's .mmd** → **Run work
 - Tyler doesn't have the dispatch wired up yet
 - You're testing parser changes against a different repo (use the `tyler_repo` input)
 
-## Editing the overlay
+## Permanent additions (TechMod, etc.)
 
-`data.overlay.json` holds anything that isn't in Tyler's .mmd — currently just **TechMod**. Edit it, commit, and the next sync will include the change. If Tyler later adds TechMod to his .mmd with the same `id`, the overlay is silently skipped (Tyler wins).
+Cross-functional teams that are **not** in Tyler's .mmd live in the
+`PERMANENT_ADDITIONS` constant at the top of `scripts/parse-mmd.js`. The
+parser bakes them into every sync — they survive even if Tyler's source is
+rewritten or the file is deleted upstream.
+
+Currently baked in: **TechMod** (co-owned by Marissa + Saloni).
+
+If Tyler ever adds a node with the same `id` (e.g. `TM`) to his .mmd, the
+hardcoded version is silently skipped — Tyler wins. To add another
+cross-functional team, edit the `PERMANENT_ADDITIONS` array and commit.
+
+## Optional overlay (advanced)
+
+`data.overlay.json` is read if present but not committed. Use it for local
+testing without touching source. Lower priority than `PERMANENT_ADDITIONS`.
 
 ## Local development
 

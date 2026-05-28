@@ -1,7 +1,10 @@
 {
-  "lastUpdated": "2026-05-28T17:37:21.411Z",
-  "source": "source.mmd",
-  "overlayApplied": true,
+  "lastUpdated": "2026-05-28T17:41:57.931Z",
+  "source": "test-fixture.mmd",
+  "baked": [
+    "TM"
+  ],
+  "overlayApplied": false,
   "departments": [
     "engineering",
     "operations",

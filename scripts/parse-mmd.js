@@ -139,20 +139,54 @@ const orgArr = leaders.map(leaderId => {
   return { id: leader.id, name: leader.name, role: leader.role, dept, directICs };
 });
 
-// ── 8. Apply optional overlay (data.overlay.json) for local additions ────
-// Tyler's .mmd is the source of truth, but we keep cross-functional teams
-// (e.g. TechMod) and other manually-curated additions in an overlay file
-// that gets merged on top after every sync.
-const overlayPath = path.join(path.dirname(OUTPUT), 'data.overlay.json');
+// ── 8. Permanent additions hardcoded into the sync ───────────────────────
+// These are cross-functional / shared teams that do NOT live in Tyler's .mmd
+// and must survive every sync. They are NEVER removed, even if Tyler's file
+// is rewritten. To remove one, edit this constant in source.
+const PERMANENT_ADDITIONS = [
+  {
+    id: "TM",
+    name: "TechMod",
+    role: "Cross-functional · Marissa + Saloni",
+    dept: "techmod",
+    shared: true,
+    sharedICs: [
+      { name: "Sukanya Ganguwar",   from: "marissa" },
+      { name: "Swathi Kulkarni",    from: "marissa" },
+      { name: "Sandhya Rani",       from: "marissa" },
+      { name: "Narendra Devireddi", from: "saloni"  },
+      { name: "Sivapuram Jagruthi", from: "saloni"  }
+    ]
+  }
+];
+
 let mergedOrg = orgArr;
+const existingIds = new Set(orgArr.map(l => l.id));
+const baked = [];
+PERMANENT_ADDITIONS.forEach(extra => {
+  if (!existingIds.has(extra.id)) {
+    mergedOrg.push(extra);
+    baked.push(extra.id);
+    existingIds.add(extra.id);
+  } else {
+    console.log(`Skipping ${extra.id} — already in Tyler's .mmd`);
+  }
+});
+
+// ── 9. Optional overlay (data.overlay.json) for ad-hoc additions ─────────
+// Lower priority than the hardcoded constant above. Useful for testing or
+// for additions you don't want to ship to source yet.
+const overlayPath = path.join(path.dirname(OUTPUT), 'data.overlay.json');
 let overlayApplied = false;
 if (fs.existsSync(overlayPath)) {
   try {
     const overlay = JSON.parse(fs.readFileSync(overlayPath, 'utf8'));
     if (Array.isArray(overlay.add)) {
-      const existingIds = new Set(orgArr.map(l => l.id));
       overlay.add.forEach(extra => {
-        if (!existingIds.has(extra.id)) mergedOrg.push(extra);
+        if (!existingIds.has(extra.id)) {
+          mergedOrg.push(extra);
+          existingIds.add(extra.id);
+        }
       });
       overlayApplied = true;
     }
@@ -167,6 +201,7 @@ const departments = [...new Set(mergedOrg.map(l => l.dept))].filter(d => d !== '
 const output = {
   lastUpdated: new Date().toISOString(),
   source: path.basename(INPUT),
+  baked,
   overlayApplied,
   departments,
   org: mergedOrg
