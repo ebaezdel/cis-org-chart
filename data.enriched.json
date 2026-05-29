@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T17:23:09.503Z",
+  "generatedAt": "2026-05-29T19:54:03.570Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26651798757",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26658951041",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -31,8 +31,8 @@
     },
     "MD": {
       "committed": 121,
-      "done": 30,
-      "pct": 25,
+      "done": 33,
+      "pct": 27,
       "ticketCount": 56,
       "sprintNames": [
         "FIND.FY26.Q4.S23",
@@ -503,24 +503,6 @@
         "url": "https://moveinc.atlassian.net/browse/CSS-2160"
       },
       {
-        "key": "CSS-2300",
-        "summary": "[sdsw.infrastructure] Run s3-harden.sh for sdswrite-backups and sds-terraform-states buckets",
-        "sp": 0,
-        "status": "Test Complete",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "CSS-2144",
-          "summary": "Content Services FY26 Q4 RTB Umbrella",
-          "color": "ghx-label-10"
-        },
-        "board": "CSS",
-        "sprint": "CSS.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/CSS-2300"
-      },
-      {
         "key": "CSS-2295",
         "summary": "[insights-plugin-framework] Remediate AWS S3 security controls",
         "sp": 1,
@@ -609,6 +591,24 @@
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-1960"
+      },
+      {
+        "key": "CSS-2300",
+        "summary": "[sdsw.infrastructure] Run s3-harden.sh for sdswrite-backups and sds-terraform-states buckets",
+        "sp": 0,
+        "status": "Accepted",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
+        "board": "CSS",
+        "sprint": "CSS.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/CSS-2300"
       },
       {
         "key": "CSS-2296",
@@ -1913,42 +1913,6 @@
         "url": "https://moveinc.atlassian.net/browse/TSC-1973"
       },
       {
-        "key": "TSC-1635",
-        "summary": "Listhub Web Application and RESO Web API Pen Testing Results - Addressing AppSec Vulnerabilities",
-        "sp": 2,
-        "status": "In Progress",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "TSC-1832",
-          "summary": "AppSec FY26 Q4",
-          "color": "ghx-label-10"
-        },
-        "board": "TSC",
-        "sprint": "LHSC.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TSC-1635"
-      },
-      {
-        "key": "TSC-2065",
-        "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
-        "sp": 1,
-        "status": "Test Complete",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "TSC-1830",
-          "summary": "KTLO FY26 Q4",
-          "color": "ghx-label-12"
-        },
-        "board": "TSC",
-        "sprint": "LHSC.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TSC-2065"
-      },
-      {
         "key": "TSC-2048",
         "summary": "fix: UrlPayload http:// upgrade regression causing ImageMagick image fetch failures",
         "sp": 2,
@@ -1965,6 +1929,42 @@
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2048"
+      },
+      {
+        "key": "TSC-1635",
+        "summary": "Listhub Web Application and RESO Web API Pen Testing Results - Addressing AppSec Vulnerabilities",
+        "sp": 2,
+        "status": "Accepted",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-1635"
+      },
+      {
+        "key": "TSC-2065",
+        "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2065"
       },
       {
         "key": "TSC-2058",
@@ -5309,20 +5309,6 @@
           "url": "https://moveinc.atlassian.net/browse/CON-3524"
         },
         {
-          "key": "CR-9104",
-          "summary": "Deactivate Data Source: Harpeth Valley Homes (HVHBN)",
-          "sp": 0,
-          "status": "Approved",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-9104"
-        },
-        {
           "key": "CON-6521",
           "summary": "EGstoltzfus Homes, EG1BN - Change from Direct Feed to Direct Feed - Same Corp & Builder IDs",
           "sp": 0,
@@ -5504,6 +5490,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9104",
+          "summary": "Deactivate Data Source: Harpeth Valley Homes (HVHBN)",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T11:05:02.068-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9104"
+        },
         {
           "key": "CR-8968",
           "summary": "Update subdivision_mlslink status",
@@ -5876,8 +5876,8 @@
         }
       ],
       "manager": "MH",
-      "openCount": 17,
-      "doneCount": 23
+      "openCount": 16,
+      "doneCount": 24
     },
     "Justin Rumer": {
       "open": [
@@ -6913,39 +6913,11 @@
           "board": "CR",
           "resolved": "2026-05-15T13:08:59.349-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8577"
-        },
-        {
-          "key": "CR-8575",
-          "summary": "WAAL -- FIX -- 2nd UPDATE MLS requested bath fields for proper data evaluation",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T11:40:53.344-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8575"
-        },
-        {
-          "key": "CR-8509",
-          "summary": "WAAL -- FIX -- update MLS requested bath fields for proper data evaluation",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T11:26:56.797-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8509"
         }
       ],
       "manager": "MH",
       "openCount": 1,
-      "doneCount": 11
+      "doneCount": 9
     },
     "Laoura Atoyan": {
       "open": [
@@ -7568,29 +7540,11 @@
           "board": "CON",
           "resolved": "2026-05-19T05:45:57.001-0700",
           "url": "https://moveinc.atlassian.net/browse/CON-6357"
-        },
-        {
-          "key": "CON-6451",
-          "summary": "Waterwonderland (COMI)r  HOA Mapping ",
-          "sp": 0,
-          "status": "Accepted",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Task",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
-          "parent": {
-            "key": "CON-6167",
-            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
-            "color": "ghx-label-14"
-          },
-          "board": "CON",
-          "resolved": "2026-05-15T10:53:32.653-0700",
-          "url": "https://moveinc.atlassian.net/browse/CON-6451"
         }
       ],
       "manager": "MH",
       "openCount": 12,
-      "doneCount": 23
+      "doneCount": 22
     },
     "Oleg Gareys": {
       "open": [
@@ -8174,6 +8128,60 @@
     "Ryan Jenkins": {
       "open": [
         {
+          "key": "LHAPI-1196",
+          "summary": "Missing Photos- PHPAL- Case 12431050",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1196"
+        },
+        {
+          "key": "LHAPI-1193",
+          "summary": "Photos not feeding for multiple sources (CN 12432492)",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1193"
+        },
+        {
+          "key": "CON-6523",
+          "summary": "Turbo Tenant (TRBOU) Front end is not parsing invalid contact information from the text descriptions",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6523"
+        },
+        {
           "key": "CON-6392",
           "summary": "Jenkins Job Replacement",
           "sp": 0,
@@ -8210,42 +8218,6 @@
           "url": "https://moveinc.atlassian.net/browse/CON-4426"
         },
         {
-          "key": "LHAPI-1196",
-          "summary": "Missing Photos- PHPAL- Case 12431050",
-          "sp": 0,
-          "status": "In Progress",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1196"
-        },
-        {
-          "key": "LHAPI-1193",
-          "summary": "Photos not feeding for multiple sources (CN 12432492)",
-          "sp": 0,
-          "status": "In Progress",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1193"
-        },
-        {
           "key": "LHAPI-1178",
           "summary": "Missing MLS report - Case number 12422697",
           "sp": 0,
@@ -8280,6 +8252,20 @@
           "board": "LHAPI",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/LHAPI-1175"
+        },
+        {
+          "key": "CR-9124",
+          "summary": "MS - SUMI Updates",
+          "sp": 0,
+          "status": "Draft",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9124"
         },
         {
           "key": "CON-6458",
@@ -9246,47 +9232,11 @@
           "board": "LHAPI",
           "resolved": "2026-05-15T13:45:04.438-0700",
           "url": "https://moveinc.atlassian.net/browse/LHAPI-1191"
-        },
-        {
-          "key": "LHAPI-1187",
-          "summary": "LVNVL - Missing photos - Case number 12440201",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": "2026-05-15T11:03:20.875-0700",
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1187"
-        },
-        {
-          "key": "LHAPI-1194",
-          "summary": "Missing Listing- VBVAL- 12450780",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": "2026-05-15T11:00:28.450-0700",
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1194"
         }
       ],
       "manager": "MH",
-      "openCount": 13,
-      "doneCount": 49
+      "openCount": 15,
+      "doneCount": 47
     },
     "Sandhya Rani": {
       "open": [
@@ -9451,6 +9401,20 @@
           "board": "TCMSM",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/TCMSM-205"
+        },
+        {
+          "key": "CR-8946",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - SEMOMLSRDC- SMMOR",
+          "sp": 0,
+          "status": "Approved",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-8946"
         },
         {
           "key": "CON-6421",
@@ -9628,7 +9592,7 @@
         }
       ],
       "manager": "TM",
-      "openCount": 11,
+      "openCount": 12,
       "doneCount": 8
     },
     "Sukanya Ganguwar": {
@@ -9940,6 +9904,20 @@
           "url": "https://moveinc.atlassian.net/browse/TCMSM-198"
         },
         {
+          "key": "CR-9097",
+          "summary": "Datasource Migration to Mapping Service - NorthEastGA - NEGAR/NEGBORGA ",
+          "sp": 0,
+          "status": "Approved",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9097"
+        },
+        {
           "key": "CON-6417",
           "summary": "SouthCentralTX - CSTXR/SCBORTX - Migrate to Mapping Service",
           "sp": 0,
@@ -10129,7 +10107,7 @@
         }
       ],
       "manager": "TM",
-      "openCount": 18,
+      "openCount": 19,
       "doneCount": 10
     },
     "Swathi Kulkarni": {
@@ -10955,10 +10933,10 @@
           "url": "https://moveinc.atlassian.net/browse/MSV-624"
         },
         {
-          "key": "CR-9100",
-          "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
+          "key": "CR-9125",
+          "summary": "listhub-delete-resources: add s3DeleteBucketPolicy resource type (#TSC-1972)",
           "sp": 0,
-          "status": "Approved",
+          "status": "Draft",
           "statusCat": "indeterminate",
           "statusColor": "yellow",
           "issueType": "Change Request",
@@ -10966,7 +10944,7 @@
           "parent": null,
           "board": "CR",
           "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-9100"
+          "url": "https://moveinc.atlassian.net/browse/CR-9125"
         },
         {
           "key": "CR-9037",
@@ -11040,6 +11018,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9100",
+          "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T11:08:56.027-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9100"
+        },
         {
           "key": "CR-9061",
           "summary": "Optimize ImportTracking Events for full load and further metrics-v3 integration",
@@ -11683,20 +11675,6 @@
           "board": "CR",
           "resolved": "2026-05-15T13:16:56.271-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8583"
-        },
-        {
-          "key": "CR-8581",
-          "summary": "LDP - Fix for OM Statuses ",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T12:40:50.265-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8581"
         }
       ],
       "manager": "LEADERS",
@@ -11814,34 +11792,6 @@
           "board": "INTL",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/INTL-1848"
-        },
-        {
-          "key": "CR-9097",
-          "summary": "Datasource Migration to Mapping Service - NorthEastGA - NEGAR/NEGBORGA ",
-          "sp": 0,
-          "status": "EM Review",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-9097"
-        },
-        {
-          "key": "CR-8946",
-          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - SEMOMLSRDC- SMMOR",
-          "sp": 0,
-          "status": "EM Review",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-8946"
         },
         {
           "key": "CON-6278",
@@ -12053,6 +12003,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9121",
+          "summary": "MS - More LH ID Fixes",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T12:43:40.911-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9121"
+        },
         {
           "key": "CR-9044",
           "summary": "MS - LH ID updates and some Logic of LH mobile",
@@ -12349,8 +12313,8 @@
         }
       ],
       "manager": "LEADERS",
-      "openCount": 21,
-      "doneCount": 21
+      "openCount": 19,
+      "doneCount": 22
     },
     "Nilesh Karwa": {
       "open": [
@@ -12911,6 +12875,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9108",
+          "summary": "[sdswrite_prod] Remediate S3 Security Controls for unmanaged S3 buckets",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T11:12:36.110-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9108"
+        },
         {
           "key": "APPSEC-109647",
           "summary": "moverdc/local.markettrend.api : npm-lodash",
@@ -13618,20 +13596,6 @@
           "board": "CR",
           "resolved": "2026-05-15T13:49:27.037-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8572"
-        },
-        {
-          "key": "CR-7621",
-          "summary": "Security dependency upgrades for tours_api-reports (CVE-2023-37920 + Checkmarx findings)",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T12:13:22.657-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-7621"
         }
       ],
       "manager": "LEADERS",
@@ -14404,6 +14368,20 @@
           "url": "https://moveinc.atlassian.net/browse/PEWG-10"
         },
         {
+          "key": "CNTNT-805",
+          "summary": "Data Collection V2 Architecture Support",
+          "sp": 0,
+          "status": "New Request",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-805"
+        },
+        {
           "key": "CNTNT-801",
           "summary": "Investigate git branching strategies across RDC",
           "sp": 0,
@@ -14947,7 +14925,7 @@
         }
       ],
       "manager": "JB",
-      "openCount": 22,
+      "openCount": 23,
       "doneCount": 24
     }
   },
