@@ -95,7 +95,10 @@ a.sync-badge:hover    { filter: brightness(.95); }
   font-variant-numeric: tabular-nums;
 }
 .sync-countdown.imminent { color: #F5B814; font-weight: 600; }
-.sync-countdown.syncing  { color: #22A06B; font-weight: 600; }
+.sync-countdown.due      { color: #6E7480; }
+.sync-countdown.syncing  { color: #22A06B; font-weight: 600; animation: sync-pulse 1.4s ease-in-out infinite; }
+.sync-countdown.overdue  { color: #C9372C; font-weight: 600; }
+@keyframes sync-pulse { 0%,100% { opacity: 1 } 50% { opacity: .55 } }
 .header-actions { margin-left: auto; display: flex; gap: 8px; }
 
 /* ── Buttons ── */
@@ -1481,12 +1484,19 @@ Promise.all([
   });
 
 // ── Header meta + sync countdown ────────────────────────
-// We assume the cron fires every 15 min from the last sync; not perfect (GitHub's
-// cron has up to ~1 min jitter and can skip slots when actions are throttled),
-// but close enough for the "in 13m" hint. When the next-tick estimate goes past,
-// we show "syncing…" until the next page load picks up the fresh file.
+// Estimate the next tick at lastSync + 15min (GitHub cron jitter is ~<1min).
+// While we're under 15min we just show "next sync in Xm/Xs".
+// When that mark passes, we don't claim "syncing…" by guess — instead we poll
+// the public Actions API and show:
+//   "syncing…"        only while a run is actually queued/in_progress
+//   "sync due"        when no live run yet (cron may have skipped or be late)
+//   <silent reload>   when generatedAt advances we redraw + restart countdown
 const SYNC_INTERVAL_MIN = 15;
-let syncCountdownTimer = null;
+const GH_OWNER = 'ebaezdel';
+const GH_REPO = 'cis-org-chart';
+const GH_WORKFLOW = 'sync-jira.yml';
+let syncTimer = null;
+let lastKnownGeneratedAt = null;
 
 function renderMeta(json) {
   let metaText = '';
@@ -1500,6 +1510,7 @@ function renderMeta(json) {
     else if (ageMin < 24*60){ freshClass = 'stale'; freshTitle = `Synced ${Math.round(ageMin/60)}h ago`; }
     else                    { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
     nextSyncMs = ts.getTime() + SYNC_INTERVAL_MIN * 60_000;
+    lastKnownGeneratedAt = enriched.generatedAt;
   } else if (json.lastUpdated) {
     metaText = `Synced ${new Date(json.lastUpdated).toLocaleString()}`;
   } else {
@@ -1522,34 +1533,89 @@ function renderMeta(json) {
   meta.innerHTML = `<span class="fresh-dot ${freshClass}" title="${freshTitle}"></span><span>${metaText}</span><${badgeTag} class="sync-badge ${t.cls}" title="${t.title}"${hrefAttr}>${t.label}</${badgeTag}>${countdownHtml}`;
 }
 
-function tickSyncCountdown() {
+// Ask GitHub if a run is queued or in progress right now.
+// Public API, no auth needed for public repos. Returns the live run object or null.
+async function fetchLiveRun() {
+  try {
+    const url = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${GH_WORKFLOW}/runs?per_page=5`;
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) return null;
+    const j = await res.json();
+    return (j.workflow_runs || []).find(r => r.status === 'queued' || r.status === 'in_progress') || null;
+  } catch { return null; }
+}
+
+// Re-fetch data.enriched.json without reloading the page. If generatedAt
+// advanced, swap it in, redraw the meta + cards, and restart the countdown.
+async function reloadEnriched() {
+  try {
+    const res = await fetch('data.enriched.json', { cache: 'no-store' });
+    if (!res.ok) return false;
+    const fresh = await res.json();
+    if (fresh.generatedAt && fresh.generatedAt !== lastKnownGeneratedAt) {
+      enriched = fresh;
+      renderMeta({});
+      renderRoot();
+      render();
+      startSyncCountdown();
+      return true;
+    }
+  } catch {}
+  return false;
+}
+
+// Single function drives all states: countdown → due → live → fresh.
+async function tickSync() {
   const el = document.getElementById('sync-countdown');
-  if (!el) return false;
+  if (!el) return null;
   const next = Number(el.dataset.next);
   const remainingMs = next - Date.now();
-  if (remainingMs <= 0) {
-    el.textContent = 'syncing…';
-    el.className = 'sync-countdown syncing';
-    return false; // stop ticking; page reload will pick up the new file
+
+  if (remainingMs > 60_000) {
+    const m = Math.ceil(remainingMs / 60_000);
+    el.textContent = `next sync in ${m}m`;
+    el.className = 'sync-countdown';
+    el.title = '';
+    return remainingMs <= 90_000 ? 1000 : 30_000;
   }
-  if (remainingMs <= 60_000) {
+  if (remainingMs > 0) {
     const s = Math.max(1, Math.ceil(remainingMs / 1000));
     el.textContent = `next sync in ${s}s`;
     el.className = 'sync-countdown imminent';
+    el.title = '';
     return 1000;
   }
-  const m = Math.ceil(remainingMs / 60_000);
-  el.textContent = `next sync in ${m}m`;
-  el.className = 'sync-countdown';
-  // Tick faster as we approach the last minute so the switch to seconds is sharp.
-  return remainingMs <= 90_000 ? 1000 : 30_000;
+
+  // Past the expected tick. Poll Actions to see if a run is actually live.
+  const overdueMin = Math.floor(-remainingMs / 60_000);
+  const live = await fetchLiveRun();
+  if (live) {
+    el.textContent = live.status === 'queued' ? 'queued…' : 'syncing…';
+    el.className = 'sync-countdown syncing';
+    el.title = `${live.name} #${live.run_number} — ${live.status}`;
+    // While a run is live, poll every 15s; when it finishes, reloadEnriched picks it up.
+    await reloadEnriched();
+    return 15_000;
+  }
+  // No run yet. Maybe the data file already advanced (run finished between polls).
+  if (await reloadEnriched()) return null; // startSyncCountdown rescheduled it
+  if (overdueMin >= 5) {
+    el.textContent = `sync overdue (${overdueMin}m)`;
+    el.className = 'sync-countdown overdue';
+    el.title = 'No live run found and no fresh data — cron may have skipped';
+  } else {
+    el.textContent = 'sync due';
+    el.className = 'sync-countdown due';
+    el.title = 'Cron should fire any moment';
+  }
+  return 30_000;
 }
 
 function startSyncCountdown() {
-  if (syncCountdownTimer) clearTimeout(syncCountdownTimer);
-  const schedule = () => {
-    const nextDelay = tickSyncCountdown();
-    if (nextDelay) syncCountdownTimer = setTimeout(schedule, nextDelay);
+  if (syncTimer) clearTimeout(syncTimer);
+  const schedule = async () => {
+    const nextDelay = await tickSync();
+    if (nextDelay) syncTimer = setTimeout(schedule, nextDelay);
   };
   schedule();
 }
