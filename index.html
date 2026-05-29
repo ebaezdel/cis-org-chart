@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Content & Industry Services — Org Chart</title>
+<title>CIS — Sprint Pulse</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -225,6 +225,7 @@ body {
   margin-bottom: 4px;
 }
 .root-card .name { font-size: 15px; font-weight: 700; color: var(--text); }
+.root-card.clickable .ic-cap-pill { cursor: pointer; }
 
 /* ── Leaders grid ── */
 .leaders-grid {
@@ -269,6 +270,10 @@ body {
   color: var(--text2);
   border: 1px solid var(--border);
 }
+.leader-meta {
+  display: flex; flex-direction: column; align-items: flex-end; gap: 4px;
+}
+.leader-meta .ic-cap-pill { margin-left: 0; cursor: pointer; }
 
 .leader-body { padding: 12px 16px; flex: 1; }
 
@@ -636,10 +641,10 @@ body {
 <div class="header">
   <div class="header-logo">
     <div class="dot">C</div>
-    <h1>Content &amp; Industry Services — Org Chart</h1>
+    <h1>CIS — Sprint Pulse</h1>
   </div>
   <div class="header-sep"></div>
-  <div class="header-meta" id="meta">Tyler Romeo's organization · interactive view</div>
+  <div class="header-meta" id="meta">Tyler Romeo's organization · commits, throughput, last 14d activity</div>
   <div class="header-actions">
     <button class="btn btn-ghost btn-sm" id="expand-all">Expand all</button>
     <button class="btn btn-primary btn-sm" id="collapse-all">Collapse all</button>
@@ -814,11 +819,16 @@ function buildGroupHeader(g, kind, dept) {
 
   // If this is a manager group with their own active-sprint tickets, surface a clickable cap pill.
   const subHasTickets = g.type === 'manager' && enriched.icTickets[g.name];
+  const subKanban = g.type === 'manager' && enriched.kanbanIcs && enriched.kanbanIcs[g.name];
   let subCapPill = '';
   if (subHasTickets) {
     const used = icCommittedSP(g.name);
     const cap = enriched.capacityCap || 10;
     subCapPill = `<span class="ic-cap-pill ${capClass(used, cap)}" data-open-name="${g.name}" title="Click to view ${g.name}'s tickets">${used}/${cap} SP</span>`;
+  }
+  let subKanbanPill = '';
+  if (subKanban) {
+    subKanbanPill = `<span class="ic-cap-pill kanban" data-open-kanban="${g.name}" title="Click to view ${g.name}'s last-14d activity">${subKanban.openCount} open · ${subKanban.doneCount} done</span>`;
   }
 
   const managerAvatar = kind === 'manager'
@@ -832,6 +842,7 @@ function buildGroupHeader(g, kind, dept) {
     </div>
     <div class="team-toggle">
       ${subCapPill}
+      ${subKanbanPill}
       <span class="team-count">${g.ics.length}</span>
       <span class="chev">▾</span>
     </div>
@@ -841,6 +852,13 @@ function buildGroupHeader(g, kind, dept) {
     pillEl.addEventListener('click', (e) => {
       e.stopPropagation();
       openDrawer(g.name);
+    });
+  }
+  if (subKanban) {
+    const kanbanPillEl = header.querySelector('[data-open-kanban]');
+    kanbanPillEl.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openKanbanDrawer(g.name, subKanban);
     });
   }
   header.addEventListener('click', () => {
@@ -901,14 +919,28 @@ function render() {
     const head = document.createElement('div');
     head.className = `leader-header dept-${leader.dept}` + (leader.shared ? ' shared' : '');
     const avatarHtml = leader.shared ? '' : renderAvatar(leader.name, leader.dept, 'lg');
+    const leaderKanban = enriched.kanbanIcs && enriched.kanbanIcs[leader.name];
+    const leaderPill = leaderKanban
+      ? `<span class="ic-cap-pill kanban" data-open-name="${leader.name}" title="Click to view ${leader.name}'s last-14d activity">${leaderKanban.openCount} open · ${leaderKanban.doneCount} done</span>`
+      : '';
     head.innerHTML = `
       ${avatarHtml}
       <div style="flex:1;min-width:0;">
         <div class="leader-name">${leader.name}${leader.shared ? '<span class="shared-tag">Shared</span>' : ''}</div>
         <div class="leader-role">${leader.role}</div>
       </div>
-      <div class="leader-count">${totalReports} ${totalReports === 1 ? 'report' : 'reports'}</div>
+      <div class="leader-meta">
+        <div class="leader-count">${totalReports} ${totalReports === 1 ? 'report' : 'reports'}</div>
+        ${leaderPill}
+      </div>
     `;
+    if (leaderKanban) {
+      const pillEl = head.querySelector('[data-open-name]');
+      pillEl.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openDrawer(leader.name);
+      });
+    }
     card.appendChild(head);
 
     const body = document.createElement('div');
@@ -1380,12 +1412,11 @@ Promise.all([
     activeDepts = new Set(ALL_DEPTS);
     if (enrich) enriched = enrich;
 
-    let metaText = `Tyler Romeo's organization`;
-    if (json.lastUpdated) {
-      metaText += ` · last synced ${new Date(json.lastUpdated).toLocaleString()}`;
-    }
+    let metaText = `Tyler Romeo's organization · commits, throughput, last 14d`;
     if (enriched.generatedAt) {
       metaText += ` · Jira ${new Date(enriched.generatedAt).toLocaleString()}`;
+    } else if (json.lastUpdated) {
+      metaText += ` · synced ${new Date(json.lastUpdated).toLocaleString()}`;
     }
     document.getElementById('meta').textContent = metaText;
 
@@ -1401,13 +1432,26 @@ Promise.all([
 function renderRoot() {
   const card = document.getElementById('root-card');
   if (!card) return;
+  const k = enriched.kanbanIcs && enriched.kanbanIcs['Tyler Romeo'];
+  const pill = k
+    ? `<span class="ic-cap-pill kanban" data-open-name="Tyler Romeo" title="Click to view Tyler's last-14d activity">${k.openCount} open · ${k.doneCount} done</span>`
+    : '';
   card.innerHTML = `
     ${renderAvatar('Tyler Romeo', '', 'xl')}
     <div class="root-text">
       <div class="role-tag">Org Lead</div>
       <div class="name">Tyler Romeo</div>
     </div>
+    ${pill}
   `;
+  if (k) {
+    const pillEl = card.querySelector('[data-open-name]');
+    pillEl.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openDrawer('Tyler Romeo');
+    });
+    card.classList.add('clickable');
+  }
 }
 
 function rebuildEMSelect() {

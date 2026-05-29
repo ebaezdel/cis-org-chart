@@ -166,6 +166,14 @@ const KANBAN_SOURCES = [
   { manager: 'TM', files: [
     'kanban/techmod-marissa-open-1.json',
     'kanban/techmod-marissa-done-1.json'
+  ]},
+  // Leaders (Tyler, Saloni, Marissa, Maria, Yan, Nilesh, Yihan, Ez). Pulled
+  // open with `updated >= -14d` so the drawer shows what they're actively
+  // touching this sprint, not their stale auto-assigned intake backlog.
+  { manager: 'LEADERS', files: [
+    'kanban/leaders-open-1.json',
+    'kanban/leaders-done-1.json',
+    'kanban/leaders-done-2.json'
   ]}
 ];
 
