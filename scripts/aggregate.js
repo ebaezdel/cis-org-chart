@@ -253,8 +253,13 @@ for (const name of Object.keys(kanbanIcs)) {
   kanbanIcs[name].doneCount = kanbanIcs[name].done.length;
 }
 
+// Trigger source — set by the GitHub Action via $SYNC_TRIGGER (schedule |
+// workflow_dispatch | push). Local runs leave it null, which the UI renders as
+// "manual" since you ran the script yourself.
 const out = {
   generatedAt: new Date().toISOString(),
+  syncTrigger: process.env.SYNC_TRIGGER || null,
+  syncRunUrl: process.env.SYNC_RUN_URL || null,
   spField: SP_FIELD,
   capacityCap: 10,
   boardToManager: BOARD_TO_MANAGER,

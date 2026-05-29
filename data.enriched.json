@@ -1,5 +1,7 @@
 {
-  "generatedAt": "2026-05-29T06:07:08.797Z",
+  "generatedAt": "2026-05-29T06:18:40.796Z",
+  "syncTrigger": null,
+  "syncRunUrl": null,
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {

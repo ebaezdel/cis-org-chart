@@ -42,6 +42,9 @@ jobs:
         run: node scripts/fetch-jira.js
 
       - name: Aggregate into data.enriched.json
+        env:
+          SYNC_TRIGGER: ${{ github.event_name }}
+          SYNC_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: node scripts/aggregate.js
 
       - name: Commit and push if changed
