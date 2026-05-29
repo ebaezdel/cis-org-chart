@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T21:56:21.506Z",
+  "generatedAt": "2026-05-29T23:20:59.280Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26664240977",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26667163994",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -652,7 +652,7 @@
         "key": "CSS-2270",
         "summary": "[Geo Tagging] Migrate from property-triggered envelope schema to listing-triggered flat schema",
         "sp": 3,
-        "status": "In Progress",
+        "status": "Development Complete",
         "statusCat": "indeterminate",
         "statusColor": "yellow",
         "issueType": "Story",
@@ -10901,20 +10901,6 @@
           "url": "https://moveinc.atlassian.net/browse/MSV-624"
         },
         {
-          "key": "CR-9125",
-          "summary": "listhub-delete-resources: add s3DeleteBucketPolicy resource type (#TSC-1972)",
-          "sp": 0,
-          "status": "EM Review",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-9125"
-        },
-        {
           "key": "CR-9037",
           "summary": "fix: add SameSiteFilter to set SameSite=Lax on JSESSIONID cookie (CWE-1275)",
           "sp": 0,
@@ -10986,6 +10972,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9125",
+          "summary": "listhub-delete-resources: add s3DeleteBucketPolicy resource type (#TSC-1972)",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T15:43:05.917-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9125"
+        },
         {
           "key": "CR-9129",
           "summary": "LDP - ListAgentMlsid Mapping Update Fallback",
@@ -11629,24 +11629,10 @@
           "board": "CVM",
           "resolved": "2026-05-18T11:33:01.374-0700",
           "url": "https://moveinc.atlassian.net/browse/CVM-57501"
-        },
-        {
-          "key": "CR-8567",
-          "summary": "APPSEC-91917: Add non-root USER instruction to Dockerfile - listhub-developer-scheduledtask",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T16:02:48.006-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8567"
         }
       ],
       "manager": "LEADERS",
-      "openCount": 9,
+      "openCount": 8,
       "doneCount": 47
     },
     "Marissa Hun": {
@@ -12646,20 +12632,6 @@
           "url": "https://moveinc.atlassian.net/browse/CR-9091"
         },
         {
-          "key": "CR-9086",
-          "summary": "Reduce the Time to live of the Market Trends Redis Cache from 12 to 8 hours",
-          "sp": 0,
-          "status": "Approved",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CR-9086"
-        },
-        {
           "key": "CR-8956",
           "summary": "content-home-subgraph: Remediate EOL containers - bump Alpine + migrate AWS SDK Go v2",
           "sp": 0,
@@ -12857,6 +12829,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9086",
+          "summary": "Reduce the Time to live of the Market Trends Redis Cache from 12 to 8 hours",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T16:07:17.754-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9086"
+        },
         {
           "key": "CR-9108",
           "summary": "[sdswrite_prod] Remediate S3 Security Controls for unmanaged S3 buckets",
@@ -13567,8 +13553,8 @@
         }
       ],
       "manager": "LEADERS",
-      "openCount": 22,
-      "doneCount": 50
+      "openCount": 21,
+      "doneCount": 51
     },
     "Tyler Romeo": {
       "open": [
