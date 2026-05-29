@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T19:54:03.570Z",
+  "generatedAt": "2026-05-29T21:56:21.506Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26658951041",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26664240977",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -2490,7 +2490,7 @@
         "key": "MSV-523",
         "summary": "KTLO - Upgrade AWS SDK from v2 to v3 for mls-value-metrics-lambda",
         "sp": 5,
-        "status": "In Progress",
+        "status": "Test Complete",
         "statusCat": "indeterminate",
         "statusColor": "yellow",
         "issueType": "Story",
@@ -2508,9 +2508,9 @@
         "key": "MSV-634",
         "summary": "MLS Values - Update unqualified column references in prism-dbt",
         "sp": 2,
-        "status": "Ready to Start",
-        "statusCat": "new",
-        "statusColor": "blue-gray",
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
         "parent": {
@@ -5201,6 +5201,24 @@
     "Harsha Thumma": {
       "open": [
         {
+          "key": "CON-6524",
+          "summary": "Realty Executives / Brandon Buell  - Integration/Mapping Work - Self Serve- PID 538230436",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6174",
+            "summary": "Content Continuity - FY26 Q4 RTB New Homes Onboarding",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6524"
+        },
+        {
           "key": "CON-6444",
           "summary": "create is_test_datasource flag for all 5 objects in Nh and expose it in delivery files ",
           "sp": 0,
@@ -5876,7 +5894,7 @@
         }
       ],
       "manager": "MH",
-      "openCount": 16,
+      "openCount": 17,
       "doneCount": 24
     },
     "Justin Rumer": {
@@ -5884,7 +5902,7 @@
         {
           "key": "TD-7320",
           "summary": "[MLS Onboarding] FGCMLS : Filters bugs",
-          "sp": 0,
+          "sp": 1,
           "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
@@ -6346,24 +6364,6 @@
           "url": "https://moveinc.atlassian.net/browse/CON-3890"
         },
         {
-          "key": "CON-3797",
-          "summary": "NorthstarMLS - MIMNR (RDC) - Corelogic - Matrix RETS to In House WebAPI",
-          "sp": 0,
-          "status": "Pending Approval",
-          "statusCat": "new",
-          "statusColor": "blue-gray",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-5615",
-            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
-            "color": "ghx-label-1"
-          },
-          "board": "CON",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CON-3797"
-        },
-        {
           "key": "CON-3656",
           "summary": "Set Up Private Listing photo flag for Grid sources",
           "sp": 0,
@@ -6730,29 +6730,11 @@
           "board": "CR",
           "resolved": "2026-05-19T13:53:54.852-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8579"
-        },
-        {
-          "key": "CON-6459",
-          "summary": "Spokane (SPWA) - Map SAR_RealtorDotComYN field",
-          "sp": 0,
-          "status": "Accepted",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6169",
-            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
-            "color": "ghx-label-2"
-          },
-          "board": "CON",
-          "resolved": "2026-05-15T13:28:48.130-0700",
-          "url": "https://moveinc.atlassian.net/browse/CON-6459"
         }
       ],
       "manager": "MH",
-      "openCount": 42,
-      "doneCount": 7
+      "openCount": 41,
+      "doneCount": 6
     },
     "Karen Hiller": {
       "open": [
@@ -6899,25 +6881,11 @@
           "board": "CON",
           "resolved": "2026-05-20T07:22:55.447-0700",
           "url": "https://moveinc.atlassian.net/browse/CON-6480"
-        },
-        {
-          "key": "CR-8577",
-          "summary": "SATX -- FIX --UPDATE MLS for additional CONDO data trigger",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T13:08:59.349-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8577"
         }
       ],
       "manager": "MH",
       "openCount": 1,
-      "doneCount": 9
+      "doneCount": 8
     },
     "Laoura Atoyan": {
       "open": [
@@ -7072,6 +7040,24 @@
           "board": "CON",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/CON-6388"
+        },
+        {
+          "key": "CON-3797",
+          "summary": "NorthstarMLS - MIMNR (RDC) - Corelogic - Matrix RETS to In House WebAPI",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3797"
         },
         {
           "key": "CON-3394",
@@ -7543,7 +7529,7 @@
         }
       ],
       "manager": "MH",
-      "openCount": 12,
+      "openCount": 13,
       "doneCount": 22
     },
     "Oleg Gareys": {
@@ -9214,29 +9200,11 @@
           "board": "LHAPI",
           "resolved": "2026-05-19T12:50:22.522-0700",
           "url": "https://moveinc.atlassian.net/browse/LHAPI-1199"
-        },
-        {
-          "key": "LHAPI-1191",
-          "summary": "Off Market Listings are not dropping from NEWIL - 12426780",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": "2026-05-15T13:45:04.438-0700",
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1191"
         }
       ],
       "manager": "MH",
       "openCount": 15,
-      "doneCount": 47
+      "doneCount": 46
     },
     "Sandhya Rani": {
       "open": [
@@ -10936,7 +10904,7 @@
           "key": "CR-9125",
           "summary": "listhub-delete-resources: add s3DeleteBucketPolicy resource type (#TSC-1972)",
           "sp": 0,
-          "status": "Draft",
+          "status": "EM Review",
           "statusCat": "indeterminate",
           "statusColor": "yellow",
           "issueType": "Change Request",
@@ -11018,6 +10986,20 @@
         }
       ],
       "done": [
+        {
+          "key": "CR-9129",
+          "summary": "LDP - ListAgentMlsid Mapping Update Fallback",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-29T14:43:46.166-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9129"
+        },
         {
           "key": "CR-9100",
           "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
@@ -11661,20 +11643,6 @@
           "board": "CR",
           "resolved": "2026-05-15T16:02:48.006-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8567"
-        },
-        {
-          "key": "CR-8583",
-          "summary": "fix: prevent Forbidden error on email report links when vault keys are missing",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T13:16:56.271-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8583"
         }
       ],
       "manager": "LEADERS",
@@ -12004,6 +11972,20 @@
       ],
       "done": [
         {
+          "key": "CNTNT-601",
+          "summary": "Read AVM YN from an MLS feed to remove the Real Estimate",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": "2026-05-29T14:26:24.336-0700",
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-601"
+        },
+        {
           "key": "CR-9121",
           "summary": "MS - More LH ID Fixes",
           "sp": 0,
@@ -12314,7 +12296,7 @@
       ],
       "manager": "LEADERS",
       "openCount": 19,
-      "doneCount": 22
+      "doneCount": 23
     },
     "Nilesh Karwa": {
       "open": [
@@ -12335,24 +12317,6 @@
           "board": "TCET",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/TCET-588"
-        },
-        {
-          "key": "TCET-524",
-          "summary": "Sipke: Analysis for image deletion process migration from DMS",
-          "sp": 1,
-          "status": "Ready to Start",
-          "statusCat": "new",
-          "statusColor": "blue-gray",
-          "issueType": "Spike",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
-          "parent": {
-            "key": "QUA-984",
-            "summary": "FY26 FC-RI: Quality Improvement",
-            "color": "ghx-label-8"
-          },
-          "board": "TCET",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/TCET-524"
         },
         {
           "key": "CSPM-621",
@@ -12381,6 +12345,24 @@
           "board": "CSPM",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/CSPM-3977"
+        },
+        {
+          "key": "CIG-27",
+          "summary": "Sipke: Analysis for image deletion process migration from DMS",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Spike",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "QUA-984",
+            "summary": "FY26 FC-RI: Quality Improvement",
+            "color": "ghx-label-8"
+          },
+          "board": "CIG",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CIG-27"
         },
         {
           "key": "TCET-581",
@@ -13582,25 +13564,11 @@
           "board": "APPSEC",
           "resolved": "2026-05-15T17:36:56.199-0700",
           "url": "https://moveinc.atlassian.net/browse/APPSEC-109839"
-        },
-        {
-          "key": "CR-8572",
-          "summary": "fix(CSS-2237): classify Unable to Identify Image errors as fetch failures",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T13:49:27.037-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8572"
         }
       ],
       "manager": "LEADERS",
       "openCount": 22,
-      "doneCount": 51
+      "doneCount": 50
     },
     "Tyler Romeo": {
       "open": [
