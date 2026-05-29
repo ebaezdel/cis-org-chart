@@ -1484,19 +1484,29 @@ Promise.all([
   });
 
 // ── Header meta + sync countdown ────────────────────────
-// Estimate the next tick at lastSync + 15min (GitHub cron jitter is ~<1min).
-// While we're under 15min we just show "next sync in Xm/Xs".
-// When that mark passes, we don't claim "syncing…" by guess — instead we poll
-// the public Actions API and show:
-//   "syncing…"        only while a run is actually queued/in_progress
-//   "sync due"        when no live run yet (cron may have skipped or be late)
-//   <silent reload>   when generatedAt advances we redraw + restart countdown
-const SYNC_INTERVAL_MIN = 15;
+// The cron `*/15 * * * *` fires at :00 :15 :30 :45 UTC of the wall clock
+// (NOT 15min after the last run). We compute the next quarter-hour, add a
+// small cushion for GitHub's cron jitter, and count down to that.
+// Past the tick, we poll the Actions API. "syncing…" is rendered ONLY when
+// the most recent poll saw a queued/in_progress run — it never persists
+// between polls, so if the cron skipped a slot we show "sync overdue" not
+// a fake "syncing…".
 const GH_OWNER = 'ebaezdel';
 const GH_REPO = 'cis-org-chart';
 const GH_WORKFLOW = 'sync-jira.yml';
+const CRON_JITTER_MS = 90_000; // GitHub Actions cron can lag up to ~1 min
 let syncTimer = null;
 let lastKnownGeneratedAt = null;
+
+function nextCronTick() {
+  // Next wall-clock UTC minute that is a multiple of 15.
+  const now = new Date();
+  const next = new Date(now);
+  next.setUTCSeconds(0, 0);
+  const m = now.getUTCMinutes();
+  next.setUTCMinutes(Math.floor(m / 15) * 15 + 15);
+  return next.getTime();
+}
 
 function renderMeta(json) {
   let metaText = '';
@@ -1509,7 +1519,7 @@ function renderMeta(json) {
     if (ageMin < 30)        { freshClass = 'fresh'; freshTitle = `Synced ${Math.round(ageMin)} min ago`; }
     else if (ageMin < 24*60){ freshClass = 'stale'; freshTitle = `Synced ${Math.round(ageMin/60)}h ago`; }
     else                    { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
-    nextSyncMs = ts.getTime() + SYNC_INTERVAL_MIN * 60_000;
+    nextSyncMs = nextCronTick();
     lastKnownGeneratedAt = enriched.generatedAt;
   } else if (json.lastUpdated) {
     metaText = `Synced ${new Date(json.lastUpdated).toLocaleString()}`;
@@ -1565,6 +1575,8 @@ async function reloadEnriched() {
 }
 
 // Single function drives all states: countdown → due → live → fresh.
+// Important: every "past the tick" branch re-polls the API; we never carry
+// over a stale "syncing…" between ticks.
 async function tickSync() {
   const el = document.getElementById('sync-countdown');
   if (!el) return null;
@@ -1586,28 +1598,39 @@ async function tickSync() {
     return 1000;
   }
 
-  // Past the expected tick. Poll Actions to see if a run is actually live.
-  const overdueMin = Math.floor(-remainingMs / 60_000);
+  // Past the expected tick. Re-fetch the data file FIRST — if generatedAt
+  // moved on, we're done with this cycle and the new countdown takes over.
+  if (await reloadEnriched()) return null;
+
+  // Within jitter window, just say "sync due" (gray); don't claim "syncing"
+  // unless the API actually confirms a live run.
+  const overdueMs = -remainingMs;
   const live = await fetchLiveRun();
   if (live) {
     el.textContent = live.status === 'queued' ? 'queued…' : 'syncing…';
     el.className = 'sync-countdown syncing';
     el.title = `${live.name} #${live.run_number} — ${live.status}`;
-    // While a run is live, poll every 15s; when it finishes, reloadEnriched picks it up.
-    await reloadEnriched();
+    return 10_000; // poll quickly while live
+  }
+  if (overdueMs <= CRON_JITTER_MS) {
+    el.textContent = 'sync due';
+    el.className = 'sync-countdown due';
+    el.title = 'Cron should fire any moment';
     return 15_000;
   }
-  // No run yet. Maybe the data file already advanced (run finished between polls).
-  if (await reloadEnriched()) return null; // startSyncCountdown rescheduled it
+  // Cron didn't fire when it was supposed to. Roll the target forward to the
+  // *next* slot so we don't sit at "overdue" forever — and warn if we're far past.
+  const overdueMin = Math.floor(overdueMs / 60_000);
   if (overdueMin >= 5) {
-    el.textContent = `sync overdue (${overdueMin}m)`;
+    el.textContent = `sync delayed (${overdueMin}m)`;
     el.className = 'sync-countdown overdue';
-    el.title = 'No live run found and no fresh data — cron may have skipped';
+    el.title = 'No run found at the expected slot — GitHub cron sometimes skips. Will resume at the next slot.';
   } else {
     el.textContent = 'sync due';
     el.className = 'sync-countdown due';
     el.title = 'Cron should fire any moment';
   }
+  el.dataset.next = String(nextCronTick());
   return 30_000;
 }
 
