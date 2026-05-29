@@ -417,31 +417,6 @@ body {
 ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #B0B0A8; }
 
-/* ── Sprint health bar ── */
-.sprint-health {
-  display: flex; align-items: center; gap: 8px;
-  margin-top: 6px;
-  font-size: 10px; color: var(--text2);
-}
-.sprint-bar {
-  flex: 1; max-width: 140px;
-  height: 6px; border-radius: 3px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  position: relative;
-}
-.sprint-bar-fill {
-  height: 100%;
-  background: var(--accent);
-  transition: width .2s ease;
-}
-.sprint-bar-fill.green { background: #50B878; }
-.sprint-bar-fill.amber { background: #E0A030; }
-.sprint-bar-fill.red   { background: #D9534F; }
-.sprint-pct { font-weight: 700; color: var(--text); font-size: 10px; }
-.sprint-meta { color: var(--text3); font-size: 10px; }
-
 /* IC clickable when ticket data exists */
 .ic-row.has-tickets { cursor: pointer; }
 .ic-row.has-tickets:hover { background: var(--bg); }
@@ -763,12 +738,6 @@ function renderAvatar(name, deptCls, extraCls = '') {
   return `<span class="${cls}">${initials(name)}</span>`;
 }
 
-function healthClass(pct) {
-  if (pct >= 80) return 'green';
-  if (pct >= 50) return 'amber';
-  return 'red';
-}
-
 function capClass(used, cap) {
   if (used <= cap) return 'green';
   if (used <= cap * 1.3) return 'amber';
@@ -778,20 +747,6 @@ function capClass(used, cap) {
 function icCommittedSP(name) {
   const tickets = enriched.icTickets[name] || [];
   return tickets.reduce((sum, t) => sum + (t.sp || 0), 0);
-}
-
-function buildSprintHealth(managerId) {
-  const h = enriched.managerHealth[managerId];
-  if (!h || !h.committed) return null;
-  const wrap = document.createElement('div');
-  wrap.className = 'sprint-health';
-  const pct = h.pct || 0;
-  wrap.innerHTML = `
-    <div class="sprint-bar"><div class="sprint-bar-fill ${healthClass(pct)}" style="width:${Math.min(pct, 100)}%"></div></div>
-    <span class="sprint-pct">${h.pct}%</span>
-    <span class="sprint-meta">${h.done}/${h.committed} SP · ${h.ticketCount} tix</span>
-  `;
-  return wrap;
 }
 
 function matchesSearch(text) {
@@ -881,8 +836,6 @@ function buildGroupHeader(g, kind, dept) {
       <span class="chev">▾</span>
     </div>
   `;
-  const subHealth = buildSprintHealth(g.id);
-  if (subHealth) header.querySelector('.team-info').appendChild(subHealth);
   if (subHasTickets) {
     const pillEl = header.querySelector('[data-open-name]');
     pillEl.addEventListener('click', (e) => {
@@ -956,8 +909,6 @@ function render() {
       </div>
       <div class="leader-count">${totalReports} ${totalReports === 1 ? 'report' : 'reports'}</div>
     `;
-    const healthEl = buildSprintHealth(leader.id);
-    if (healthEl) head.querySelector('div[style]').appendChild(healthEl);
     card.appendChild(head);
 
     const body = document.createElement('div');
