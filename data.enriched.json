@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T00:32:43.676Z",
+  "generatedAt": "2026-05-29T02:36:09.303Z",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -9227,6 +9227,1531 @@
       "manager": "MH",
       "openCount": 1,
       "doneCount": 0
+    },
+    "Sandhya Rani": {
+      "open": [
+        {
+          "key": "TCMSM-213",
+          "summary": "NestSeekers - NSNYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-213"
+        },
+        {
+          "key": "TCMSM-208",
+          "summary": "EasternKentucky - BSKYR/EKTARKY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-208"
+        },
+        {
+          "key": "TCMSM-207",
+          "summary": "SWLouisianaRDC - SWLAR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-207"
+        },
+        {
+          "key": "TCMSM-203",
+          "summary": "LakeCityArea - LKFLR/NFLMLS - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-203"
+        },
+        {
+          "key": "TCMSM-182",
+          "summary": "Plainview - PVTXR/PVARTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-182"
+        },
+        {
+          "key": "CON-6433",
+          "summary": "SWLouisianaRDC - SWLAR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6433"
+        },
+        {
+          "key": "CON-6431",
+          "summary": "EasternKentucky - BSKYR/EKTARKY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6431"
+        },
+        {
+          "key": "CON-6426",
+          "summary": "LakeCityArea - LKFLR/NFLMLS - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6426"
+        },
+        {
+          "key": "CON-6329",
+          "summary": "NestSeekers - NSNYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6329"
+        },
+        {
+          "key": "TCMSM-214",
+          "summary": "TerraHoldingsRDC - TENY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-214"
+        },
+        {
+          "key": "TCMSM-206",
+          "summary": "EastEndLIRDC - EENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-206"
+        },
+        {
+          "key": "TCMSM-205",
+          "summary": "SEMOMLSRDC- SMMOR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-205"
+        },
+        {
+          "key": "TCMSM-204",
+          "summary": "RMLSmultilist - RMMIR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-204"
+        },
+        {
+          "key": "CON-6421",
+          "summary": "SEMOMLSRDC- SMMOR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6421"
+        },
+        {
+          "key": "CON-6419",
+          "summary": "EastEndLIRDC - EENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6419"
+        },
+        {
+          "key": "CON-6418",
+          "summary": "RMLSmultilist - RMMIR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6418"
+        },
+        {
+          "key": "CON-6332",
+          "summary": "TerraHoldingsRDC - TENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6332"
+        }
+      ],
+      "done": [
+        {
+          "key": "CR-8800",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - TerraHoldingsRDC - TENYR",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T06:52:45.478-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8800"
+        },
+        {
+          "key": "CR-8651",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service -EastEndLIRDC - EENYR",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-25T00:00:29.143-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8651"
+        },
+        {
+          "key": "CON-6203",
+          "summary": "Plainview - PVTXR/PVARTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-15T05:35:10.413-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6203"
+        },
+        {
+          "key": "TCMSM-166",
+          "summary": "Plainview - PVTXR/PVARTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-156",
+            "summary": "FY26Q4 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-6"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-15T05:35:05.802-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-166"
+        }
+      ],
+      "manager": "TM",
+      "openCount": 17,
+      "doneCount": 4
+    },
+    "Sukanya Ganguwar": {
+      "open": [
+        {
+          "key": "TCNP-1341",
+          "summary": "7.- Skyway PROD Functionality Review: <APP NAME>",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1341"
+        },
+        {
+          "key": "TCNP-1340",
+          "summary": "6.- Skyway QA Functionality Review: <APP NAME>",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1340"
+        },
+        {
+          "key": "TCNP-1339",
+          "summary": "5 - Perform official migration",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1339"
+        },
+        {
+          "key": "TCNP-1338",
+          "summary": "4 - Deploy to prod",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1338"
+        },
+        {
+          "key": "TCNP-1337",
+          "summary": "3 - Get CD deployment working on Dev & QA",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1337"
+        },
+        {
+          "key": "TCNP-1336",
+          "summary": "2 - Get CI build working",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-319",
+            "summary": "listhub-misc-scripts",
+            "color": "ghx-label-14"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1336"
+        },
+        {
+          "key": "TCMSM-199",
+          "summary": "ClareGladwin - CGMIR/CGBRMI - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-199"
+        },
+        {
+          "key": "TCMSM-197",
+          "summary": "NorthEastGA - NEGAR/NEGBORGA - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-197"
+        },
+        {
+          "key": "COQ-737",
+          "summary": "Implementation of New Homes in DMS DQL Summary",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-737"
+        },
+        {
+          "key": "COQ-667",
+          "summary": "log the datasource / job details along with the splunk logs  thats been logged for the user actions in DMS",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Sub-task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+          "parent": {
+            "key": "COQ-665",
+            "summary": "DMS Authorisation internal feedback / pending tasks",
+            "color": "ghx-label-8"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-667"
+        },
+        {
+          "key": "COQ-665",
+          "summary": "DMS Authorisation internal feedback / pending tasks",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-665"
+        },
+        {
+          "key": "CON-6428",
+          "summary": "ClareGladwin - CGMIR/CGBRMI - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6428"
+        },
+        {
+          "key": "CON-6425",
+          "summary": "NorthEastGA - NEGAR/NEGBORGA - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6425"
+        },
+        {
+          "key": "TCMSM-212",
+          "summary": "OLRRDC - OLNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-212"
+        },
+        {
+          "key": "TCMSM-211",
+          "summary": "Funnel - NENY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-211"
+        },
+        {
+          "key": "TCMSM-200",
+          "summary": "KIRE- KISCR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-200"
+        },
+        {
+          "key": "TCMSM-198",
+          "summary": "SouthCentralTX - CSTXR/SCBORTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-198"
+        },
+        {
+          "key": "CON-6417",
+          "summary": "SouthCentralTX - CSTXR/SCBORTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6417"
+        }
+      ],
+      "done": [
+        {
+          "key": "CR-8888",
+          "summary": "Datasource Migration to Mapping Service - SouthCentralTX - CSTXR/SCBORTX",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-27T09:22:47.864-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8888"
+        },
+        {
+          "key": "CON-6422",
+          "summary": "KIRE- KISCR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:01:07.226-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6422"
+        },
+        {
+          "key": "CON-6328",
+          "summary": "Funnel - NENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:00:58.098-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6328"
+        },
+        {
+          "key": "CON-6331",
+          "summary": "OLRRDC - OLNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:00:52.167-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6331"
+        },
+        {
+          "key": "TCMSM-201",
+          "summary": "ManhattanNYRDC - MANYR/MANARNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-22T23:22:19.494-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-201"
+        },
+        {
+          "key": "CON-6424",
+          "summary": "ManhattanNYRDC - MANYR/MANARNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T23:22:14.445-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6424"
+        },
+        {
+          "key": "CR-8696",
+          "summary": "Datasource Migration to Mapping Service - KIRE- KISCR ",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T07:49:04.553-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8696"
+        },
+        {
+          "key": "CR-8660",
+          "summary": "Datasource Migration to Mapping Service - Funnel - NENYR ",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T09:21:12.657-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8660"
+        },
+        {
+          "key": "TCMSM-202",
+          "summary": "DeepEastTexasMLS - NATXR/NMLSTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-18T06:57:54.514-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-202"
+        },
+        {
+          "key": "CON-6430",
+          "summary": "DeepEastTexasMLS - NATXR/NMLSTX - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-18T06:57:49.488-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6430"
+        },
+        {
+          "key": "CR-8461",
+          "summary": "Datasource Migration to Mapping Service - ManhattanNYRDC - MANYR/MANARNY",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-14T21:51:52.813-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8461"
+        }
+      ],
+      "manager": "TM",
+      "openCount": 18,
+      "doneCount": 11
+    },
+    "Swathi Kulkarni": {
+      "open": [
+        {
+          "key": "TCNP-1371",
+          "summary": "7.- Skyway PROD Functionality Review: listhub-large-scripts",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1371"
+        },
+        {
+          "key": "TCNP-1370",
+          "summary": "6.- Skyway QA Functionality Review: listhub-large-scripts",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1370"
+        },
+        {
+          "key": "TCNP-1369",
+          "summary": "5 - Perform official migration",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1369"
+        },
+        {
+          "key": "TCNP-1368",
+          "summary": "4 - Deploy to prod",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1368"
+        },
+        {
+          "key": "TCNP-1334",
+          "summary": "7.- Skyway PROD Functionality Review: <APP NAME>",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1334"
+        },
+        {
+          "key": "TCNP-1331",
+          "summary": "4 - Deploy to prod",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1331"
+        },
+        {
+          "key": "TCMSM-210",
+          "summary": "RealtyMXNYCRDC - BDNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-210"
+        },
+        {
+          "key": "TCMSM-209",
+          "summary": "DouglasElliman - DENY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-209"
+        },
+        {
+          "key": "TCMSM-192",
+          "summary": "RealPlusRDC - RPNYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-192"
+        },
+        {
+          "key": "TCMSM-191",
+          "summary": "ConsolidatedMLS - COSCR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-191"
+        },
+        {
+          "key": "COQ-42",
+          "summary": "Update DMS to deprecate DynamoDB Config system in favor of Vault",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-42"
+        },
+        {
+          "key": "COQ-384",
+          "summary": "Analysis to build docker image  to run the test_workflows of dms backend using local db instance",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-384"
+        },
+        {
+          "key": "COQ-17",
+          "summary": "To upload env specific ods notification framework artifactory to the repository,currently done only for prod",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-17"
+        },
+        {
+          "key": "CON-6429",
+          "summary": "ConsolidatedMLS - COSCR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6429"
+        },
+        {
+          "key": "CON-6416",
+          "summary": "RealPlusRDC - RPNYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6416"
+        },
+        {
+          "key": "CON-6327",
+          "summary": "DouglasElliman - DENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6327"
+        },
+        {
+          "key": "TCNP-1367",
+          "summary": "3 - Get CD deployment working on Dev & QA",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1367"
+        },
+        {
+          "key": "TCNP-1366",
+          "summary": "2 - Get CI build working",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-315",
+            "summary": "listhub-large-scripts",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1366"
+        },
+        {
+          "key": "TCNP-1333",
+          "summary": "6.- Skyway QA Functionality Review: <APP NAME>",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1333"
+        },
+        {
+          "key": "TCNP-1332",
+          "summary": "5 - Perform official migration",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1332"
+        },
+        {
+          "key": "TCNP-1330",
+          "summary": "3 - Get CD deployment working on Dev & QA",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1330"
+        },
+        {
+          "key": "TCNP-1329",
+          "summary": "2 - Get CI build working",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCNP-1327",
+            "summary": "syndication-dashboard-api",
+            "color": "ghx-label-10"
+          },
+          "board": "TCNP",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCNP-1329"
+        },
+        {
+          "key": "TCMSM-103",
+          "summary": "DouglasCoffeeRDC - DCGAR/DCCRBGA - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-156",
+            "summary": "FY26Q4 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-6"
+          },
+          "board": "TCMSM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-103"
+        },
+        {
+          "key": "COQ-640",
+          "summary": "docker vulnerability on dms-database-cron repo - APPSEC-31276",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "COQ-355",
+            "summary": "Q3 FY22: Tooling Consolidation & Refinement - DMS",
+            "color": "ghx-label-6"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-640"
+        },
+        {
+          "key": "CON-6330",
+          "summary": "RealtyMXNYCRDC - BDNYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6330"
+        }
+      ],
+      "done": [
+        {
+          "key": "CON-6427",
+          "summary": "WarrenPA - WAPAR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:12:18.853-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6427"
+        },
+        {
+          "key": "CR-8834",
+          "summary": "[content-mapping-service] roster data fix",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T22:34:24.998-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8834"
+        },
+        {
+          "key": "CON-6420",
+          "summary": "Perchwell - PENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T22:34:05.730-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6420"
+        },
+        {
+          "key": "CON-6423",
+          "summary": "Dalhart - DHTXR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T22:33:52.154-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6423"
+        },
+        {
+          "key": "TCMSM-193",
+          "summary": "Perchwell - PENYR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-21T08:20:42.391-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-193"
+        },
+        {
+          "key": "TCMSM-195",
+          "summary": "Dalhart - DHTXR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-21T08:04:44.512-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-195"
+        },
+        {
+          "key": "CON-6432",
+          "summary": "XposureMLS - PRPRR- Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T07:44:45.564-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6432"
+        },
+        {
+          "key": "TCMSM-196",
+          "summary": "XposureMLS - PRPRR- Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-21T07:44:40.190-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-196"
+        },
+        {
+          "key": "CR-8379",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - WAPAR",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-14T22:24:03.422-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8379"
+        },
+        {
+          "key": "TCMSM-194",
+          "summary": "WarrenPA - WAPAR - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TCMSM-78",
+            "summary": "FY26Q3 - Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "TCMSM",
+          "resolved": "2026-05-14T22:23:46.889-0700",
+          "url": "https://moveinc.atlassian.net/browse/TCMSM-194"
+        }
+      ],
+      "manager": "TM",
+      "openCount": 25,
+      "doneCount": 10
     }
   },
   "kanbanDoneWindowDays": 14

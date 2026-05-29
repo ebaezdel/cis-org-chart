@@ -159,6 +159,13 @@ const KANBAN_SOURCES = [
   { manager: 'MH', files: [
     'kanban/marissa-open-1.json', 'kanban/marissa-open-2.json',
     'kanban/marissa-done-1.json', 'kanban/marissa-done-2.json'
+  ]},
+  // TechMod folks rolling up to Marissa (Sukanya, Swathi, Sandhya) also work
+  // kanban-style — pulled separately because they're in the shared TM card,
+  // not in Marissa's directICs list.
+  { manager: 'TM', files: [
+    'kanban/techmod-marissa-open-1.json',
+    'kanban/techmod-marissa-done-1.json'
   ]}
 ];
 

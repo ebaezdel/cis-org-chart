@@ -974,12 +974,21 @@ function render() {
           const fromLabel = p.from === 'marissa' ? 'From Marissa' : 'From Saloni';
 
           const hasTickets = !!enriched.icTickets[p.name];
+          const kanban = enriched.kanbanIcs && enriched.kanbanIcs[p.name];
           let capPillHtml = '';
           if (hasTickets) {
             row.classList.add('has-tickets');
             const used = icCommittedSP(p.name);
             const cap = enriched.capacityCap || 10;
             capPillHtml = `<span class="ic-cap-pill ${capClass(used, cap)}">${used}/${cap} SP</span>`;
+            row.addEventListener('click', (e) => {
+              e.stopPropagation();
+              openDrawer(p.name);
+            });
+          } else if (kanban) {
+            row.classList.add('has-tickets');
+            row.classList.add('kanban');
+            capPillHtml = `<span class="ic-cap-pill kanban" title="Kanban — open / done in last ${enriched.kanbanDoneWindowDays || 14}d">${kanban.openCount} open · ${kanban.doneCount} done</span>`;
             row.addEventListener('click', (e) => {
               e.stopPropagation();
               openDrawer(p.name);
