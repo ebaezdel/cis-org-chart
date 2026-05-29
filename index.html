@@ -69,7 +69,15 @@ body {
 }
 .header-logo h1 { font-size: 14px; font-weight: 600; letter-spacing: -.2px; color: #fff; white-space: nowrap; }
 .header-sep { width: 1px; height: 20px; background: #333; }
-.header-meta { font-size: 11px; color: #888; }
+.header-meta { font-size: 11px; color: #888; display: flex; align-items: center; gap: 6px; }
+.fresh-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: #6E7480;
+  flex-shrink: 0;
+}
+.fresh-dot.fresh  { background: #22A06B; box-shadow: 0 0 0 2px rgba(34,160,107,.18); }
+.fresh-dot.stale  { background: #F5B814; }
+.fresh-dot.cold   { background: #C9372C; }
 .header-actions { margin-left: auto; display: flex; gap: 8px; }
 
 /* ── Buttons ── */
@@ -133,6 +141,13 @@ body {
 }
 .filter-group select:focus { outline: none; border-color: var(--accent); }
 .filter-group select.has-value { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.search-count {
+  font-size: 11px; font-weight: 600;
+  padding: 3px 8px; border-radius: 999px;
+  background: #FFF4D1; color: #5C3A00;
+  border: 1px solid #F5B814;
+}
+.search-count.zero { background: #FFEBE6; color: #B14A3F; border-color: #FFBDB1; }
 .toolbar-sep { width: 1px; height: 22px; background: var(--border); }
 
 .dept-pills { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -342,7 +357,12 @@ body {
   transition: background .12s;
 }
 .ic-row:hover { background: var(--bg); }
-.ic-row.match { background: #FFF8E6; box-shadow: inset 0 0 0 1px #FFD97A; }
+.ic-row.match {
+  background: #FFF4D1;
+  box-shadow: inset 0 0 0 2px #F5B814;
+  font-weight: 600;
+}
+.ic-list.searching .ic-row:not(.match) { opacity: .35; }
 .ic-avatar {
   width: 22px; height: 22px;
   border-radius: 50%;
@@ -656,6 +676,7 @@ body {
   <div class="filter-group">
     <label>Search</label>
     <input type="text" id="search" placeholder="Type a name…">
+    <span class="search-count" id="search-count" hidden></span>
   </div>
   <div class="toolbar-sep"></div>
   <div class="filter-group">
@@ -763,6 +784,7 @@ function buildICList(groupId, ics, dept, groupNameMatches) {
   const list = document.createElement('div');
   list.className = 'ic-list';
   list.id = `ics-${groupId}`;
+  if (searchTerm) list.classList.add('searching');
 
   // When searching, force-expand groups with matches; otherwise honor collapsed state.
   const forceExpand = searchTerm && (groupNameMatches || ics.some(matchesSearch));
@@ -994,6 +1016,7 @@ function render() {
         const list = document.createElement('div');
         list.className = 'ic-list';
         if (!forceExpand && isCollapsed) list.classList.add('collapsed');
+        if (searchTerm) list.classList.add('searching');
 
         const visible = searchTerm && !leaderMatches
           ? leader.sharedICs.filter(p => matchesSearch(p.name))
@@ -1074,6 +1097,21 @@ function render() {
   // If search produced no visible cards
   if (searchTerm && grid.children.length === 0) {
     grid.innerHTML = `<div class="empty-grid">No results for "${searchTerm}".</div>`;
+  }
+
+  // Match counter — gives unmistakable visual feedback that search is wired up
+  const countEl = document.getElementById('search-count');
+  if (countEl) {
+    if (searchTerm) {
+      const matches = grid.querySelectorAll('.ic-row.match').length
+        + grid.querySelectorAll('.team-name.match, .leader-name.match').length;
+      countEl.hidden = false;
+      countEl.textContent = `${matches} ${matches === 1 ? 'match' : 'matches'}`;
+      countEl.classList.toggle('zero', matches === 0);
+    } else {
+      countEl.hidden = true;
+      countEl.textContent = '';
+    }
   }
 
   renderKPIs();
@@ -1413,12 +1451,19 @@ Promise.all([
     if (enrich) enriched = enrich;
 
     let metaText = `Tyler Romeo's organization · commits, throughput, last 14d`;
+    let freshClass = '', freshTitle = 'No Jira sync yet';
     if (enriched.generatedAt) {
-      metaText += ` · Jira ${new Date(enriched.generatedAt).toLocaleString()}`;
+      const ts = new Date(enriched.generatedAt);
+      const ageMin = (Date.now() - ts.getTime()) / 60000;
+      metaText += ` · Jira ${ts.toLocaleString()}`;
+      if (ageMin < 30)        { freshClass = 'fresh'; freshTitle = `Synced ${Math.round(ageMin)} min ago`; }
+      else if (ageMin < 24*60){ freshClass = 'stale'; freshTitle = `Synced ${Math.round(ageMin/60)}h ago`; }
+      else                    { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
     } else if (json.lastUpdated) {
       metaText += ` · synced ${new Date(json.lastUpdated).toLocaleString()}`;
     }
-    document.getElementById('meta').textContent = metaText;
+    const meta = document.getElementById('meta');
+    meta.innerHTML = `<span class="fresh-dot ${freshClass}" title="${freshTitle}"></span><span>${metaText}</span>`;
 
     rebuildEMSelect();
     renderRoot();

@@ -174,6 +174,12 @@ const KANBAN_SOURCES = [
     'kanban/leaders-open-1.json',
     'kanban/leaders-done-1.json',
     'kanban/leaders-done-2.json'
+  ]},
+  // Jeff Byrd (PE). No directICs and no fixed project — pull all-projects
+  // last-14d activity so the PE card stops looking dead.
+  { manager: 'JB', files: [
+    'kanban/jeff-open-1.json',
+    'kanban/jeff-done-1.json'
   ]}
 ];
 
@@ -259,7 +265,10 @@ const out = {
   kanbanDoneWindowDays: 14
 };
 
-const outPath = '/Users/ezdrazbaez/cis-org-chart/data.enriched.json';
+// Default to the repo-rooted file; allow override via env so the script works
+// from CI (where /Users/ezdrazbaez doesn't exist) or any local checkout.
+const outPath = process.env.OUTPUT_PATH
+  || path.resolve(__dirname, '..', 'data.enriched.json');
 fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + '\n');
 
 const totals = Object.values(mh).reduce(

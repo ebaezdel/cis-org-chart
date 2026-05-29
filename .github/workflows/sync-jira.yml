@@ -1,0 +1,59 @@
+name: Sync Jira sprint pulse
+
+# Pulls the current sprint health + last-14d kanban activity from Jira and
+# regenerates data.enriched.json. Triggers:
+#   1. schedule — every 15 minutes
+#   2. workflow_dispatch — manually triggered from the Actions tab
+#   3. push to main — when the fetch script or aggregator changes
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-jira.js'
+      - 'scripts/aggregate.js'
+      - '.github/workflows/sync-jira.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-jira
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Jira slices
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: node scripts/fetch-jira.js
+
+      - name: Aggregate into data.enriched.json
+        run: node scripts/aggregate.js
+
+      - name: Commit and push if changed
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.enriched.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh Jira sprint pulse" -m "Triggered by: $EVENT"
+            git push
+          fi
