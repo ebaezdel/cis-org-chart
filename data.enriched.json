@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T15:40:13.224Z",
-  "syncTrigger": "workflow_dispatch",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26646725808",
+  "generatedAt": "2026-05-29T17:23:09.503Z",
+  "syncTrigger": "schedule",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26651798757",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -30,10 +30,10 @@
       ]
     },
     "MD": {
-      "committed": 120,
+      "committed": 121,
       "done": 30,
       "pct": 25,
-      "ticketCount": 55,
+      "ticketCount": 56,
       "sprintNames": [
         "FIND.FY26.Q4.S23",
         "LHSC.FY26.Q4.S23",
@@ -41,10 +41,10 @@
       ]
     },
     "MH": {
-      "committed": 58,
+      "committed": 60,
       "done": 15,
-      "pct": 26,
-      "ticketCount": 41,
+      "pct": 25,
+      "ticketCount": 42,
       "sprintNames": [
         "TCET.FY26.Q4.S23"
       ]
@@ -768,9 +768,9 @@
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
         "parent": {
-          "key": "CSS-2210",
-          "summary": "Phase 1 – Dev & Testing (April 2026)",
-          "color": "ghx-label-14"
+          "key": "CSS-2312",
+          "summary": "Hestia → Content Subgraph Migration",
+          "color": "ghx-label-3"
         },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
@@ -822,9 +822,9 @@
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
         "parent": {
-          "key": "CSS-2210",
-          "summary": "Phase 1 – Dev & Testing (April 2026)",
-          "color": "ghx-label-14"
+          "key": "CSS-2312",
+          "summary": "Hestia → Content Subgraph Migration",
+          "color": "ghx-label-3"
         },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
@@ -1092,7 +1092,7 @@
         "key": "CSS-2278",
         "summary": "moverdc/media_api_serverless : python-urllib3",
         "sp": 1,
-        "status": "Development Complete",
+        "status": "Test Complete",
         "statusCat": "indeterminate",
         "statusColor": "yellow",
         "issueType": "Story",
@@ -1893,44 +1893,6 @@
         "url": "https://moveinc.atlassian.net/browse/QAS-64"
       }
     ],
-    "Mahesh Srikakula": [
-      {
-        "key": "TSC-2064",
-        "summary": "Upgrade the geocoder database to 8.4",
-        "sp": 0,
-        "status": "To Do",
-        "statusCat": "new",
-        "statusColor": "blue-gray",
-        "issueType": "Sub-task",
-        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
-        "parent": {
-          "key": "TSC-2044",
-          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
-          "color": "ghx-label-8"
-        },
-        "board": "TSC",
-        "sprint": "LHSC.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TSC-2064"
-      },
-      {
-        "key": "TSC-2054",
-        "summary": "Upgrade the email database to 8.4",
-        "sp": 0,
-        "status": "Done",
-        "statusCat": "done",
-        "statusColor": "green",
-        "issueType": "Sub-task",
-        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
-        "parent": {
-          "key": "TSC-2044",
-          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
-          "color": "ghx-label-8"
-        },
-        "board": "TSC",
-        "sprint": "LHSC.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TSC-2054"
-      }
-    ],
     "Sebastian Lopez": [
       {
         "key": "TSC-1973",
@@ -1967,6 +1929,24 @@
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1635"
+      },
+      {
+        "key": "TSC-2065",
+        "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
+        "sp": 1,
+        "status": "Test Complete",
+        "statusCat": "indeterminate",
+        "statusColor": "yellow",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2065"
       },
       {
         "key": "TSC-2048",
@@ -2021,6 +2001,44 @@
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2055"
+      }
+    ],
+    "Mahesh Srikakula": [
+      {
+        "key": "TSC-2064",
+        "summary": "Upgrade the geocoder database to 8.4",
+        "sp": 0,
+        "status": "To Do",
+        "statusCat": "new",
+        "statusColor": "blue-gray",
+        "issueType": "Sub-task",
+        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "TSC-2044",
+          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+          "color": "ghx-label-8"
+        },
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2064"
+      },
+      {
+        "key": "TSC-2054",
+        "summary": "Upgrade the email database to 8.4",
+        "sp": 0,
+        "status": "Done",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Sub-task",
+        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "TSC-2044",
+          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+          "color": "ghx-label-8"
+        },
+        "board": "TSC",
+        "sprint": "LHSC.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TSC-2054"
       }
     ],
     "Ramani Pukkella": [
@@ -2909,6 +2927,98 @@
         "url": "https://moveinc.atlassian.net/browse/RPS-2578"
       }
     ],
+    "Neeraj Mude": [
+      {
+        "key": "TCET-434",
+        "summary": "Reduce gator jar build time",
+        "sp": 3,
+        "status": "Pending Approval",
+        "statusCat": "new",
+        "statusColor": "blue-gray",
+        "issueType": "Spike",
+        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-434"
+      },
+      {
+        "key": "TCET-619",
+        "summary": "Update mlslink_status of nh-mlslink-cache dynamo table - one time script",
+        "sp": 2,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "statusColor": "yellow",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-619"
+      },
+      {
+        "key": "TCET-583",
+        "summary": "FY 27 planning",
+        "sp": 1,
+        "status": "Ready to Start",
+        "statusCat": "new",
+        "statusColor": "blue-gray",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-583"
+      },
+      {
+        "key": "TCET-561",
+        "summary": "Move - Strengthening Cloud Security with New AWS Preventative Controls",
+        "sp": 1,
+        "status": "In Progress",
+        "statusCat": "indeterminate",
+        "statusColor": "yellow",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-983",
+          "summary": "FY26 FC-RI: Tech Roadmap",
+          "color": "ghx-label-7"
+        },
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-561"
+      },
+      {
+        "key": "TCET-544",
+        "summary": "Admin API - rollback procedure and prod release with gator",
+        "sp": 1,
+        "status": "Accepted",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-983",
+          "summary": "FY26 FC-RI: Tech Roadmap",
+          "color": "ghx-label-7"
+        },
+        "board": "TCET",
+        "sprint": "TCET.FY26.Q4.S23",
+        "url": "https://moveinc.atlassian.net/browse/TCET-544"
+      }
+    ],
     "Marian Serban": [
       {
         "key": "TCET-590",
@@ -3567,80 +3677,6 @@
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-585"
-      }
-    ],
-    "Neeraj Mude": [
-      {
-        "key": "TCET-434",
-        "summary": "Reduce gator jar build time",
-        "sp": 3,
-        "status": "In Progress",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Spike",
-        "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
-        "parent": {
-          "key": "QUA-984",
-          "summary": "FY26 FC-RI: Quality Improvement",
-          "color": "ghx-label-8"
-        },
-        "board": "TCET",
-        "sprint": "TCET.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TCET-434"
-      },
-      {
-        "key": "TCET-583",
-        "summary": "FY 27 planning",
-        "sp": 1,
-        "status": "Ready to Start",
-        "statusCat": "new",
-        "statusColor": "blue-gray",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "QUA-650",
-          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
-          "color": "ghx-label-10"
-        },
-        "board": "TCET",
-        "sprint": "TCET.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TCET-583"
-      },
-      {
-        "key": "TCET-561",
-        "summary": "Move - Strengthening Cloud Security with New AWS Preventative Controls",
-        "sp": 1,
-        "status": "In Progress",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "QUA-983",
-          "summary": "FY26 FC-RI: Tech Roadmap",
-          "color": "ghx-label-7"
-        },
-        "board": "TCET",
-        "sprint": "TCET.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TCET-561"
-      },
-      {
-        "key": "TCET-544",
-        "summary": "Admin API - rollback procedure and prod release with gator",
-        "sp": 1,
-        "status": "Accepted",
-        "statusCat": "done",
-        "statusColor": "green",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "QUA-983",
-          "summary": "FY26 FC-RI: Tech Roadmap",
-          "color": "ghx-label-7"
-        },
-        "board": "TCET",
-        "sprint": "TCET.FY26.Q4.S23",
-        "url": "https://moveinc.atlassian.net/browse/TCET-544"
       }
     ],
     "Louis Varndell": [
@@ -4538,8 +4574,8 @@
     "Maximilian Cunningham": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/613baccb70405d00681698a9/d68b8667-9e3f-428f-aeae-7dcba6ad3721/32",
     "Narendra Devireddi": "https://secure.gravatar.com/avatar/be77f97091e00022ba06a8723a2b65ba?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FND-4.png",
     "Sivapuram Vidya": "https://secure.gravatar.com/avatar/fe8cd93cd1e6782b5f827abeeee4bd47?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSV-0.png",
-    "Mahesh Srikakula": "https://secure.gravatar.com/avatar/cd74924b8aacb25bdcd89780490026a0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMS-5.png",
     "Sebastian Lopez": "https://secure.gravatar.com/avatar/fd689a2a81220a9c7d49dac3ddf8372b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSL-2.png",
+    "Mahesh Srikakula": "https://secure.gravatar.com/avatar/cd74924b8aacb25bdcd89780490026a0?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMS-5.png",
     "Ramani Pukkella": "https://secure.gravatar.com/avatar/dbad650e8d661e186f0ea67b65627458?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FRP-6.png",
     "Andres Peruyero": "https://secure.gravatar.com/avatar/4e485273255fe997add2f6eb789cff62?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAP-1.png",
     "Rafael Roman": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:f682a97f-7299-4380-9a36-5b3776ab53be/aa9e6220-b08b-45ec-9242-f660dc521c3b/32",
@@ -4551,13 +4587,13 @@
     "Steve Gunno": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:bd4d5c32-fa09-48c0-b551-eac048550a0a/d5fc6f42-e158-40ee-a0bc-89be2e97b096/32",
     "Max Eve": "https://secure.gravatar.com/avatar/9b3b3518d782978fed009afa50159ec5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FME-0.png",
     "Murari Bilikuri": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/61257f2c7a1bfb00717d1906/89493d62-8634-4652-9e4a-f5a85cec86a9/32",
+    "Neeraj Mude": "https://secure.gravatar.com/avatar/5b7c15179b03af9e87536f1f15945bc6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-6.png",
     "Marian Serban": "https://secure.gravatar.com/avatar/e382d9532cf7d05cd474806491e8fef4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMS-2.png",
     "Serge Rizov": "https://secure.gravatar.com/avatar/5ca74f8689543a0e92627562d182929e?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSR-0.png",
     "Akshat Koshta": "https://secure.gravatar.com/avatar/21286ce7cadd36c95ae85230d931c00b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAK-1.png",
     "Amit Kulkarni": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/604357fe5290e70069c3f9e4/5bd2b741-29cc-4037-a590-05a6ecf7add0/32",
     "Nilesh Karwa": "https://secure.gravatar.com/avatar/a8e23af4fc2bcb0243137f3028294298?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-6.png",
     "Shwetha S": "https://secure.gravatar.com/avatar/e8c96abf47dada23d0cc1325576c51b4?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-6.png",
-    "Neeraj Mude": "https://secure.gravatar.com/avatar/5b7c15179b03af9e87536f1f15945bc6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNM-6.png",
     "Louis Varndell": "https://secure.gravatar.com/avatar/a10e5333ff1bb4da9808b45b9b5e1e59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLV-4.png",
     "Stephen McLaughlin": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:9a49f97d-f8a7-45a8-ad15-f6fe7683080b/735e9f61-7341-41ff-aaaf-48a41c457d82/32",
     "Christopher Bond": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:14467362-e09d-4c05-b83a-90d5c8482c58/06fcf368-3d8a-4b25-ba6e-9a67a8584c46/32",
@@ -5165,24 +5201,6 @@
     "Harsha Thumma": {
       "open": [
         {
-          "key": "CON-6519",
-          "summary": "Please disable direct feed builder [HVHBN] -HARPETH VALLEY HOMES PID 535136247",
-          "sp": 0,
-          "status": "Ready to Start",
-          "statusCat": "new",
-          "statusColor": "blue-gray",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6175",
-            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
-            "color": "ghx-label-1"
-          },
-          "board": "CON",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CON-6519"
-        },
-        {
           "key": "CON-6444",
           "summary": "create is_test_datasource flag for all 5 objects in Nh and expose it in delivery files ",
           "sp": 0,
@@ -5291,6 +5309,20 @@
           "url": "https://moveinc.atlassian.net/browse/CON-3524"
         },
         {
+          "key": "CR-9104",
+          "summary": "Deactivate Data Source: Harpeth Valley Homes (HVHBN)",
+          "sp": 0,
+          "status": "Approved",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9104"
+        },
+        {
           "key": "CON-6521",
           "summary": "EGstoltzfus Homes, EG1BN - Change from Direct Feed to Direct Feed - Same Corp & Builder IDs",
           "sp": 0,
@@ -5307,6 +5339,24 @@
           "board": "CON",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/CON-6521"
+        },
+        {
+          "key": "CON-6519",
+          "summary": "Please disable direct feed builder [HVHBN] -HARPETH VALLEY HOMES PID 535136247",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6519"
         },
         {
           "key": "CON-6511",
@@ -5826,7 +5876,7 @@
         }
       ],
       "manager": "MH",
-      "openCount": 16,
+      "openCount": 17,
       "doneCount": 23
     },
     "Justin Rumer": {
@@ -7102,42 +7152,6 @@
           "url": "https://moveinc.atlassian.net/browse/IDO-4932"
         },
         {
-          "key": "CON-6514",
-          "summary": "StellarMLS (ORFL)  Coming Soon Mapping",
-          "sp": 0,
-          "status": "In Progress",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Task",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
-          "parent": {
-            "key": "CON-6167",
-            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
-            "color": "ghx-label-14"
-          },
-          "board": "CON",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CON-6514"
-        },
-        {
-          "key": "CON-6461",
-          "summary": " GlobalMLS (ALNY) Coming Soon Mapping",
-          "sp": 0,
-          "status": "In Progress",
-          "statusCat": "indeterminate",
-          "statusColor": "yellow",
-          "issueType": "Task",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
-          "parent": {
-            "key": "CON-6167",
-            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
-            "color": "ghx-label-14"
-          },
-          "board": "CON",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CON-6461"
-        },
-        {
           "key": "CON-6452",
           "summary": "NorthwesternWI (NWWI & RANWWI) Media Privacy Implemented",
           "sp": 0,
@@ -7175,6 +7189,42 @@
         }
       ],
       "done": [
+        {
+          "key": "CON-6461",
+          "summary": " GlobalMLS (ALNY) Coming Soon Mapping",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-29T10:07:32.434-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6461"
+        },
+        {
+          "key": "CON-6514",
+          "summary": "StellarMLS (ORFL)  Coming Soon Mapping",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-29T09:22:03.352-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6514"
+        },
         {
           "key": "CON-6454",
           "summary": "Martinsville (MAVAr) Contingent  Mapping",
@@ -7536,29 +7586,11 @@
           "board": "CON",
           "resolved": "2026-05-15T10:53:32.653-0700",
           "url": "https://moveinc.atlassian.net/browse/CON-6451"
-        },
-        {
-          "key": "CON-6089",
-          "summary": "ContraCosta (ALCAr) Coming Soon Mapping ",
-          "sp": 0,
-          "status": "Accepted",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Task",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
-          "parent": {
-            "key": "CON-6167",
-            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
-            "color": "ghx-label-14"
-          },
-          "board": "CON",
-          "resolved": "2026-05-15T09:14:43.613-0700",
-          "url": "https://moveinc.atlassian.net/browse/CON-6089"
         }
       ],
       "manager": "MH",
-      "openCount": 14,
-      "doneCount": 22
+      "openCount": 12,
+      "doneCount": 23
     },
     "Oleg Gareys": {
       "open": [
@@ -8176,6 +8208,24 @@
           "board": "CON",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/CON-4426"
+        },
+        {
+          "key": "LHAPI-1196",
+          "summary": "Missing Photos- PHPAL- Case 12431050",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1196"
         },
         {
           "key": "LHAPI-1193",
@@ -9198,24 +9248,6 @@
           "url": "https://moveinc.atlassian.net/browse/LHAPI-1191"
         },
         {
-          "key": "LHAPI-1196",
-          "summary": "Missing Photos- PHPAL- Case 12431050",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": "2026-05-15T12:10:17.947-0700",
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1196"
-        },
-        {
           "key": "LHAPI-1187",
           "summary": "LVNVL - Missing photos - Case number 12440201",
           "sp": 0,
@@ -9253,8 +9285,8 @@
         }
       ],
       "manager": "MH",
-      "openCount": 12,
-      "doneCount": 50
+      "openCount": 13,
+      "doneCount": 49
     },
     "Sandhya Rani": {
       "open": [
@@ -10923,6 +10955,20 @@
           "url": "https://moveinc.atlassian.net/browse/MSV-624"
         },
         {
+          "key": "CR-9100",
+          "summary": "fix: serve offices.listhub.net images over HTTP until RDCPix migration lands",
+          "sp": 0,
+          "status": "Approved",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9100"
+        },
+        {
           "key": "CR-9037",
           "summary": "fix: add SameSiteFilter to set SameSite=Lax on JSESSIONID cookie (CWE-1275)",
           "sp": 0,
@@ -11651,53 +11697,11 @@
           "board": "CR",
           "resolved": "2026-05-15T12:40:50.265-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8581"
-        },
-        {
-          "key": "CR-8504",
-          "summary": "Forward metrics-v1 events to syndication-feedback dev",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T10:01:15.900-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8504"
-        },
-        {
-          "key": "CR-8551",
-          "summary": "Use Redrive Queue to Process Office for Multiple Listing Events",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T09:38:33.794-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8551"
-        },
-        {
-          "key": "CSPM-3965",
-          "summary": "Internet-facing container using an image with initial access vulnerabilities and data access to sensitive data",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": null,
-          "board": "CSPM",
-          "resolved": "2026-05-15T09:06:19.011-0700",
-          "url": "https://moveinc.atlassian.net/browse/CSPM-3965"
         }
       ],
       "manager": "LEADERS",
-      "openCount": 8,
-      "doneCount": 50
+      "openCount": 9,
+      "doneCount": 47
     },
     "Marissa Hun": {
       "open": [
@@ -11718,6 +11722,20 @@
           "board": "INTL",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/INTL-1994"
+        },
+        {
+          "key": "CNTNT-804",
+          "summary": "New Partner Onboarding Request: PeachHaus",
+          "sp": 0,
+          "status": "New Request",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-804"
         },
         {
           "key": "CNTNT-803",
@@ -11796,6 +11814,20 @@
           "board": "INTL",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/INTL-1848"
+        },
+        {
+          "key": "CR-9097",
+          "summary": "Datasource Migration to Mapping Service - NorthEastGA - NEGAR/NEGBORGA ",
+          "sp": 0,
+          "status": "EM Review",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9097"
         },
         {
           "key": "CR-8946",
@@ -12317,7 +12349,7 @@
         }
       ],
       "manager": "LEADERS",
-      "openCount": 19,
+      "openCount": 21,
       "doneCount": 21
     },
     "Nilesh Karwa": {
@@ -12638,6 +12670,20 @@
           "board": "CSS",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/CSS-1898"
+        },
+        {
+          "key": "CR-9099",
+          "summary": "sds.deployment — fix(ci): export proxy vars for Docker Artifactory login",
+          "sp": 0,
+          "status": "Draft",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-9099"
         },
         {
           "key": "CR-9091",
@@ -13589,7 +13635,7 @@
         }
       ],
       "manager": "LEADERS",
-      "openCount": 21,
+      "openCount": 22,
       "doneCount": 51
     },
     "Tyler Romeo": {
@@ -14074,25 +14120,11 @@
           "board": "CR",
           "resolved": "2026-05-21T07:54:33.372-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-8670"
-        },
-        {
-          "key": "CR-8559",
-          "summary": "content claude code mls-history skill",
-          "sp": 0,
-          "status": "Closed",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Change Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
-          "parent": null,
-          "board": "CR",
-          "resolved": "2026-05-15T09:34:23.455-0700",
-          "url": "https://moveinc.atlassian.net/browse/CR-8559"
         }
       ],
       "manager": "LEADERS",
       "openCount": 7,
-      "doneCount": 23
+      "doneCount": 22
     },
     "Yihan Qian": {
       "open": [
