@@ -572,7 +572,7 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
 }
-/* Jira status-category palette (matches the badges shown on the Jira backlog). */
+/* Jira status-category lozenges — modern palette: gray (To Do), blue (In Progress), green (Done) */
 .ticket-status-tag {
   display: inline-flex;
   padding: 2px 8px;
@@ -583,10 +583,36 @@ body {
   text-transform: uppercase;
   font-family: 'Inter', system-ui, sans-serif;
 }
-.ticket-status-tag.color-green     { background: #DCFFF1; color: #006644; }
-.ticket-status-tag.color-yellow    { background: #FFF7D6; color: #974F0C; }
-.ticket-status-tag.color-blue-gray { background: #DFE1E6; color: #42526E; }
-.ticket-status-tag.color-medium-gray { background: #DFE1E6; color: #42526E; }
+.ticket-status-tag.cat-new            { background: #DCDFE4; color: #44546F; }   /* To Do */
+.ticket-status-tag.cat-indeterminate  { background: #E9F2FF; color: #0055CC; }   /* In Progress */
+.ticket-status-tag.cat-done           { background: #DCFFF1; color: #216E4E; }   /* Done */
+
+/* Jira-style epic chip — purple by default, overridable per epic via data attr. */
+.epic-chip {
+  display: inline-flex; align-items: center;
+  max-width: 220px;
+  padding: 1px 8px;
+  border-radius: 3px;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  background: #8270DB; color: #fff;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.epic-chip.ghx-label-1  { background: #815B3A; color: #fff; }
+.epic-chip.ghx-label-2  { background: #F5CD47; color: #172B4D; }
+.epic-chip.ghx-label-3  { background: #FEA362; color: #172B4D; }
+.epic-chip.ghx-label-4  { background: #4688EC; color: #fff; }
+.epic-chip.ghx-label-5  { background: #2898BD; color: #fff; }
+.epic-chip.ghx-label-6  { background: #5AAC44; color: #fff; }
+.epic-chip.ghx-label-7  { background: #8270DB; color: #fff; }
+.epic-chip.ghx-label-8  { background: #5E6C84; color: #fff; }
+.epic-chip.ghx-label-9  { background: #E15F5C; color: #fff; }
+.epic-chip.ghx-label-10 { background: #F5CD47; color: #172B4D; }
+.epic-chip.ghx-label-11 { background: #4BCE97; color: #172B4D; }
+.epic-chip.ghx-label-12 { background: #C9372C; color: #fff; }
+.epic-chip.ghx-label-13 { background: #6E5DC6; color: #fff; }
+.epic-chip.ghx-label-14 { background: #57D9A3; color: #172B4D; }
 
 /* Issue-type icon (Jira-style 16px square next to the key). */
 .issue-type-icon {
@@ -1266,18 +1292,24 @@ function openDrawer(name) {
 
 function renderTicketRow(t) {
   const sp = t.sp ? `<span class="ticket-sp">${t.sp} SP</span>` : '';
-  // Jira's own status-category color name (green / yellow / blue-gray) — fall back to medium-gray for safety.
-  const colorCls = t.statusColor ? `color-${t.statusColor}` : 'color-medium-gray';
+  const catCls = `cat-${t.statusCat || 'new'}`;
   const typeIcon = t.issueTypeIcon
     ? `<img class="issue-type-icon" src="${t.issueTypeIcon}" alt="${t.issueType || 'issue'}" title="${t.issueType || ''}" loading="lazy">`
     : '';
+  let epicChip = '';
+  if (t.parent && t.parent.key) {
+    const colorCls = t.parent.color ? ` ${t.parent.color}` : '';
+    const label = t.parent.summary || t.parent.key;
+    epicChip = `<span class="epic-chip${colorCls}" title="${t.parent.key} — ${label.replace(/"/g,'&quot;')}">${label}</span>`;
+  }
   return `
     <a class="ticket-row" href="${t.url}" target="_blank" rel="noopener">
       <div style="flex:1;min-width:0;">
-        <div style="display:flex;gap:6px;align-items:center;">
+        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
           ${typeIcon}
           <span class="ticket-key">${t.key}</span>
-          <span class="ticket-status-tag ${colorCls}">${t.status}</span>
+          <span class="ticket-status-tag ${catCls}">${t.status}</span>
+          ${epicChip}
         </div>
         <div class="ticket-summary">${t.summary || ''}</div>
         <div class="ticket-meta">

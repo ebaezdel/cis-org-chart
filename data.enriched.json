@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T23:35:51.839Z",
+  "generatedAt": "2026-05-28T23:56:47.113Z",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -69,6 +69,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1803"
@@ -82,6 +87,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1721",
+          "summary": "FY26Q4 Content Ranch Stakeholder Onboarding",
+          "color": "ghx-label-14"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1651"
@@ -95,6 +105,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1190",
+          "summary": "Content Platform End to End Latency",
+          "color": "ghx-label-6"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1818"
@@ -108,6 +123,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1190",
+          "summary": "Content Platform End to End Latency",
+          "color": "ghx-label-6"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1817"
@@ -123,6 +143,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1721",
+          "summary": "FY26Q4 Content Ranch Stakeholder Onboarding",
+          "color": "ghx-label-14"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1733"
@@ -136,6 +161,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1721",
+          "summary": "FY26Q4 Content Ranch Stakeholder Onboarding",
+          "color": "ghx-label-14"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1811"
@@ -149,6 +179,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1810"
@@ -162,6 +197,11 @@
         "statusColor": "green",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1800"
@@ -175,6 +215,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1776"
@@ -188,6 +233,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1807"
@@ -203,6 +253,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1799"
@@ -216,6 +271,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1809"
@@ -229,6 +289,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1588",
+          "summary": "Content Platform FY26Q3 KTLO",
+          "color": "ghx-label-7"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1794"
@@ -244,6 +309,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1796"
@@ -257,6 +327,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1768"
@@ -270,6 +345,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1808"
@@ -285,6 +365,11 @@
         "statusColor": "blue-gray",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1212"
@@ -298,6 +383,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1723",
+          "summary": "Content Platform FY26Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1775"
@@ -311,6 +401,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1723",
+          "summary": "Content Platform FY26Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1774"
@@ -324,6 +419,11 @@
         "statusColor": "green",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "FC-1720",
+          "summary": "FY26Q4 Content Ranch Feature Maturity",
+          "color": "ghx-label-1"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1804"
@@ -337,6 +437,7 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-531"
@@ -352,6 +453,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1802"
@@ -365,6 +471,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "FC-1727",
+          "summary": "Content Platform FY26Q4 RTB (Run the Business)",
+          "color": "ghx-label-8"
+        },
         "board": "FC",
         "sprint": "FC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/FC-1690"
@@ -380,6 +491,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2160"
@@ -393,6 +509,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2300"
@@ -406,6 +527,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2296"
@@ -419,6 +545,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2295"
@@ -432,6 +563,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2292"
@@ -445,6 +581,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2265"
@@ -458,6 +599,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2258"
@@ -471,6 +617,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-1960"
@@ -484,6 +635,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2275"
@@ -499,6 +655,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2271",
+          "summary": "Morpheus Geo Tagging v1",
+          "color": "ghx-label-9"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2270"
@@ -512,6 +673,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2290"
@@ -525,6 +691,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2279"
@@ -538,6 +709,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2276"
@@ -551,6 +727,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2271",
+          "summary": "Morpheus Geo Tagging v1",
+          "color": "ghx-label-9"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2274"
@@ -566,6 +747,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2251"
@@ -579,6 +765,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2210",
+          "summary": "Phase 1 – Dev & Testing (April 2026)",
+          "color": "ghx-label-14"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2228"
@@ -592,6 +783,11 @@
         "statusColor": "blue-gray",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2289"
@@ -605,6 +801,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2282"
@@ -618,6 +819,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2210",
+          "summary": "Phase 1 – Dev & Testing (April 2026)",
+          "color": "ghx-label-14"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2227"
@@ -631,6 +837,11 @@
         "statusColor": "green",
         "issueType": "Bug",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2268"
@@ -644,6 +855,11 @@
         "statusColor": "green",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2288"
@@ -659,6 +875,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2283"
@@ -672,6 +893,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2261"
@@ -685,6 +911,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2193"
@@ -698,6 +929,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2191"
@@ -713,6 +949,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2264"
@@ -726,6 +967,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2273"
@@ -739,6 +985,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2272"
@@ -752,6 +1003,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2281"
@@ -765,6 +1021,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2277"
@@ -780,6 +1041,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2142",
+          "summary": "Content Services FY26 Q4 KTLO",
+          "color": "ghx-label-12"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2135"
@@ -793,6 +1059,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2271",
+          "summary": "Morpheus Geo Tagging v1",
+          "color": "ghx-label-9"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-1406"
@@ -806,6 +1077,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2144",
+          "summary": "Content Services FY26 Q4 RTB Umbrella",
+          "color": "ghx-label-10"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2262"
@@ -819,6 +1095,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2278"
@@ -832,6 +1113,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CSS-2143",
+          "summary": "Content Services FY26 Q4 APPSEC Umbrella",
+          "color": "ghx-label-11"
+        },
         "board": "CSS",
         "sprint": "CSS.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/CSS-2280"
@@ -847,6 +1133,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1113",
+          "summary": "MarketTrends API stablization",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1120"
@@ -860,6 +1151,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1",
+          "summary": "Epic to track KTLO GEO issues",
+          "color": "ghx-label-4"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1205"
@@ -873,6 +1169,11 @@
         "statusColor": "blue-gray",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1213"
@@ -886,6 +1187,11 @@
         "statusColor": "yellow",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1211"
@@ -899,6 +1205,11 @@
         "statusColor": "yellow",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1210"
@@ -912,6 +1223,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1160",
+          "summary": "GLP (Geo Landing Page) Data Sync Solution: Geo Relationship, Schools, MarketTrends data",
+          "color": "ghx-label-7"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1127"
@@ -925,6 +1241,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1203"
@@ -938,6 +1259,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1202"
@@ -951,6 +1277,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1201"
@@ -964,6 +1295,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1200"
@@ -977,6 +1313,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1199"
@@ -990,6 +1331,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1198"
@@ -1003,6 +1349,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1197"
@@ -1016,6 +1367,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1209"
@@ -1029,6 +1385,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1120",
+          "summary": "[MT API] Optimize the query finding nearby Geo of specified type used in the geo_insights endpoint while requesting by anchor_slug_id",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1208"
@@ -1042,6 +1403,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1127",
+          "summary": "[GLP] Schools Data Sync Solution Design ",
+          "color": "ghx-label-12"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1156"
@@ -1055,6 +1421,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1127",
+          "summary": "[GLP] Schools Data Sync Solution Design ",
+          "color": "ghx-label-12"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1155"
@@ -1068,6 +1439,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1127",
+          "summary": "[GLP] Schools Data Sync Solution Design ",
+          "color": "ghx-label-12"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1154"
@@ -1083,6 +1459,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1",
+          "summary": "Epic to track KTLO GEO issues",
+          "color": "ghx-label-4"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1204"
@@ -1096,6 +1477,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "CEGEO-1113",
+          "summary": "MarketTrends API stablization",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1121"
@@ -1109,6 +1495,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1056",
+          "summary": "Expose econ generated stats data for \"home\" to MT API ",
+          "color": "ghx-label-13"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1131"
@@ -1122,6 +1513,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1170"
@@ -1135,6 +1531,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1169"
@@ -1148,6 +1549,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1168"
@@ -1161,6 +1567,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1164"
@@ -1174,6 +1585,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1163"
@@ -1187,6 +1603,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1162"
@@ -1200,6 +1621,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "CEGEO-1131",
+          "summary": "[Econ Stats][API] Part-3.2: Expose new econ stats data Time-series / Growth-rate calculations in MT API",
+          "color": "ghx-label-1"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1161"
@@ -1215,6 +1641,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1111",
+          "summary": "RTB Epic for Geo",
+          "color": "ghx-label-7"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1136"
@@ -1228,6 +1659,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1171"
@@ -1241,6 +1677,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1",
+          "summary": "Epic to track KTLO GEO issues",
+          "color": "ghx-label-4"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1189"
@@ -1256,6 +1697,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-1113",
+          "summary": "MarketTrends API stablization",
+          "color": "ghx-label-5"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1126"
@@ -1269,6 +1715,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1176"
@@ -1282,6 +1733,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-961",
+          "summary": "Data Update Pipeline Automation of Geo/Schools/MarketTrends",
+          "color": "ghx-label-13"
+        },
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1022"
@@ -1297,6 +1753,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-24",
+          "summary": "Phase 2 – Core Build & API Development",
+          "color": "ghx-label-13"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-39"
@@ -1310,6 +1771,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-24",
+          "summary": "Phase 2 – Core Build & API Development",
+          "color": "ghx-label-13"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-68"
@@ -1323,6 +1789,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-24",
+          "summary": "Phase 2 – Core Build & API Development",
+          "color": "ghx-label-13"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-69"
@@ -1338,6 +1809,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-25",
+          "summary": "Phase 3 – Parity Validation & Benchmarking",
+          "color": "ghx-label-12"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-47"
@@ -1351,6 +1827,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-25",
+          "summary": "Phase 3 – Parity Validation & Benchmarking",
+          "color": "ghx-label-12"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-67"
@@ -1364,6 +1845,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QAS-25",
+          "summary": "Phase 3 – Parity Validation & Benchmarking",
+          "color": "ghx-label-12"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-40"
@@ -1377,19 +1863,29 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "QAS-40",
+          "summary": "[content-qas-service] Achieve zero-diff parity with legacy QAS system",
+          "color": "ghx-label-11"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-65"
       },
       {
         "key": "QAS-64",
-        "summary": "Run the initial test on /verify endpoint on Test Dataset",
+        "summary": "Run the initial test on /verify endpoint on Test  Dataset ",
         "sp": 0,
         "status": "Done",
         "statusCat": "done",
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "QAS-40",
+          "summary": "[content-qas-service] Achieve zero-diff parity with legacy QAS system",
+          "color": "ghx-label-11"
+        },
         "board": "QAS",
         "sprint": "TL-QAS.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/QAS-64"
@@ -1405,6 +1901,11 @@
         "statusColor": "blue-gray",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "TSC-2044",
+          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+          "color": "ghx-label-8"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2064"
@@ -1418,6 +1919,11 @@
         "statusColor": "green",
         "issueType": "Sub-task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "parent": {
+          "key": "TSC-2044",
+          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+          "color": "ghx-label-8"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2054"
@@ -1433,6 +1939,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1973"
@@ -1446,6 +1957,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1635"
@@ -1459,6 +1975,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2048"
@@ -1472,6 +1993,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2058"
@@ -1485,6 +2011,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2055"
@@ -1500,6 +2031,11 @@
         "statusColor": "blue-gray",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "TSC-1831",
+          "summary": "Tech Roadmap FY26 Q4",
+          "color": "ghx-label-11"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2050"
@@ -1513,6 +2049,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2053"
@@ -1526,6 +2067,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1835",
+          "summary": "RTB FY26 Q4",
+          "color": "ghx-label-7"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1969"
@@ -1539,6 +2085,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1835",
+          "summary": "RTB FY26 Q4",
+          "color": "ghx-label-7"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1968"
@@ -1554,6 +2105,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2051"
@@ -1567,6 +2123,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1983"
@@ -1580,6 +2141,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-978"
@@ -1593,6 +2159,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1944"
@@ -1606,6 +2177,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1831",
+          "summary": "Tech Roadmap FY26 Q4",
+          "color": "ghx-label-11"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1930"
@@ -1621,6 +2197,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1097",
+          "summary": "SysAdmin Modernization",
+          "color": "ghx-label-3"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1261"
@@ -1634,6 +2215,11 @@
         "statusColor": "blue-gray",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "TSC-1097",
+          "summary": "SysAdmin Modernization",
+          "color": "ghx-label-3"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1883"
@@ -1647,6 +2233,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2049"
@@ -1660,6 +2251,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1943"
@@ -1673,6 +2269,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1937"
@@ -1688,6 +2289,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2046"
@@ -1701,6 +2307,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2044"
@@ -1714,6 +2325,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2045"
@@ -1727,6 +2343,11 @@
         "statusColor": "green",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2043"
@@ -1742,6 +2363,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1095",
+          "summary": "Syndication Feedback Refactor",
+          "color": "ghx-label-5"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2042"
@@ -1755,6 +2381,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1095",
+          "summary": "Syndication Feedback Refactor",
+          "color": "ghx-label-5"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1953"
@@ -1770,6 +2401,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1100",
+          "summary": "Platform Modernization",
+          "color": "ghx-label-14"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1716"
@@ -1783,6 +2419,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-2041"
@@ -1796,6 +2437,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1830",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1984"
@@ -1809,6 +2455,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1100",
+          "summary": "Platform Modernization",
+          "color": "ghx-label-14"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1714"
@@ -1824,6 +2475,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "MSV-624",
+          "summary": "KTLO - FY26 Q4",
+          "color": "ghx-label-2"
+        },
         "board": "MSV",
         "sprint": "MSV-FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/MSV-523"
@@ -1837,6 +2493,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "MSV-624",
+          "summary": "KTLO - FY26 Q4",
+          "color": "ghx-label-2"
+        },
         "board": "MSV",
         "sprint": "MSV-FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/MSV-634"
@@ -1850,6 +2511,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "MSV-624",
+          "summary": "KTLO - FY26 Q4",
+          "color": "ghx-label-2"
+        },
         "board": "MSV",
         "sprint": "MSV-FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/MSV-635"
@@ -1863,6 +2529,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1987"
@@ -1876,6 +2547,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1940"
@@ -1889,6 +2565,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1939"
@@ -1902,6 +2583,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "MSV-624",
+          "summary": "KTLO - FY26 Q4",
+          "color": "ghx-label-2"
+        },
         "board": "MSV",
         "sprint": "MSV-FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/MSV-633"
@@ -1917,6 +2603,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1592"
@@ -1930,6 +2621,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1972"
@@ -1943,6 +2639,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1663"
@@ -1956,6 +2657,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1832",
+          "summary": "AppSec FY26 Q4",
+          "color": "ghx-label-10"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1942"
@@ -1971,6 +2677,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1095",
+          "summary": "Syndication Feedback Refactor",
+          "color": "ghx-label-5"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1955"
@@ -1984,6 +2695,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1095",
+          "summary": "Syndication Feedback Refactor",
+          "color": "ghx-label-5"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1954"
@@ -1999,6 +2715,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1098",
+          "summary": "Compliance Overhaul",
+          "color": "ghx-label-2"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1816"
@@ -2012,6 +2733,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "TSC-1098",
+          "summary": "Compliance Overhaul",
+          "color": "ghx-label-2"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1842"
@@ -2025,6 +2751,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TSC-1098",
+          "summary": "Compliance Overhaul",
+          "color": "ghx-label-2"
+        },
         "board": "TSC",
         "sprint": "LHSC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TSC-1815"
@@ -2040,19 +2771,29 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2665",
+          "summary": "APPSEC FY26 Q4",
+          "color": "ghx-label-14"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2619"
       },
       {
         "key": "RPS-1966",
-        "summary": "Add Mandatory Tags for S3 Buckets of Find application",
+        "summary": "Add Mandatory Tags for S3 Buckets of Find application aws resources",
         "sp": 1,
         "status": "Test Complete",
         "statusCat": "indeterminate",
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2663",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-1966"
@@ -2066,6 +2807,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2663",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2671"
@@ -2079,19 +2825,29 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2663",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2144"
       },
       {
         "key": "RPS-2676",
-        "summary": "Internet-facing container using an image with initial access vulnerabilities",
+        "summary": "Internet-facing container using an image with initial access vulnerabilities and data access to sensitive data",
         "sp": 1,
         "status": "Accepted",
         "statusCat": "done",
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2665",
+          "summary": "APPSEC FY26 Q4",
+          "color": "ghx-label-14"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2676"
@@ -2105,19 +2861,29 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2663",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2674"
       },
       {
         "key": "RPS-2672",
-        "summary": "Share Button on Find.2 Site is unresponsive",
+        "summary": "\"Share\" Button on Find.2 Site is unresponsive ",
         "sp": 1,
         "status": "Accepted",
         "statusCat": "done",
         "statusColor": "green",
         "issueType": "Bug",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+        "parent": {
+          "key": "RPS-2663",
+          "summary": "KTLO FY26 Q4",
+          "color": "ghx-label-12"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2672"
@@ -2131,6 +2897,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "RPS-2562",
+          "summary": "APPSEC FY26 Q1",
+          "color": "ghx-label-2"
+        },
         "board": "RPS",
         "sprint": "FIND.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/RPS-2578"
@@ -2146,6 +2917,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-590"
@@ -2159,6 +2935,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-529"
@@ -2172,6 +2953,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-618"
@@ -2185,6 +2971,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-586"
@@ -2198,6 +2989,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-609"
@@ -2211,6 +3007,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-582"
@@ -2226,6 +3027,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-977",
+          "summary": "FC-RI Tech Mod - Skyway Migration and Adoption",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-562"
@@ -2239,6 +3045,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-608"
@@ -2252,6 +3063,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-983",
+          "summary": "FY26 FC-RI: Tech Roadmap",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-607"
@@ -2265,6 +3081,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-584"
@@ -2278,6 +3099,11 @@
         "statusColor": "green",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-483"
@@ -2293,6 +3119,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-557"
@@ -2306,6 +3137,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-605"
@@ -2319,6 +3155,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-576"
@@ -2332,6 +3173,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-573"
@@ -2345,6 +3191,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-572"
@@ -2358,6 +3209,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-558"
@@ -2371,6 +3227,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-575"
@@ -2384,6 +3245,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-565"
@@ -2399,6 +3265,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-587"
@@ -2412,6 +3283,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-604"
@@ -2425,6 +3301,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-589"
@@ -2438,6 +3319,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-461"
@@ -2451,6 +3337,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-566"
@@ -2464,6 +3355,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-560"
@@ -2477,6 +3373,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-559"
@@ -2492,6 +3393,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-581"
@@ -2505,6 +3411,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-408"
@@ -2518,6 +3429,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-588"
@@ -2531,6 +3447,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-511"
@@ -2544,6 +3465,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-603"
@@ -2557,6 +3483,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-591"
@@ -2572,6 +3503,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CON-1342",
+          "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+          "color": "ghx-label-12"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-569"
@@ -2585,6 +3521,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CON-1342",
+          "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+          "color": "ghx-label-12"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-536"
@@ -2598,6 +3539,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CON-1342",
+          "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+          "color": "ghx-label-12"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-537"
@@ -2611,6 +3557,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-585"
@@ -2626,6 +3577,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "QUA-984",
+          "summary": "FY26 FC-RI: Quality Improvement",
+          "color": "ghx-label-8"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-434"
@@ -2639,6 +3595,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-583"
@@ -2652,6 +3613,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-983",
+          "summary": "FY26 FC-RI: Tech Roadmap",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-561"
@@ -2665,6 +3631,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-983",
+          "summary": "FY26 FC-RI: Tech Roadmap",
+          "color": "ghx-label-7"
+        },
         "board": "TCET",
         "sprint": "TCET.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TCET-544"
@@ -2680,6 +3651,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-367"
@@ -2693,6 +3669,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-344"
@@ -2706,6 +3687,11 @@
         "statusColor": "blue-gray",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-380"
@@ -2719,6 +3705,11 @@
         "statusColor": "blue-gray",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-379"
@@ -2732,6 +3723,11 @@
         "statusColor": "blue-gray",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-378"
@@ -2745,6 +3741,7 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-359"
@@ -2758,6 +3755,11 @@
         "statusColor": "green",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-383"
@@ -2771,6 +3773,11 @@
         "statusColor": "green",
         "issueType": "Task",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-366"
@@ -2786,6 +3793,7 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-382"
@@ -2799,6 +3807,7 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-381"
@@ -2812,6 +3821,7 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-374"
@@ -2825,6 +3835,7 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": null,
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-360"
@@ -2838,6 +3849,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-235"
@@ -2853,6 +3869,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TLCC-20",
+          "summary": "Data Collection to Content Ranch",
+          "color": "ghx-label-2"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-376"
@@ -2866,6 +3887,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TLCC-20",
+          "summary": "Data Collection to Content Ranch",
+          "color": "ghx-label-2"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-373"
@@ -2879,6 +3905,11 @@
         "statusColor": "yellow",
         "issueType": "Spike",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-289"
@@ -2892,6 +3923,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "TLCC-20",
+          "summary": "Data Collection to Content Ranch",
+          "color": "ghx-label-2"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-377"
@@ -2905,6 +3941,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-317"
@@ -2918,6 +3959,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-212"
@@ -2933,6 +3979,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-363"
@@ -2946,6 +3997,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-362"
@@ -2959,6 +4015,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-361"
@@ -2972,6 +4033,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-370"
@@ -2985,6 +4051,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-364"
@@ -2998,6 +4069,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "TLCC",
         "sprint": "TLCC.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/TLCC-358"
@@ -3013,6 +4089,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1961"
@@ -3026,6 +4107,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1813"
@@ -3039,6 +4125,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1964"
@@ -3052,6 +4143,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1919"
@@ -3065,6 +4161,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1915"
@@ -3078,6 +4179,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1902"
@@ -3091,6 +4197,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1969"
@@ -3104,6 +4215,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1968"
@@ -3117,6 +4233,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1966"
@@ -3130,6 +4251,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1926"
@@ -3143,6 +4269,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1925"
@@ -3156,6 +4287,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-989",
+          "summary": "FY26 FC-RI: Data Enhancements pipeline modernization",
+          "color": "ghx-label-13"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1960"
@@ -3171,6 +4307,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1954"
@@ -3184,6 +4325,11 @@
         "statusColor": "yellow",
         "issueType": "Bug",
         "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1739"
@@ -3197,6 +4343,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1965"
@@ -3210,6 +4361,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1959"
@@ -3223,6 +4379,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1384",
+          "summary": "Addressing AppSec tickets related to Content Reliability and Ingest team",
+          "color": "ghx-label-7"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1957"
@@ -3236,6 +4397,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1797"
@@ -3249,6 +4415,11 @@
         "statusColor": "green",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1956"
@@ -3264,6 +4435,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1818"
@@ -3277,6 +4453,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-650",
+          "summary": "KTLO/RTB work for  Foundational Content Reliability & Ingest team ",
+          "color": "ghx-label-10"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1963"
@@ -3290,6 +4471,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-988",
+          "summary": "FY26 FC-RI: Collection system modernization",
+          "color": "ghx-label-12"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1958"
@@ -3303,6 +4489,11 @@
         "statusColor": "blue-gray",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1815"
@@ -3316,6 +4507,11 @@
         "statusColor": "yellow",
         "issueType": "Story",
         "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "QUA-1722",
+          "summary": "Collection Streaming: Support for multiple sources",
+          "color": "ghx-label-5"
+        },
         "board": "QUA",
         "sprint": "FCRI.FY26.Q4.S23",
         "url": "https://moveinc.atlassian.net/browse/QUA-1730"
@@ -3368,14 +4564,14 @@
     "Surekha Pachipulusu": "https://secure.gravatar.com/avatar/9243c469458c54565410f742facb3aae?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSP-2.png",
     "Kaitlin Caponsacco": "https://secure.gravatar.com/avatar/ddc8deb9f82ab4fc5fef329c4da24a98?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKC-1.png",
     "Tyler Romeo": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:2d7c9213-6258-462e-a403-426ceb354000/4caf760c-0a55-4f12-8a68-a9f9f80fbbf8/32",
-    "Jeffrey Byrd": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a8c43819d25142e30bd7b8b/7c002899-c11f-4c2f-bb53-88ed17053c70/32",
-    "Marissa Hun": "https://secure.gravatar.com/avatar/28644aadba23947628a7558f82390ad6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-0.png",
-    "Sandhya Rani": "https://secure.gravatar.com/avatar/9fcbfc64e986445ee033d72c8460a28f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSR-6.png",
-    "Sukanya Ganguwar": "https://secure.gravatar.com/avatar/045a89a54d89e0ff40138257b2bc6301?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
-    "Ezdraz Baez": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:f8a7734e-9b60-4867-9aac-aa3e5f183834/5869bc81-2b1a-4ea7-a8b1-21ff4ea12af2/32",
-    "Swathi Kulkarni": "https://secure.gravatar.com/avatar/eb77bff11d8066b9c30aa337e8f2d963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSK-2.png",
-    "Maria Dalarcao": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ff0df34849d64011123265f/19115e89-79b8-4f7b-9be3-26b488f14039/32",
     "Saloni Sharma": "https://secure.gravatar.com/avatar/be7e1098705062707ceea08f6d786b72?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSS-5.png",
-    "Yan Medvedev": "https://secure.gravatar.com/avatar/c2d6de170d656900c0ce8cae4d6abb10?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-2.png"
+    "Marissa Hun": "https://secure.gravatar.com/avatar/28644aadba23947628a7558f82390ad6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FMH-0.png",
+    "Maria Dalarcao": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ff0df34849d64011123265f/19115e89-79b8-4f7b-9be3-26b488f14039/32",
+    "Jeffrey Byrd": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5a8c43819d25142e30bd7b8b/7c002899-c11f-4c2f-bb53-88ed17053c70/32",
+    "Ezdraz Baez": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/712020:f8a7734e-9b60-4867-9aac-aa3e5f183834/5869bc81-2b1a-4ea7-a8b1-21ff4ea12af2/32",
+    "Yan Medvedev": "https://secure.gravatar.com/avatar/c2d6de170d656900c0ce8cae4d6abb10?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-2.png",
+    "Sukanya Ganguwar": "https://secure.gravatar.com/avatar/045a89a54d89e0ff40138257b2bc6301?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
+    "Swathi Kulkarni": "https://secure.gravatar.com/avatar/eb77bff11d8066b9c30aa337e8f2d963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSK-2.png",
+    "Sandhya Rani": "https://secure.gravatar.com/avatar/9fcbfc64e986445ee033d72c8460a28f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSR-6.png"
   }
 }
