@@ -459,6 +459,7 @@ body {
 .ic-cap-pill.green  { color: #1A7A45; background: #EDFAF3; border-color: transparent; }
 .ic-cap-pill.amber  { color: #A05F00; background: #FFF8E6; border-color: transparent; }
 .ic-cap-pill.red    { color: #B23A38; background: #FBEBEA; border-color: transparent; }
+.ic-cap-pill.kanban { color: #0055CC; background: #E9F2FF; border-color: transparent; }
 
 /* ── Drawer ── */
 .drawer-backdrop {
@@ -818,12 +819,21 @@ function buildICList(groupId, ics, dept, groupNameMatches) {
     if (matchesSearch(name)) row.classList.add('match');
 
     const hasTickets = !!enriched.icTickets[name];
+    const kanban = enriched.kanbanIcs && enriched.kanbanIcs[name];
     let capPillHtml = '';
     if (hasTickets) {
       row.classList.add('has-tickets');
       const used = icCommittedSP(name);
       const cap = enriched.capacityCap || 10;
       capPillHtml = `<span class="ic-cap-pill ${capClass(used, cap)}">${used}/${cap} SP</span>`;
+      row.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openDrawer(name);
+      });
+    } else if (kanban) {
+      row.classList.add('has-tickets');
+      row.classList.add('kanban');
+      capPillHtml = `<span class="ic-cap-pill kanban" title="Kanban — open / done in last ${enriched.kanbanDoneWindowDays || 14}d">${kanban.openCount} open · ${kanban.doneCount} done</span>`;
       row.addEventListener('click', (e) => {
         e.stopPropagation();
         openDrawer(name);
@@ -1211,6 +1221,11 @@ const drawerTickets = document.getElementById('drawer-tickets');
 const drawerFooter = document.getElementById('drawer-footer');
 
 function openDrawer(name) {
+  // Kanban branch: no SP, no sprint — show open + recently-done windowed list.
+  const kanban = enriched.kanbanIcs && enriched.kanbanIcs[name];
+  if (kanban && !enriched.icTickets[name]) {
+    return openKanbanDrawer(name, kanban);
+  }
   const tickets = enriched.icTickets[name] || [];
   const cap = enriched.capacityCap || 10;
   const committedSp = tickets.reduce((s, t) => s + (t.sp || 0), 0);
@@ -1290,6 +1305,59 @@ function openDrawer(name) {
   drawer.setAttribute('aria-hidden', 'false');
 }
 
+function openKanbanDrawer(name, kanban) {
+  const windowDays = enriched.kanbanDoneWindowDays || 14;
+  const open = kanban.open || [];
+  const done = kanban.done || [];
+  const total = open.length + done.length;
+  const pct = total > 0 ? Math.round((done.length / total) * 100) : 0;
+  const fillCls = pct >= 80 ? '' : (pct >= 50 ? 'amber' : 'red');
+
+  drawerName.textContent = name;
+  drawerSub.textContent =
+    `Kanban · ${open.length} open · ${done.length} done in last ${windowDays}d`;
+
+  drawerCap.innerHTML = `
+    <div class="drawer-cap-row">
+      <span>Recent throughput</span>
+      <span><b>${done.length}</b> done · <b>${open.length}</b> open</span>
+    </div>
+    <div class="drawer-cap-bar">
+      <div class="drawer-cap-fill ${fillCls}" style="width:${pct}%"></div>
+    </div>
+    <div class="drawer-cap-row" style="margin-top:8px;">
+      <span>Window</span>
+      <span>Done in last ${windowDays} days</span>
+    </div>
+  `;
+
+  if (total === 0) {
+    drawerTickets.innerHTML = `<div class="drawer-empty">No tickets for ${name}.</div>`;
+  } else {
+    let html = '';
+    if (open.length) {
+      html += `<div class="drawer-section-label">Open (${open.length})</div>`;
+      html += open.map(renderTicketRow).join('');
+    }
+    if (done.length) {
+      html += `<div class="drawer-section-label">Done in last ${windowDays}d (${done.length})</div>`;
+      html += done.map(renderTicketRow).join('');
+    }
+    drawerTickets.innerHTML = html;
+  }
+
+  const jql = encodeURIComponent(`assignee = "${name}" AND statusCategory = Done AND resolved >= -90d ORDER BY resolved DESC`);
+  drawerFooter.innerHTML = `
+    <a href="https://moveinc.atlassian.net/issues/?jql=${jql}" target="_blank" rel="noopener">
+      Open ${name}'s closed tickets (last 90d) in Jira ↗
+    </a>
+  `;
+
+  drawer.classList.add('open');
+  drawerBackdrop.classList.add('open');
+  drawer.setAttribute('aria-hidden', 'false');
+}
+
 function renderTicketRow(t) {
   const sp = t.sp ? `<span class="ticket-sp">${t.sp} SP</span>` : '';
   const catCls = `cat-${t.statusCat || 'new'}`;
@@ -1302,6 +1370,7 @@ function renderTicketRow(t) {
     const label = t.parent.summary || t.parent.key;
     epicChip = `<span class="epic-chip${colorCls}" title="${t.parent.key} — ${label.replace(/"/g,'&quot;')}">${label}</span>`;
   }
+  const sprintBit = t.sprint ? `<span>· ${t.sprint}</span>` : '';
   return `
     <a class="ticket-row" href="${t.url}" target="_blank" rel="noopener">
       <div style="flex:1;min-width:0;">
@@ -1315,7 +1384,7 @@ function renderTicketRow(t) {
         <div class="ticket-meta">
           ${sp}
           <span>${t.board}</span>
-          <span>· ${t.sprint}</span>
+          ${sprintBit}
         </div>
       </div>
     </a>

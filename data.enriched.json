@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T23:56:47.113Z",
+  "generatedAt": "2026-05-29T00:32:43.676Z",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -4572,6 +4572,4662 @@
     "Yan Medvedev": "https://secure.gravatar.com/avatar/c2d6de170d656900c0ce8cae4d6abb10?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FYM-2.png",
     "Sukanya Ganguwar": "https://secure.gravatar.com/avatar/045a89a54d89e0ff40138257b2bc6301?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSG-2.png",
     "Swathi Kulkarni": "https://secure.gravatar.com/avatar/eb77bff11d8066b9c30aa337e8f2d963?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSK-2.png",
-    "Sandhya Rani": "https://secure.gravatar.com/avatar/9fcbfc64e986445ee033d72c8460a28f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSR-6.png"
-  }
+    "Sandhya Rani": "https://secure.gravatar.com/avatar/9fcbfc64e986445ee033d72c8460a28f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FSR-6.png",
+    "Justin Rumer": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:abe67569-fca0-43f9-aaa2-0644407f32c6/d06cca5a-26bf-4206-88b0-999bc6e9ab5b/32",
+    "Ryan Jenkins": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:14176425-3f1e-42a3-8fcd-c190fbba47c9/fd0f0610-a5c8-4530-96ed-239ed1d48158/32",
+    "Harsha Thumma": "https://secure.gravatar.com/avatar/de36b9395bbecee056f9198ef6ca673d?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHT-5.png",
+    "Naga Shamili Kommuru": "https://secure.gravatar.com/avatar/6c543478e540d666671bac97463a3cf5?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FNK-1.png",
+    "Oleg Gareys": "https://secure.gravatar.com/avatar/9fabe23a471cf32ca84d6accca02ca51?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FOG-2.png",
+    "Christina Gaglio": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/62ba2ab6ec4c0d377f9f1c7a/12047b5d-c2bd-4c11-9aca-2f80b05a8235/32",
+    "Fernando Alonso": "https://secure.gravatar.com/avatar/b18b8a45eb28f7433b5ea9988a038a69?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FFA-5.png",
+    "Erick Suarez Zavala": "https://secure.gravatar.com/avatar/f57f0c0ec4adc40052f098901175d553?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FEZ-0.png",
+    "Karen Hiller": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5cac1a94e53519096cd22b73/bed6f274-b8a6-423e-a03a-5b37e8527feb/32",
+    "Laoura Atoyan": "https://secure.gravatar.com/avatar/a4c26b2f049be47423166a1b726d2c0a?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FLA-5.png"
+  },
+  "kanbanIcs": {
+    "Justin Rumer": {
+      "open": [
+        {
+          "key": "TD-7320",
+          "summary": "[MLS Onboarding] FGCMLS : Filters bugs",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TD-5882",
+            "summary": "[Due Jun 01] - Florida Gulf Coast MLS Onboarding for RDC+",
+            "color": "ghx-label-11"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-7320"
+        },
+        {
+          "key": "TD-7198",
+          "summary": "Confirm DaysOnMarket is enabled for all listings and its correct field name",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TD-7256",
+            "summary": "MLS Listings Followup",
+            "color": "ghx-label-2"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-7198"
+        },
+        {
+          "key": "TD-6908",
+          "summary": "MLS Field Mapping",
+          "sp": 2,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "TD-6903",
+            "summary": "[Due Jun 12] UnlockMLS Onboarding for RDC+",
+            "color": "ghx-label-12"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-6908"
+        },
+        {
+          "key": "TD-6892",
+          "summary": "Documentation",
+          "sp": 3,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Spike",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": null,
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-6892"
+        },
+        {
+          "key": "TD-5743",
+          "summary": "[Zenlist] Listing is appearing correctly on the map of the Edit Search page, but is not appearing in the feed results.",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TCDG-1206",
+            "summary": "FY26 Support Activities",
+            "color": "ghx-label-3"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-5743"
+        },
+        {
+          "key": "TD-5551",
+          "summary": "[CCR] [Canopy] \"Stories\" filter returns 0 results, no way to search by Levels/stories",
+          "sp": 2,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TCDG-1206",
+            "summary": "FY26 Support Activities",
+            "color": "ghx-label-3"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-5551"
+        },
+        {
+          "key": "TD-4787",
+          "summary": "[Zenlist] {MRED Filter request} BuildingAge for \"proposed construction\"",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TD-5531",
+            "summary": "RMN Bugs",
+            "color": "ghx-label-12"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-4787"
+        },
+        {
+          "key": "TD-4771",
+          "summary": "[Zenlist] [Content] List view and CSV export is not displaying the HOA/Association Fee amount",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TD-5531",
+            "summary": "RMN Bugs",
+            "color": "ghx-label-12"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-4771"
+        },
+        {
+          "key": "TD-4762",
+          "summary": "[Zenlist] [BRIGHT] Add Entry Level as a searchable filter",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TD-5531",
+            "summary": "RMN Bugs",
+            "color": "ghx-label-12"
+          },
+          "board": "TD",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TD-4762"
+        },
+        {
+          "key": "COQ-50",
+          "summary": "Update LotSizeArea Global Validation logic for handling Square Metre lot size unit",
+          "sp": 3,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COQ-641",
+            "summary": "AIA: Tech Accel: Connected Content Catalog: Unify Listing ETL (Pentaho Simplifications)",
+            "color": "ghx-label-12"
+          },
+          "board": "COQ",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COQ-50"
+        },
+        {
+          "key": "CON-6473",
+          "summary": "Realtracs - NATNR (RDC) - MLS Grid to In House WebAPI",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6278",
+            "summary": "Content Continuity - FY27 Q1 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6473"
+        },
+        {
+          "key": "CON-6397",
+          "summary": "Changes to MLS Grid Media Access (6/1/26)",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6397"
+        },
+        {
+          "key": "CON-6353",
+          "summary": " SFCA & SCCA RETS/RESO API Changes",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-5576",
+            "summary": "Content Continuity - FY26 Q3 RTB MLS Mapping Updates",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6353"
+        },
+        {
+          "key": "CON-6274",
+          "summary": "BrightMLS (PHPA) - Updates not processing due to next link errors",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6274"
+        },
+        {
+          "key": "CON-6157",
+          "summary": "BeachesMLS (BEFL) New Badge Appearing",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6157"
+        },
+        {
+          "key": "CON-5924",
+          "summary": "Audit Coming Soon Availabilty for MLSs",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5924"
+        },
+        {
+          "key": "CON-5739",
+          "summary": "Metrolist (SCCA) - New TEAM fields - 2/6/26",
+          "sp": 0,
+          "status": "To Do",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Sub-task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+          "parent": {
+            "key": "CON-5583",
+            "summary": "CalaverasCounty (CCCA) - Merge into Metrolist (SCCA) - 2/3/26",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5739"
+        },
+        {
+          "key": "CON-5604",
+          "summary": "LifeandHomes - MVNY (RDC) - In House XML to In House WebAPI",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5604"
+        },
+        {
+          "key": "CON-5582",
+          "summary": "LifeandHomes - MVLSNY (LH) - unmerge and In House XML to In House WebApi reconvert",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6168",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mergers, Splits, Renamings and Dissolves",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5582"
+        },
+        {
+          "key": "CON-5240",
+          "summary": "Review configuration setups for all API sources",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5240"
+        },
+        {
+          "key": "CON-5210",
+          "summary": "Update delete jobs",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5210"
+        },
+        {
+          "key": "CON-4622",
+          "summary": "LasVegas (LVNV): to verify NewConstruction mapping on LH side",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4622"
+        },
+        {
+          "key": "CON-4529",
+          "summary": "Willamette (WIORR) - Floor Plan Mapping ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4529"
+        },
+        {
+          "key": "CON-440",
+          "summary": "TRESTLE Release - Data Dictionary 2.0 Field Changes Only",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-440"
+        },
+        {
+          "key": "CON-3936",
+          "summary": "Investigate ListHub sources sending PDF's for image processing",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3936"
+        },
+        {
+          "key": "CON-3890",
+          "summary": "NorthstarMLS - RMLSMN (LH) - Corelogic - Matrix RETS to In House WebAPI",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3890"
+        },
+        {
+          "key": "CON-3797",
+          "summary": "NorthstarMLS - MIMNR (RDC) - Corelogic - Matrix RETS to In House WebAPI",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3797"
+        },
+        {
+          "key": "CON-3656",
+          "summary": "Set Up Private Listing photo flag for Grid sources",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3656"
+        },
+        {
+          "key": "CON-3156",
+          "summary": "TANCR Floor Plans",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3156"
+        },
+        {
+          "key": "CON-2664",
+          "summary": "NKentucky (NKKYR) Spark Floor Plan Mapping ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-2664"
+        },
+        {
+          "key": "CON-2551",
+          "summary": "MLSUnited (MUMSR) - Primary photo mapping",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-2551"
+        },
+        {
+          "key": "CON-1851",
+          "summary": "Create v2 config to ingest SUNCOMMUNITIES data from the LH API",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1830",
+            "summary": "Migrate Custom LH xml Sources to LH API RTB",
+            "color": "ghx-label-10"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1851"
+        },
+        {
+          "key": "CON-1060",
+          "summary": "Syndication settings per MLS",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1060"
+        },
+        {
+          "key": "LHAPI-1139",
+          "summary": "Drop in listings from two sources - Case number 12383415",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1139"
+        },
+        {
+          "key": "LHAPI-1032",
+          "summary": "PWARPA Feed Not Working - #12279060",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1032"
+        },
+        {
+          "key": "IDO-4759",
+          "summary": "Canopy MLS (CMLSNC) Field Changes",
+          "sp": 0,
+          "status": "In Review",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "IDO-4069",
+            "summary": "Q1 FY23: MLS Mapping/Metadata Changes",
+            "color": "ghx-label-3"
+          },
+          "board": "IDO",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/IDO-4759"
+        },
+        {
+          "key": "IDO-3905",
+          "summary": "Metrolist (SCCAR) - Private Pictures (6/6/22)",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "IDO-4069",
+            "summary": "Q1 FY23: MLS Mapping/Metadata Changes",
+            "color": "ghx-label-3"
+          },
+          "board": "IDO",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/IDO-3905"
+        },
+        {
+          "key": "CR-1074",
+          "summary": "[content-mapping-service] Reconvert for PUCAR",
+          "sp": 0,
+          "status": "Draft",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-1074"
+        },
+        {
+          "key": "CON-969",
+          "summary": "ALCA, BYCA, & BDCA - Implementing Private Photos using MEDIA Class",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-969"
+        },
+        {
+          "key": "CON-6380",
+          "summary": "SouthernArizona (TUAZ) HOA Mapping Changes",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-5567",
+            "summary": "Content Continuity - FY26 Q3 KTLO ListHub",
+            "color": "ghx-label-9"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6380"
+        },
+        {
+          "key": "CON-6035",
+          "summary": "QUADCITYREALTOR & Egyptian - Split from PAARIL & merge into MRED (MREDIL) (Dec 2025)",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6168",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mergers, Splits, Renamings and Dissolves",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6035"
+        },
+        {
+          "key": "CON-1830",
+          "summary": "Migrate Custom LH xml Sources to LH API RTB",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Epic",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
+          "parent": {
+            "key": "INI-1202",
+            "summary": "Content  KTLO",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1830"
+        }
+      ],
+      "done": [
+        {
+          "key": "CON-6494",
+          "summary": "LH SYNDICATE MLSs: SUCO, VBVA, LVNV, SUMI --OpenHouse code update for Mapping service implementation",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T06:05:59.989-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6494"
+        },
+        {
+          "key": "CR-8754",
+          "summary": "[content-mapping-service] LH powered sources OH fix",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T04:56:12.980-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8754"
+        },
+        {
+          "key": "TD-6792",
+          "summary": "[RDC+] MLSListings Map \"ShowingContactPhone\" ",
+          "sp": 2,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TD-7256",
+            "summary": "MLS Listings Followup",
+            "color": "ghx-label-2"
+          },
+          "board": "TD",
+          "resolved": "2026-05-19T14:27:02.471-0700",
+          "url": "https://moveinc.atlassian.net/browse/TD-6792"
+        },
+        {
+          "key": "TD-5527",
+          "summary": "[Zenlist] [BRIGHT] \"1+ parking spots\" filter is excluding a listing with 3 parking spots",
+          "sp": 2,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "TCDG-1206",
+            "summary": "FY26 Support Activities",
+            "color": "ghx-label-3"
+          },
+          "board": "TD",
+          "resolved": "2026-05-19T14:14:33.934-0700",
+          "url": "https://moveinc.atlassian.net/browse/TD-5527"
+        },
+        {
+          "key": "TD-5887",
+          "summary": "MLS Field Mapping",
+          "sp": 3,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "TD-5882",
+            "summary": "[Due Jun 01] - Florida Gulf Coast MLS Onboarding for RDC+",
+            "color": "ghx-label-11"
+          },
+          "board": "TD",
+          "resolved": "2026-05-19T14:13:07.667-0700",
+          "url": "https://moveinc.atlassian.net/browse/TD-5887"
+        },
+        {
+          "key": "CR-8579",
+          "summary": "[content-mapping-service] SPWA Listing Display Rules",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-19T13:53:54.852-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8579"
+        },
+        {
+          "key": "CON-6459",
+          "summary": "Spokane (SPWA) - Map SAR_RealtorDotComYN field",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": "2026-05-15T13:28:48.130-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6459"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 42,
+      "doneCount": 7
+    },
+    "Ryan Jenkins": {
+      "open": [
+        {
+          "key": "CON-6392",
+          "summary": "Jenkins Job Replacement",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6392"
+        },
+        {
+          "key": "CON-4426",
+          "summary": "Identify and Update Custom Code Sources",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4426"
+        },
+        {
+          "key": "LHAPI-1193",
+          "summary": "Photos not feeding for multiple sources (CN 12432492)",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1193"
+        },
+        {
+          "key": "LHAPI-1178",
+          "summary": "Missing MLS report - Case number 12422697",
+          "sp": 0,
+          "status": "Selected for Development",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1178"
+        },
+        {
+          "key": "LHAPI-1175",
+          "summary": "Missing county info - Case number 12375925",
+          "sp": 0,
+          "status": "Selected for Development",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1175"
+        },
+        {
+          "key": "CON-6458",
+          "summary": "LHCP - Batch 21",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-1565",
+            "summary": "LH Migration to Common Pipeline ",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6458"
+        },
+        {
+          "key": "CON-6268",
+          "summary": "Realogy  Collection moving to Dynamo from Tarballs",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6268"
+        },
+        {
+          "key": "CON-5876",
+          "summary": "LHCP - SSO Prep Work",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-1565",
+            "summary": "LH Migration to Common Pipeline ",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5876"
+        },
+        {
+          "key": "CON-5632",
+          "summary": "LHCP - Realogy Setups",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-1565",
+            "summary": "LH Migration to Common Pipeline ",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5632"
+        },
+        {
+          "key": "CON-5461",
+          "summary": "HAR Email  - 2025/10/27-2025/12/22",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5461"
+        },
+        {
+          "key": "CON-5460",
+          "summary": "ALL SOURCES: Send Source Report for Sep/Oct/Nov 2025",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5460"
+        },
+        {
+          "key": "CON-4683",
+          "summary": "LH Tech Mod - Review scripts",
+          "sp": 2,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-4914",
+            "summary": "Content Continuity - FY26 Q2 KTLO ListHub Engineering",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4683"
+        }
+      ],
+      "done": [
+        {
+          "key": "LHAPI-1233",
+          "summary": "SUCOL - Not receiving listing - Case number 12450524",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-28T13:53:02.829-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1233"
+        },
+        {
+          "key": "CON-6518",
+          "summary": "Sun Communities (SUMIR) - Properties displaying Incorrectly ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": "2026-05-28T13:50:42.646-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6518"
+        },
+        {
+          "key": "LHAPI-1217",
+          "summary": "Photos missing from multiple sources - Case number 12467151",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-28T13:04:41.022-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1217"
+        },
+        {
+          "key": "LHAPI-1232",
+          "summary": "Off Market Listing still active in Tracker- TUOKL- case 12490235",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-28T12:58:16.741-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1232"
+        },
+        {
+          "key": "LHAPI-1231",
+          "summary": "CANCL - Photo feed change - Case number 12415880",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-28T12:55:03.762-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1231"
+        },
+        {
+          "key": "LHAPI-1220",
+          "summary": "Photos missing from multiple sources - Case number 12466846",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-28T12:53:08.309-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1220"
+        },
+        {
+          "key": "LHAPI-1229",
+          "summary": "SJCAL - Listings coming through with incomplete addresses - Case number 12474907",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-27T11:11:57.210-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1229"
+        },
+        {
+          "key": "LHAPI-1226",
+          "summary": "Missing Garage Spaces on RDC SF#12455230",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-27T11:11:54.131-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1226"
+        },
+        {
+          "key": "LHAPI-1225",
+          "summary": "Listings duplicating in DASH from ListHub - Case number 12394200",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-27T04:24:40.603-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1225"
+        },
+        {
+          "key": "APPSEC-110883",
+          "summary": "moverdc/fluffy-dollop : python-urllib3",
+          "sp": 0,
+          "status": "Closed (Remediated)",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "APPSEC",
+          "resolved": "2026-05-26T17:43:45.893-0700",
+          "url": "https://moveinc.atlassian.net/browse/APPSEC-110883"
+        },
+        {
+          "key": "CON-6344",
+          "summary": "Manhattan MLS - MANARNY - ListHub - Dissolve April 2026",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6168",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mergers, Splits, Renamings and Dissolves",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T11:38:56.166-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6344"
+        },
+        {
+          "key": "LHAPI-1221",
+          "summary": "Publisher query question",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T09:00:39.297-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1221"
+        },
+        {
+          "key": "LHAPI-1218",
+          "summary": "CRCOL - Missing listing remarks - Case number 12472302",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:57:50.556-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1218"
+        },
+        {
+          "key": "LHAPI-1219",
+          "summary": "Incorrect Country in NYSMLS - Case number 12472371",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:45:39.420-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1219"
+        },
+        {
+          "key": "LHAPI-1224",
+          "summary": "Incorrect address on the seler report- Case 12464119",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:29:59.573-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1224"
+        },
+        {
+          "key": "LHAPI-1222",
+          "summary": "TUOKL - Inactive listing feeding as active - Case number 12425014",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:23:34.094-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1222"
+        },
+        {
+          "key": "LHAPI-1216",
+          "summary": "Incorrect listing statuses - Case number 12463675",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:18:26.683-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1216"
+        },
+        {
+          "key": "LHAPI-1223",
+          "summary": "Listing not feeding to publisher - Case number 12325813",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-26T08:10:35.618-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1223"
+        },
+        {
+          "key": "CR-8876",
+          "summary": "MS - LH Id Fixes",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T07:30:54.630-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8876"
+        },
+        {
+          "key": "LHAPI-1186",
+          "summary": "TOCAL - ListAgentEmail field - Case number 12303753",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T09:50:05.677-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1186"
+        },
+        {
+          "key": "LHAPI-1209",
+          "summary": "Off Market Listing Still in SysAdmin SF#12470800",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T09:46:39.938-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1209"
+        },
+        {
+          "key": "LHAPI-1210",
+          "summary": "AVCAL - Missing listings - Case number 12449601",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T09:43:31.963-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1210"
+        },
+        {
+          "key": "LHAPI-1212",
+          "summary": "New OpenHouseType Field - RESO Web API - Case number 12472004",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T09:39:42.138-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1212"
+        },
+        {
+          "key": "LHAPI-1180",
+          "summary": "Problem with listings status - Case number 12407878",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T09:06:18.621-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1180"
+        },
+        {
+          "key": "LHAPI-1208",
+          "summary": "Missing photos - Case number 12446670",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T08:52:32.330-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1208"
+        },
+        {
+          "key": "LHAPI-1213",
+          "summary": "Limited metrics shown for listing (brreal) - Case #12266976",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T08:47:33.937-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1213"
+        },
+        {
+          "key": "LHAPI-1214",
+          "summary": "LVNVL - Photos are not always immediately available - Case number 12452619",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-22T08:45:44.997-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1214"
+        },
+        {
+          "key": "CON-6449",
+          "summary": "Qol Updates to parity and rev sharing Reports",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T13:30:02.693-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6449"
+        },
+        {
+          "key": "CON-6196",
+          "summary": "LHCP - Batch 20",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-1565",
+            "summary": "LH Migration to Common Pipeline ",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T10:14:18.125-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6196"
+        },
+        {
+          "key": "LHAPI-1207",
+          "summary": "Missing Zillow Metrics SF#12367614",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-21T09:08:54.967-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1207"
+        },
+        {
+          "key": "LHAPI-1206",
+          "summary": "Missing Zillow Metrics- Case 12423024",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-21T09:08:46.522-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1206"
+        },
+        {
+          "key": "CON-6478",
+          "summary": "Multiple third-party rentals displaying contact information in text descriptions",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T08:57:19.588-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6478"
+        },
+        {
+          "key": "CON-6484",
+          "summary": "LH - Investigate Inactive Sources in CP and update MLR DS",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-1565",
+            "summary": "LH Migration to Common Pipeline ",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T08:13:58.160-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6484"
+        },
+        {
+          "key": "CON-6474",
+          "summary": "ListHub Testing Publishers",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T08:00:44.053-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6474"
+        },
+        {
+          "key": "CON-6472",
+          "summary": "MLSPIN (BSMA) - Feed Investigation ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T08:18:53.510-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6472"
+        },
+        {
+          "key": "CON-6068",
+          "summary": "Martha’s Vineyard MLS - MVMLSMA (Dissolve) - LH - 4/29/26",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6168",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mergers, Splits, Renamings and Dissolves",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T08:09:17.956-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6068"
+        },
+        {
+          "key": "LHAPI-1204",
+          "summary": "Missing open house - Case number 12461356",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-20T07:30:57.470-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1204"
+        },
+        {
+          "key": "LHAPI-1205",
+          "summary": "Wrong Listing Address SF#12465246",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-20T07:14:50.445-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1205"
+        },
+        {
+          "key": "LHAPI-1201",
+          "summary": "SATXL - Listing not feeding to publisher - Case number 12433458",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-20T06:38:33.250-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1201"
+        },
+        {
+          "key": "LHAPI-1096",
+          "summary": "Missing county info - Case number 12320970",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5567",
+            "summary": "Content Continuity - FY26 Q3 KTLO ListHub",
+            "color": "ghx-label-9"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-20T06:31:50.330-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1096"
+        },
+        {
+          "key": "LHAPI-1172",
+          "summary": "Not receiving open house data - Case number 12422626",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-19T15:19:30.940-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1172"
+        },
+        {
+          "key": "LHAPI-1156",
+          "summary": "Missing photos- AIFLL- Case 12405031",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-19T15:17:30.356-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1156"
+        },
+        {
+          "key": "LHAPI-1202",
+          "summary": "GSTNL - More missing photos - Case number 12438635",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-19T15:13:12.630-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1202"
+        },
+        {
+          "key": "LHAPI-1199",
+          "summary": "Sold listing still feeding to RDC - Case number 12452738",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-19T12:50:22.522-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1199"
+        },
+        {
+          "key": "LHAPI-1191",
+          "summary": "Off Market Listings are not dropping from NEWIL - 12426780",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-15T13:45:04.438-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1191"
+        },
+        {
+          "key": "LHAPI-1196",
+          "summary": "Missing Photos- PHPAL- Case 12431050",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-15T12:10:17.947-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1196"
+        },
+        {
+          "key": "LHAPI-1187",
+          "summary": "LVNVL - Missing photos - Case number 12440201",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-15T11:03:20.875-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1187"
+        },
+        {
+          "key": "LHAPI-1194",
+          "summary": "Missing Listing- VBVAL- 12450780",
+          "sp": 0,
+          "status": "Done",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": "2026-05-15T11:00:28.450-0700",
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1194"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 12,
+      "doneCount": 48
+    },
+    "Harsha Thumma": {
+      "open": [
+        {
+          "key": "CON-6519",
+          "summary": "Please disable direct feed builder [HVHBN] -HARPETH VALLEY HOMES PID 535136247",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6519"
+        },
+        {
+          "key": "CON-6444",
+          "summary": "create is_test_datasource flag for all 5 objects in Nh and expose it in delivery files ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6444"
+        },
+        {
+          "key": "CON-6190",
+          "summary": "Add additional fields to Plan for contentranch",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6190"
+        },
+        {
+          "key": "CON-6183",
+          "summary": "Add additional fields to subdivision for contentranch",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6183"
+        },
+        {
+          "key": "CON-6055",
+          "summary": "Create dashboards for NH system alerts in splunk",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6055"
+        },
+        {
+          "key": "CON-3847",
+          "summary": "Tri Pointe Homes Las Vegas - Builder is missing virtual tours on their listings",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3847"
+        },
+        {
+          "key": "CON-3524",
+          "summary": "Mapping Service:update SourcePlanID and SourceListingID to match with pentaho",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1342",
+            "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3524"
+        },
+        {
+          "key": "CR-8968",
+          "summary": "Update subdivision_mlslink status",
+          "sp": 0,
+          "status": "Approved",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-8968"
+        },
+        {
+          "key": "CON-6521",
+          "summary": "EGstoltzfus Homes, EG1BN - Change from Direct Feed to Direct Feed - Same Corp & Builder IDs",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6521"
+        },
+        {
+          "key": "CON-6511",
+          "summary": "Update property type townhome to sync with gator",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6511"
+        },
+        {
+          "key": "CON-6510",
+          "summary": "Update subdivision_mlslink status to delete ",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6510"
+        },
+        {
+          "key": "CON-6457",
+          "summary": "Berks Homes, BERBN: Change from Direct Feed to Direct Feed - Different Corp & Builder IDs",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6457"
+        },
+        {
+          "key": "CON-6446",
+          "summary": "Analyze the content overhaul sheet and gather data for new schema addition",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Spike",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6446"
+        },
+        {
+          "key": "CON-6400",
+          "summary": "Castle & Cooke California, Inc (CCCB) PID 534019992 ADV ID 100297158",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6400"
+        },
+        {
+          "key": "CON-6309",
+          "summary": "Blender migration with mapping service -04/28 release",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2705",
+            "summary": "Mapping Service Rollout - New Homes",
+            "color": "ghx-label-10"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6309"
+        },
+        {
+          "key": "CON-6264",
+          "summary": "Add Homes Built For America  to BDX inclusion list PID 535167233 adv id 100484367",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6264"
+        },
+        {
+          "key": "CON-4634",
+          "summary": "Update New Homes mapping to support specVideoFile",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4634"
+        },
+        {
+          "key": "CON-1028",
+          "summary": "Update New Homes mapping to support multiple Virtual Tours",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1028"
+        }
+      ],
+      "done": [
+        {
+          "key": "CON-6503",
+          "summary": "Self upload builder Mandalay Homes(MDHBN) PID 538200523 mapping/integration",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6174",
+            "summary": "Content Continuity - FY26 Q4 RTB New Homes Onboarding",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-28T09:23:47.759-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6503"
+        },
+        {
+          "key": "CON-6508",
+          "summary": "Harbor Island Beach Club > PID 534395566 > HIBB - Data Source Deactivation ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T13:15:27.375-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6508"
+        },
+        {
+          "key": "CON-6509",
+          "summary": "Disable Direct feed BERKSHIRE HATHAWAY Homes PID 532947146 [BGABN]  ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T13:15:05.592-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6509"
+        },
+        {
+          "key": "CR-8970",
+          "summary": "Deactivate Data Source: Berkshire Hathaway Homes",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-27T11:18:17.653-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8970"
+        },
+        {
+          "key": "CR-8974",
+          "summary": "Deactivate Data Source: Harbor Island Beach Club",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-27T11:18:10.755-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8974"
+        },
+        {
+          "key": "CR-8819",
+          "summary": "Feed change request for BERBN",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-27T11:18:05.840-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8819"
+        },
+        {
+          "key": "CON-6496",
+          "summary": "Williams Homes, Inc (WHB1) PID 535246186 ADV ID 100494753",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:09:19.909-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6496"
+        },
+        {
+          "key": "CON-6489",
+          "summary": "Update property type multifamily to multi_family ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T07:08:59.285-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6489"
+        },
+        {
+          "key": "CR-8912",
+          "summary": "Onboard new feed MDHBN in prod",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T13:48:17.317-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8912"
+        },
+        {
+          "key": "CR-8904",
+          "summary": "PropertyType updates for NewHomes",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T13:47:59.273-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8904"
+        },
+        {
+          "key": "CON-6455",
+          "summary": "Add Coastal Estates & Development, Inc. to BDX inclusion list PID 538158341",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T08:41:36.458-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6455"
+        },
+        {
+          "key": "CR-8811",
+          "summary": "Feed change request for WHB1N",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T14:28:23.134-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8811"
+        },
+        {
+          "key": "CON-6469",
+          "summary": "San Joaquin Valley Homes (SJQBN) PID 536087979 ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T12:55:02.296-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6469"
+        },
+        {
+          "key": "CON-6481",
+          "summary": "Self upload builder Alexander Scott Homes(AXHBN)  PID 538182487 mapping/integration ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6174",
+            "summary": "Content Continuity - FY26 Q4 RTB New Homes Onboarding",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T10:37:28.248-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6481"
+        },
+        {
+          "key": "CON-6491",
+          "summary": "Sitterle Homes SITBN Request to Deactivate Data Feed",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T10:36:08.375-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6491"
+        },
+        {
+          "key": "CR-8720",
+          "summary": "BDX inclusion for Corp ID: 96056",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T08:15:16.342-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8720"
+        },
+        {
+          "key": "CR-8764",
+          "summary": "Deactivate Data Source: Sitterle Homes",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T13:28:08.435-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8764"
+        },
+        {
+          "key": "CR-8759",
+          "summary": "Onboard new feed AXHBN in prod",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T13:28:02.317-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8759"
+        },
+        {
+          "key": "CR-8715",
+          "summary": "Feed change request for SJQBN",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T12:44:14.819-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8715"
+        },
+        {
+          "key": "CON-6460",
+          "summary": "Data Source Deactivation: Lowder Homes Self Serve (LWHB) | PID 535060869 / 538110752",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T09:32:01.679-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6460"
+        },
+        {
+          "key": "CON-6395",
+          "summary": "Change in Data Endpoint Chesmar Homes - CHRBN - Please process new endpoint in QA Only",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6175",
+            "summary": "Content Continuity - FY26 Q4 KTLO New Homes",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-19T08:52:44.779-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6395"
+        },
+        {
+          "key": "CR-8502",
+          "summary": "BDX inclusion for Corp ID: 70500",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-15T07:08:04.638-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8502"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 18,
+      "doneCount": 22
+    },
+    "Naga Shamili Kommuru": {
+      "open": [
+        {
+          "key": "CON-6515",
+          "summary": "SouthCentralKS (WIKS) Coming Soon June 15, 2026",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6515"
+        },
+        {
+          "key": "CON-6493",
+          "summary": "SouthWestKansas (SWKS)  API Changes Coming Soon",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6493"
+        },
+        {
+          "key": "CON-6461",
+          "summary": " GlobalMLS (ALNY) Coming Soon Mapping",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6461"
+        },
+        {
+          "key": "CON-6453",
+          "summary": "realMLS (JAFLr) Coming Soon Mapping",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6453"
+        },
+        {
+          "key": "CON-6450",
+          "summary": " OneKeyMLS (LINY) HOA and KEY_EstimatedMaintenance",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6450"
+        },
+        {
+          "key": "CON-6414",
+          "summary": "CoastalCarolinas (MBSC) Status Update",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6414"
+        },
+        {
+          "key": "CON-6391",
+          "summary": "LasVegas (LVNV) Coming Soon Mapping",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6391"
+        },
+        {
+          "key": "CON-6388",
+          "summary": "VegasREALTORS (VRNV) Coming Soon Mapping ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6388"
+        },
+        {
+          "key": "CON-3394",
+          "summary": "Spark Version Update from Version 2 to Version 3 ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3394"
+        },
+        {
+          "key": "CON-1176",
+          "summary": "NTREIS - NTREIS (LH) - RETS to Trestle WebAPI",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": null,
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1176"
+        },
+        {
+          "key": "IDO-4932",
+          "summary": "Tag cleanup to support filter consistency work",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "IDO-4064",
+            "summary": "KTLO: Content Reliability Engineering",
+            "color": "ghx-label-12"
+          },
+          "board": "IDO",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/IDO-4932"
+        },
+        {
+          "key": "CON-6514",
+          "summary": "StellarMLS (ORFL)  Coming Soon Mapping",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6514"
+        },
+        {
+          "key": "CON-6452",
+          "summary": "NorthwesternWI (NWWI & RANWWI) Media Privacy Implemented",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6452"
+        }
+      ],
+      "done": [
+        {
+          "key": "CON-6454",
+          "summary": "Martinsville (MAVAr) Contingent  Mapping",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-28T06:42:47.866-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6454"
+        },
+        {
+          "key": "CON-6435",
+          "summary": "KeyWest - KWARFL - ListHub ID Recreations",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T11:08:21.559-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6435"
+        },
+        {
+          "key": "CON-6475",
+          "summary": "  StateWide (RIRI)  Coming Soon Mapping",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T09:02:39.128-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6475"
+        },
+        {
+          "key": "CON-6505",
+          "summary": "EasternUpperPeninsula (SSMI) - Need Agent ID field Concatenation rule reinstated ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T07:25:34.786-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6505"
+        },
+        {
+          "key": "CON-6479",
+          "summary": "CVRMLS (CEVA)  Coming Soon Mapping",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T07:13:11.557-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6479"
+        },
+        {
+          "key": "CR-8816",
+          "summary": "[content-mapping-service] SSMI - Missing Listing Agent on Listings",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T14:07:54.337-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8816"
+        },
+        {
+          "key": "CON-6506",
+          "summary": "SSMI - Missing Listing Agent on Listings",
+          "sp": 0,
+          "status": "Cancelled",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T13:06:25.798-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6506"
+        },
+        {
+          "key": "CON-6495",
+          "summary": "Trestle Password Reset RDC - VOW - WebAPI ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "IDO-4064",
+            "summary": "KTLO: Content Reliability Engineering",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T08:27:36.820-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6495"
+        },
+        {
+          "key": "CR-8693",
+          "summary": "[content-mapping-service] MAFL RDC & LH reconvert",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T15:58:57.263-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8693"
+        },
+        {
+          "key": "CON-6434",
+          "summary": "FloridaKeys - FLKEYSMLSFL - ListHub ID Recreations",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T15:58:37.627-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6434"
+        },
+        {
+          "key": "CR-8688",
+          "summary": "[content-mapping-service] KWFL RDC reconvert",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T15:58:25.733-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8688"
+        },
+        {
+          "key": "CON-5610",
+          "summary": "KeyWest - KWARFL (LH) - FBS RETS to Spark WebAPI",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T15:58:13.055-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-5610"
+        },
+        {
+          "key": "CON-5606",
+          "summary": "Marathon - MLKARFL (LH) - FBS RETS to Spark WebAPI",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T15:57:24.622-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-5606"
+        },
+        {
+          "key": "CON-5608",
+          "summary": "FloridaKeys - FLKEYSMLSFL (LH) - FBS RETS to Spark WebAPI",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-5615",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS RESO/RETS Reconverts",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-21T15:56:34.300-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-5608"
+        },
+        {
+          "key": "CR-8709",
+          "summary": "[content-mapping-service] Martinsville (MAVAr) Contingent Mapping",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T10:24:57.936-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8709"
+        },
+        {
+          "key": "CON-6381",
+          "summary": "realMLS (JAFL) Upcoming Updates to Listing Options",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T12:10:13.665-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6381"
+        },
+        {
+          "key": "CON-6482",
+          "summary": "[On Call Tracking] 05/13/2026 - 05/20/2026",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6164",
+            "summary": "Content Continuity - FY26 Q4 KTLO On-Call",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T12:09:59.053-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6482"
+        },
+        {
+          "key": "CON-6348",
+          "summary": "Bakersfield (BACA) RETS/RESO API Changes  (5/18/26)",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-19T18:23:23.157-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6348"
+        },
+        {
+          "key": "CON-6442",
+          "summary": "DouglasElliman (DENY) Data Down | Feed Investigation Request",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-19T06:12:48.397-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6442"
+        },
+        {
+          "key": "CON-6357",
+          "summary": "STCA -  RETS/RESO API Changes Coming Soon",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-19T05:45:57.001-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6357"
+        },
+        {
+          "key": "CON-6451",
+          "summary": "Waterwonderland (COMI)r  HOA Mapping ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-15T10:53:32.653-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6451"
+        },
+        {
+          "key": "CON-6089",
+          "summary": "ContraCosta (ALCAr) Coming Soon Mapping ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-15T09:14:43.613-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6089"
+        },
+        {
+          "key": "CR-8535",
+          "summary": "[content-mapping-service] FKFLR RDC reconvert",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-15T06:33:47.707-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8535"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 13,
+      "doneCount": 23
+    },
+    "Paul Bond": {
+      "open": [
+        {
+          "key": "TSC-1838",
+          "summary": "Site Map Validation",
+          "sp": 1,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TSC-1098",
+            "summary": "Compliance Overhaul",
+            "color": "ghx-label-2"
+          },
+          "board": "TSC",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TSC-1838"
+        },
+        {
+          "key": "TSC-2046",
+          "summary": "Update Terraform Configuration for MySQL 8.4 RDS Instances",
+          "sp": 3,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TSC-1830",
+            "summary": "KTLO FY26 Q4",
+            "color": "ghx-label-12"
+          },
+          "board": "TSC",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TSC-2046"
+        },
+        {
+          "key": "TSC-2044",
+          "summary": "Support ListHub Prod DB Upgrade: MySQL 8.0 to 8.4",
+          "sp": 3,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TSC-1830",
+            "summary": "KTLO FY26 Q4",
+            "color": "ghx-label-12"
+          },
+          "board": "TSC",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TSC-2044"
+        },
+        {
+          "key": "APPSEC-87632",
+          "summary": "moverdc/source-listings-loader : Missing User Instruction",
+          "sp": 0,
+          "status": "Engineer Assigned",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "APPSEC",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/APPSEC-87632"
+        }
+      ],
+      "done": [
+        {
+          "key": "TSC-2045",
+          "summary": "Decommission history2-prod RDS Instance",
+          "sp": 2,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TSC-1830",
+            "summary": "KTLO FY26 Q4",
+            "color": "ghx-label-12"
+          },
+          "board": "TSC",
+          "resolved": "2026-05-28T13:38:44.036-0700",
+          "url": "https://moveinc.atlassian.net/browse/TSC-2045"
+        },
+        {
+          "key": "TSC-2043",
+          "summary": "Merge TSC-1317 channel runner stats doc branch to main (listhub repo)",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "TSC-1830",
+            "summary": "KTLO FY26 Q4",
+            "color": "ghx-label-12"
+          },
+          "board": "TSC",
+          "resolved": "2026-05-27T04:08:16.298-0700",
+          "url": "https://moveinc.atlassian.net/browse/TSC-2043"
+        },
+        {
+          "key": "APPSEC-107702",
+          "summary": "moverdc/listings-db : validate-yaml.py : Deserialization_of_Untrusted_Data",
+          "sp": 0,
+          "status": "Closed (False Positive)",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "APPSEC",
+          "resolved": "2026-05-21T19:54:17.455-0700",
+          "url": "https://moveinc.atlassian.net/browse/APPSEC-107702"
+        },
+        {
+          "key": "TSC-1317",
+          "summary": "Channel Runner Investigation for Source Reporting",
+          "sp": 5,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Spike",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "TSC-1830",
+            "summary": "KTLO FY26 Q4",
+            "color": "ghx-label-12"
+          },
+          "board": "TSC",
+          "resolved": "2026-05-20T05:24:55.505-0700",
+          "url": "https://moveinc.atlassian.net/browse/TSC-1317"
+        },
+        {
+          "key": "TSC-1925",
+          "summary": "Support ListHub Dev DB Upgrade: MySQL 8.0 to 8.4",
+          "sp": 3,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "TSC-1831",
+            "summary": "Tech Roadmap FY26 Q4",
+            "color": "ghx-label-11"
+          },
+          "board": "TSC",
+          "resolved": "2026-05-20T05:24:19.199-0700",
+          "url": "https://moveinc.atlassian.net/browse/TSC-1925"
+        },
+        {
+          "key": "APPSEC-106231",
+          "summary": "moverdc/listhub-accounts-api : Unrestricted Security Group Ingress",
+          "sp": 0,
+          "status": "Closed (Remediated)",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "APPSEC",
+          "resolved": "2026-05-19T19:13:08.865-0700",
+          "url": "https://moveinc.atlassian.net/browse/APPSEC-106231"
+        },
+        {
+          "key": "APPSEC-108557",
+          "summary": "moverdc/listhub-accounts-api : DB Security Group Open To Large Scope",
+          "sp": 0,
+          "status": "Closed (Remediated)",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "APPSEC",
+          "resolved": "2026-05-19T19:13:07.766-0700",
+          "url": "https://moveinc.atlassian.net/browse/APPSEC-108557"
+        },
+        {
+          "key": "CVM-57471",
+          "summary": "Unpatched container image - 48f04dc9-a6d8-5e30-85fb-795585c3940f",
+          "sp": 0,
+          "status": "Archived",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Vulnerability",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": null,
+          "board": "CVM",
+          "resolved": "2026-05-18T11:33:49.061-0700",
+          "url": "https://moveinc.atlassian.net/browse/CVM-57471"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 4,
+      "doneCount": 8
+    },
+    "Oleg Gareys": {
+      "open": [
+        {
+          "key": "TLCS-19",
+          "summary": "Binder data updation and creation",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": null,
+          "board": "TLCS",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TLCS-19"
+        },
+        {
+          "key": "TLCS-17",
+          "summary": "New_Homes Plan and Spec Binder listings with 'Email Agent' CTAs ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": null,
+          "board": "TLCS",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TLCS-17"
+        },
+        {
+          "key": "TLCS-15",
+          "summary": "Support https for builder logos & href",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Bug",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+          "parent": null,
+          "board": "TLCS",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TLCS-15"
+        },
+        {
+          "key": "TLCS-14",
+          "summary": "INTL : Filter out all emojis in the global ktr for the international pipeline",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CONT-97",
+            "summary": "Migration of INTL Service to Common Pipeline",
+            "color": "ghx-label-6"
+          },
+          "board": "TLCS",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/TLCS-14"
+        },
+        {
+          "key": "INTL-1991",
+          "summary": "EDEN - Updated logo not displaying",
+          "sp": 0,
+          "status": "To Do",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1991"
+        },
+        {
+          "key": "INTL-1983",
+          "summary": "IMLS - missing photos",
+          "sp": 0,
+          "status": "To Do",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1983"
+        },
+        {
+          "key": "INTL-1645",
+          "summary": "Set the default values to mandatory fields of REA at the KTR layer",
+          "sp": 5,
+          "status": "To Do",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CONT-97",
+            "summary": "Migration of INTL Service to Common Pipeline",
+            "color": "ghx-label-6"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1645"
+        },
+        {
+          "key": "IDO-4923",
+          "summary": "All Binder, ZZ test listings need updating to a lat/long that is not within the US",
+          "sp": 0,
+          "status": "Backlog",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "IDO-4064",
+            "summary": "KTLO: Content Reliability Engineering",
+            "color": "ghx-label-12"
+          },
+          "board": "IDO",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/IDO-4923"
+        },
+        {
+          "key": "CON-4994",
+          "summary": "Implement IDXParticipationYN and InternetEntireListingDisplayYN for all MLS Grid sources (RDC & LH)",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4994"
+        },
+        {
+          "key": "INTL-1979",
+          "summary": "EDEN - Missing photos 3/18",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1979"
+        },
+        {
+          "key": "INTL-1972",
+          "summary": "OMNI mls missing listing ",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1972"
+        },
+        {
+          "key": "INTL-1956",
+          "summary": "EDEN - Feed update - photo format",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1956"
+        },
+        {
+          "key": "INTL-1931",
+          "summary": "Properstar open issues 6/9/25",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1931"
+        },
+        {
+          "key": "INTL-1852",
+          "summary": "EDEN - Some listings not published",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Support",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10320?size=medium",
+          "parent": {
+            "key": "CONT-64",
+            "summary": "Content Enhancement Support",
+            "color": "ghx-label-8"
+          },
+          "board": "INTL",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/INTL-1852"
+        },
+        {
+          "key": "CON-6333",
+          "summary": "NTREISRDC - NTTX/NTREIS - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Blocked",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6333"
+        },
+        {
+          "key": "CON-5459",
+          "summary": "Firelands (FIOH) Virtual Tour Add",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5459"
+        },
+        {
+          "key": "CON-5412",
+          "summary": "[content-mapping-service] MiamiMLS (FLFL): to weed out non-US listings",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5412"
+        },
+        {
+          "key": "CON-4290",
+          "summary": "Create MLS Metadata Roster Report",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-4290"
+        },
+        {
+          "key": "CON-3254",
+          "summary": "Blender support for units dates data",
+          "sp": 3,
+          "status": "Test Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3254"
+        },
+        {
+          "key": "CON-2342",
+          "summary": "WesternArizona (WAAZR.V2) - Teams (Resource)",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-2342"
+        },
+        {
+          "key": "CON-1389",
+          "summary": "Analyze Blender Maps and Delivery Rules",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1342",
+            "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-1389"
+        }
+      ],
+      "done": [],
+      "manager": "MH",
+      "openCount": 21,
+      "doneCount": 0
+    },
+    "Christina Gaglio": {
+      "open": [
+        {
+          "key": "CON-6326",
+          "summary": "CorcoranGroup - CCRN - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6326"
+        },
+        {
+          "key": "CON-5827",
+          "summary": "ZILL: CplEligible filters records after company creation",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5827"
+        },
+        {
+          "key": "CON-5409",
+          "summary": "Investigate NULL Company ID errors ",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5409"
+        },
+        {
+          "key": "CON-982",
+          "summary": "Update MDD to set BuyerAgentCommission and BuyerAgentCommissionType to not display on the FE",
+          "sp": 0,
+          "status": "Blocked",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1384",
+            "summary": "Seller Concessions Field Additions KTLO",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-982"
+        },
+        {
+          "key": "CON-76",
+          "summary": "Zumper - Onboarding MITs Feeds ",
+          "sp": 0,
+          "status": "Blocked",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-76"
+        },
+        {
+          "key": "CON-6483",
+          "summary": "WarrenPA (WAPA)  Open House Investigation",
+          "sp": 0,
+          "status": "Development Complete",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6483"
+        },
+        {
+          "key": "CON-6350",
+          "summary": "Rentredi (REDIU) One off listing - missing images",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6350"
+        },
+        {
+          "key": "CON-6324",
+          "summary": "GardenState - GSNJ/GSMLSNJ - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6324"
+        },
+        {
+          "key": "COEM-1073",
+          "summary": "Standardize Community AmenityCycle Key-Normalizer",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "COEM-540",
+            "summary": "KTLO: Rentals/New Homes",
+            "color": "ghx-label-13"
+          },
+          "board": "COEM",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/COEM-1073"
+        }
+      ],
+      "done": [
+        {
+          "key": "CR-9056",
+          "summary": "[content-mapping-service] LeaseOptionConsidered Fix for Perchwell (PENYR), WarrenPA (WAPAR)",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-28T11:02:57.640-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9056"
+        },
+        {
+          "key": "CON-6513",
+          "summary": "Greenwood (GESC)  Water Front Search Inquiry",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-28T10:00:02.458-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6513"
+        },
+        {
+          "key": "CR-9043",
+          "summary": "[content-mapping-service] Greenwood (GESC) Water Front Mapping",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-28T09:59:37.970-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9043"
+        },
+        {
+          "key": "CON-6325",
+          "summary": "Compass - UCNY - Migrate to Mapping Service",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-2829",
+            "summary": "Mapping Service Rollout - RDC/LH",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-28T09:38:14.762-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6325"
+        },
+        {
+          "key": "CON-6497",
+          "summary": "Unit Rental - Listing Count Parity between QA and PROD Hestia ",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T12:37:39.392-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6497"
+        },
+        {
+          "key": "CR-8917",
+          "summary": "[content-mapping-service] OH Mapping Fix for RMLSmultilist (RMMI), EastEndLIRDC (EENY)",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-27T06:10:03.431-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8917"
+        },
+        {
+          "key": "CR-8877",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - Tuesday 05/26 Release",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-26T13:06:15.448-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8877"
+        },
+        {
+          "key": "CON-6462",
+          "summary": "Map new RMNYN Roster Flag",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": "2026-05-26T10:11:08.604-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6462"
+        },
+        {
+          "key": "CR-8788",
+          "summary": "[content-mapping-service] NorthernNeck (NNVA) Pending Status",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T08:52:58.299-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8788"
+        },
+        {
+          "key": "CON-6492",
+          "summary": "NorthernNeck (NNVA) Pending Status",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6167",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mapping Updates",
+            "color": "ghx-label-14"
+          },
+          "board": "CON",
+          "resolved": "2026-05-22T08:52:46.629-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6492"
+        },
+        {
+          "key": "CR-8753",
+          "summary": "[content-mapping-service]/[SMA] WarrenPA (WAPA) Open House Mapping Update",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T12:22:19.955-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8753"
+        },
+        {
+          "key": "CR-8694",
+          "summary": "[content-mapping-service] Datasource Migration to Mapping Service - Thursday 05/21 Release",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T11:42:11.967-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8694"
+        },
+        {
+          "key": "CR-8699",
+          "summary": "[content-mapping-service] Map RMNYN tag for all RMN sources",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T09:20:08.296-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8699"
+        },
+        {
+          "key": "CON-6002",
+          "summary": "Create new RMN roster boolean flag",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6169",
+            "summary": "Content Continuity - FY26 Q4 KTLO MLS",
+            "color": "ghx-label-2"
+          },
+          "board": "CON",
+          "resolved": "2026-05-18T06:25:11.147-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6002"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 9,
+      "doneCount": 14
+    },
+    "Fernando Alonso": {
+      "open": [
+        {
+          "key": "CON-6338",
+          "summary": "MagicDoor (MADOU) - Unit Rental Onboarding",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6338"
+        },
+        {
+          "key": "CR-8105",
+          "summary": "[content-mapping-service] Onboard MagicDoor (MADOU) Unit Rental Feed",
+          "sp": 0,
+          "status": "EM Review",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-8105"
+        },
+        {
+          "key": "CR-7512",
+          "summary": "[content-mapping-service] Onboard Simplify Em (SIEMU) Unit Rental Feed",
+          "sp": 0,
+          "status": "EM Review",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-7512"
+        },
+        {
+          "key": "CON-6488",
+          "summary": "DoorLoop Multi-family (DOORC) - Onboard Community Rental feed",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6488"
+        },
+        {
+          "key": "CON-6138",
+          "summary": "SimplifyEm (SIEMU) - Unit Rental Onboarding",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6138"
+        },
+        {
+          "key": "CON-6000",
+          "summary": "Update Rentals Onboarding for Process Change",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1250",
+            "summary": "Content Continuity - KTLO Cross Training",
+            "color": "ghx-label-4"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6000"
+        },
+        {
+          "key": "CON-5383",
+          "summary": "Rentvine (RENVU) - Unit Rental Onboarding",
+          "sp": 0,
+          "status": "Blocked",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-5383"
+        }
+      ],
+      "done": [],
+      "manager": "MH",
+      "openCount": 7,
+      "doneCount": 0
+    },
+    "Erick Suarez Zavala": {
+      "open": [
+        {
+          "key": "CON-6441",
+          "summary": "FirstKey Homes (FKHOU) - Property Description",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6173",
+            "summary": "Content Continuity - FY26 Q4 KTLO Rentals",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6441"
+        },
+        {
+          "key": "CR-8100",
+          "summary": "Brandywine Homes (BRHOU) - Update SqFt field",
+          "sp": 0,
+          "status": "EM Review",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CR-8100"
+        },
+        {
+          "key": "CON-6140",
+          "summary": "Brandywine Homes (BRHOU) - Unit Rental Onboarding",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6171",
+            "summary": "Content Continuity - FY26 Q4 RTB Rentals Onboarding",
+            "color": "ghx-label-11"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-6140"
+        }
+      ],
+      "done": [],
+      "manager": "MH",
+      "openCount": 3,
+      "doneCount": 0
+    },
+    "Karen Hiller": {
+      "open": [
+        {
+          "key": "CON-2085",
+          "summary": "Salesforce Integration and Tracking KTLO",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Epic",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
+          "parent": {
+            "key": "INI-1202",
+            "summary": "Content  KTLO",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-2085"
+        }
+      ],
+      "done": [
+        {
+          "key": "CR-9063",
+          "summary": "BECA -- FIX -- Update Property type for expanded lookups",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-28T15:33:57.738-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9063"
+        },
+        {
+          "key": "CR-9055",
+          "summary": "BHSD -- FIX -- Update Property type for expanded lookups ",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-28T11:08:17.535-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9055"
+        },
+        {
+          "key": "CR-9040",
+          "summary": "DVCO -- FIX -- Update LstStatus code for function",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-28T08:52:18.339-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-9040"
+        },
+        {
+          "key": "CON-6512",
+          "summary": "[Salesforce Tracking] 05/20/2026 -05/26/2026",
+          "sp": 4,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6166",
+            "summary": "Content Continuity - FY26 Q4 KTLO Salesforce",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": "2026-05-27T08:03:25.181-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6512"
+        },
+        {
+          "key": "CR-8809",
+          "summary": "OMNE -- FIX -- Update MF bedroom function for field name",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-22T12:43:22.822-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8809"
+        },
+        {
+          "key": "CR-8707",
+          "summary": "NWSD -- FIX --UPDATE code for metadata for Foreclosure/Shortsale",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-21T10:03:02.395-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8707"
+        },
+        {
+          "key": "CON-6464",
+          "summary": "AltamahaBasin (ABGA) - Merge to GeorgiaMLS (ASGA) - (5/15/26)",
+          "sp": 0,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Task",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "CON-6168",
+            "summary": "Content Continuity - FY26 Q4 RTB MLS Mergers, Splits, Renamings and Dissolves",
+            "color": "ghx-label-1"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T12:33:48.104-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6464"
+        },
+        {
+          "key": "CON-6480",
+          "summary": "[Salesforce Tracking] 05/13/2026 -05/19/2026",
+          "sp": 6,
+          "status": "Accepted",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6166",
+            "summary": "Content Continuity - FY26 Q4 KTLO Salesforce",
+            "color": "ghx-label-13"
+          },
+          "board": "CON",
+          "resolved": "2026-05-20T07:22:55.447-0700",
+          "url": "https://moveinc.atlassian.net/browse/CON-6480"
+        },
+        {
+          "key": "CR-8577",
+          "summary": "SATX -- FIX --UPDATE MLS for additional CONDO data trigger",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-15T13:08:59.349-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8577"
+        },
+        {
+          "key": "CR-8575",
+          "summary": "WAAL -- FIX -- 2nd UPDATE MLS requested bath fields for proper data evaluation",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-15T11:40:53.344-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8575"
+        },
+        {
+          "key": "CR-8509",
+          "summary": "WAAL -- FIX -- update MLS requested bath fields for proper data evaluation",
+          "sp": 0,
+          "status": "Closed",
+          "statusCat": "done",
+          "statusColor": "green",
+          "issueType": "Change Request",
+          "issueTypeIcon": "https://api.atlassian.com/ex/jira/cf0dc8c2-47a8-4929-8d48-2e03205ce9da/rest/api/2/universal_avatar/view/type/issuetype/avatar/10323?size=medium",
+          "parent": null,
+          "board": "CR",
+          "resolved": "2026-05-15T11:26:56.797-0700",
+          "url": "https://moveinc.atlassian.net/browse/CR-8509"
+        }
+      ],
+      "manager": "MH",
+      "openCount": 1,
+      "doneCount": 11
+    },
+    "Laoura Atoyan": {
+      "open": [
+        {
+          "key": "CON-3892",
+          "summary": "Mapping Service: Improve FBS Spark shared map field coverage",
+          "sp": 0,
+          "status": "Ready to Start",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-1342",
+            "summary": "Legacy Services Depreciation P1: Replacing Pentaho - Mapping Service & Gator Work Unit",
+            "color": "ghx-label-12"
+          },
+          "board": "CON",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CON-3892"
+        }
+      ],
+      "done": [],
+      "manager": "MH",
+      "openCount": 1,
+      "doneCount": 0
+    }
+  },
+  "kanbanDoneWindowDays": 14
 }
