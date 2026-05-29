@@ -676,7 +676,7 @@ a.sync-badge:hover    { filter: brightness(.95); }
     <h1>CIS — Sprint Pulse</h1>
   </div>
   <div class="header-sep"></div>
-  <div class="header-meta" id="meta">Tyler Romeo's organization · commits, throughput, last 14d activity</div>
+  <div class="header-meta" id="meta"></div>
   <div class="header-actions">
     <button class="btn btn-ghost btn-sm" id="expand-all">Expand all</button>
     <button class="btn btn-primary btn-sm" id="collapse-all">Collapse all</button>
@@ -1462,17 +1462,19 @@ Promise.all([
     activeDepts = new Set(ALL_DEPTS);
     if (enrich) enriched = enrich;
 
-    let metaText = `Tyler Romeo's organization · commits, throughput, last 14d`;
+    let metaText = '';
     let freshClass = '', freshTitle = 'No Jira sync yet';
     if (enriched.generatedAt) {
       const ts = new Date(enriched.generatedAt);
       const ageMin = (Date.now() - ts.getTime()) / 60000;
-      metaText += ` · Jira ${ts.toLocaleString()}`;
+      metaText = `Jira synced ${ts.toLocaleString()}`;
       if (ageMin < 30)        { freshClass = 'fresh'; freshTitle = `Synced ${Math.round(ageMin)} min ago`; }
       else if (ageMin < 24*60){ freshClass = 'stale'; freshTitle = `Synced ${Math.round(ageMin/60)}h ago`; }
       else                    { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
     } else if (json.lastUpdated) {
-      metaText += ` · synced ${new Date(json.lastUpdated).toLocaleString()}`;
+      metaText = `Synced ${new Date(json.lastUpdated).toLocaleString()}`;
+    } else {
+      metaText = 'No Jira sync yet';
     }
     // Sync source badge — tells you whether this data came from the 15-min
     // cron, a manual "Run workflow" click, or a local run from your laptop.
