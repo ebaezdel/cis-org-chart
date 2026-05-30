@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T23:20:59.280Z",
+  "generatedAt": "2026-05-30T01:28:54.447Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26667163994",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26670682081",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -19,8 +19,8 @@
   "managerHealth": {
     "SS": {
       "committed": 163,
-      "done": 56,
-      "pct": 34,
+      "done": 57,
+      "pct": 35,
       "ticketCount": 99,
       "sprintNames": [
         "CSS.FY26.Q4.S23",
@@ -1709,24 +1709,6 @@
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1126"
       },
       {
-        "key": "CEGEO-1176",
-        "summary": "[Appsec] moverdc/local.markettrend.api : npm-lodash",
-        "sp": 1,
-        "status": "In Progress",
-        "statusCat": "indeterminate",
-        "statusColor": "yellow",
-        "issueType": "Story",
-        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-        "parent": {
-          "key": "CEGEO-741",
-          "summary": "APPSEC-Geo",
-          "color": "ghx-label-9"
-        },
-        "board": "CEGEO",
-        "sprint": "TL-CEGEO.FY26.Q4S23",
-        "url": "https://moveinc.atlassian.net/browse/CEGEO-1176"
-      },
-      {
         "key": "CEGEO-1022",
         "summary": "Automate Schools Diff Report Generation",
         "sp": 3,
@@ -1743,6 +1725,24 @@
         "board": "CEGEO",
         "sprint": "TL-CEGEO.FY26.Q4S23",
         "url": "https://moveinc.atlassian.net/browse/CEGEO-1022"
+      },
+      {
+        "key": "CEGEO-1176",
+        "summary": "[Appsec] moverdc/local.markettrend.api : npm-lodash",
+        "sp": 1,
+        "status": "Cancelled",
+        "statusCat": "done",
+        "statusColor": "green",
+        "issueType": "Story",
+        "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+        "parent": {
+          "key": "CEGEO-741",
+          "summary": "APPSEC-Geo",
+          "color": "ghx-label-9"
+        },
+        "board": "CEGEO",
+        "sprint": "TL-CEGEO.FY26.Q4S23",
+        "url": "https://moveinc.atlassian.net/browse/CEGEO-1176"
       }
     ],
     "Narendra Devireddi": [
@@ -2950,7 +2950,7 @@
         "key": "TCET-619",
         "summary": "Update mlslink_status of nh-mlslink-cache dynamo table - one time script",
         "sp": 2,
-        "status": "In Progress",
+        "status": "Test Complete",
         "statusCat": "indeterminate",
         "statusColor": "yellow",
         "issueType": "Story",
@@ -13480,81 +13480,11 @@
           "board": "CR",
           "resolved": "2026-05-17T19:02:14.981-0700",
           "url": "https://moveinc.atlassian.net/browse/CR-888"
-        },
-        {
-          "key": "APPSEC-108200",
-          "summary": "moverdc/local.markettrend.api : npm-fast-xml-parser",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T17:37:06.960-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-108200"
-        },
-        {
-          "key": "APPSEC-108201",
-          "summary": "moverdc/local.markettrend.api : npm-minimatch",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T17:37:05.825-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-108201"
-        },
-        {
-          "key": "APPSEC-108915",
-          "summary": "moverdc/local.markettrend.api : npm-flatted",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T17:37:04.638-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-108915"
-        },
-        {
-          "key": "APPSEC-109305",
-          "summary": "moverdc/local.markettrend.api : npm-underscore",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T17:36:58.378-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-109305"
-        },
-        {
-          "key": "APPSEC-109839",
-          "summary": "moverdc/local.markettrend.api : npm-protobufjs",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T17:36:56.199-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-109839"
         }
       ],
       "manager": "LEADERS",
       "openCount": 21,
-      "doneCount": 51
+      "doneCount": 46
     },
     "Tyler Romeo": {
       "open": [
@@ -14181,7 +14111,7 @@
           "key": "PEWG-9",
           "summary": "CCI shared-pipelines argocd job should await successful argo deployment",
           "sp": 0,
-          "status": "Ready to Start",
+          "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
           "issueType": "Story",
@@ -14199,7 +14129,7 @@
           "key": "PEWG-8",
           "summary": "Create a Claude skill for migrating to CCI shared-pipelines orb",
           "sp": 0,
-          "status": "Ready to Start",
+          "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
           "issueType": "Story",
@@ -14217,7 +14147,7 @@
           "key": "PEWG-7",
           "summary": "Enable CircleCI self-hosted runners for CCI shared-pipeline",
           "sp": 0,
-          "status": "Ready to Start",
+          "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
           "issueType": "Story",
@@ -14240,14 +14170,24 @@
           "statusColor": "blue-gray",
           "issueType": "Epic",
           "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
-          "parent": {
-            "key": "INI-1115",
-            "summary": "Content: Driving Quality and Platform Adoption",
-            "color": "ghx-label-10"
-          },
+          "parent": null,
           "board": "PEWG",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/PEWG-4"
+        },
+        {
+          "key": "PEWG-18",
+          "summary": "CIS Operating Model",
+          "sp": 0,
+          "status": "Pending Approval",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Epic",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
+          "parent": null,
+          "board": "PEWG",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/PEWG-18"
         },
         {
           "key": "PEWG-15",
@@ -14276,11 +14216,7 @@
           "statusColor": "blue-gray",
           "issueType": "Epic",
           "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
-          "parent": {
-            "key": "INI-1115",
-            "summary": "Content: Driving Quality and Platform Adoption",
-            "color": "ghx-label-10"
-          },
+          "parent": null,
           "board": "PEWG",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/PEWG-14"
@@ -14289,7 +14225,7 @@
           "key": "PEWG-11",
           "summary": "Investigate git branching strategies across RDC",
           "sp": 0,
-          "status": "Ready to Start",
+          "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
           "issueType": "Spike",
@@ -14307,7 +14243,7 @@
           "key": "PEWG-10",
           "summary": "CircleCI Admin Job",
           "sp": 0,
-          "status": "Ready to Start",
+          "status": "Pending Approval",
           "statusCat": "new",
           "statusColor": "blue-gray",
           "issueType": "Story",
@@ -14320,6 +14256,34 @@
           "board": "PEWG",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/PEWG-10"
+        },
+        {
+          "key": "CNTNT-808",
+          "summary": "RDC Standards & Decisions",
+          "sp": 0,
+          "status": "New Request",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-808"
+        },
+        {
+          "key": "CNTNT-807",
+          "summary": "Document CIS Operating Model",
+          "sp": 0,
+          "status": "New Request",
+          "statusCat": "new",
+          "statusColor": "blue-gray",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-807"
         },
         {
           "key": "CNTNT-805",
@@ -14428,14 +14392,28 @@
           "statusColor": "yellow",
           "issueType": "Epic",
           "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/epic.svg",
-          "parent": {
-            "key": "INI-1115",
-            "summary": "Content: Driving Quality and Platform Adoption",
-            "color": "ghx-label-10"
-          },
+          "parent": null,
           "board": "PEWG",
           "resolved": null,
           "url": "https://moveinc.atlassian.net/browse/PEWG-2"
+        },
+        {
+          "key": "PEWG-16",
+          "summary": "Data Collection V2 Architecture Support",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Task",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+          "parent": {
+            "key": "PEWG-13",
+            "summary": "PE FY26Q4 RTB",
+            "color": "ghx-label-13"
+          },
+          "board": "PEWG",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/PEWG-16"
         },
         {
           "key": "CNTNT-797",
@@ -14879,7 +14857,7 @@
         }
       ],
       "manager": "JB",
-      "openCount": 23,
+      "openCount": 27,
       "doneCount": 24
     }
   },
