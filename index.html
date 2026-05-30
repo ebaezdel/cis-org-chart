@@ -75,9 +75,9 @@ body {
   background: #6E7480;
   flex-shrink: 0;
 }
-.fresh-dot.fresh  { background: #22A06B; box-shadow: 0 0 0 2px rgba(34,160,107,.18); }
-.fresh-dot.stale  { background: #F5B814; }
-.fresh-dot.cold   { background: #C9372C; }
+.fresh-dot.fresh   { background: #22A06B; box-shadow: 0 0 0 2px rgba(34,160,107,.18); }
+.fresh-dot.syncing { background: #F5B814; box-shadow: 0 0 0 2px rgba(245,184,20,.20); animation: sync-pulse 1.4s ease-in-out infinite; }
+.fresh-dot.cold    { background: #C9372C; }
 .sync-badge {
   font-size: 10px; font-weight: 600; letter-spacing: .3px;
   padding: 2px 7px; border-radius: 999px;
@@ -1516,9 +1516,10 @@ function renderMeta(json) {
     const ts = new Date(enriched.generatedAt);
     const ageMin = (Date.now() - ts.getTime()) / 60000;
     metaText = `Jira synced ${ts.toLocaleString()}`;
-    if (ageMin < 30)        { freshClass = 'fresh'; freshTitle = `Synced ${Math.round(ageMin)} min ago`; }
-    else if (ageMin < 24*60){ freshClass = 'stale'; freshTitle = `Synced ${Math.round(ageMin/60)}h ago`; }
-    else                    { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
+    // Green = healthy (any age <24h). Red = stale enough to mean broken.
+    // Amber is reserved for "actively syncing" — the countdown sets it dynamically.
+    if (ageMin < 24*60) { freshClass = 'fresh'; freshTitle = `Synced ${ageMin < 60 ? Math.round(ageMin) + ' min' : Math.round(ageMin/60) + 'h'} ago`; }
+    else                { freshClass = 'cold';  freshTitle = `Synced ${Math.round(ageMin/60/24)}d ago — sync may be broken`; }
     nextSyncMs = nextCronTick();
     lastKnownGeneratedAt = enriched.generatedAt;
   } else if (json.lastUpdated) {
@@ -1577,6 +1578,18 @@ async function reloadEnriched() {
 // Single function drives all states: countdown → due → live → fresh.
 // Important: every "past the tick" branch re-polls the API; we never carry
 // over a stale "syncing…" between ticks.
+function setDotSyncing(on) {
+  const dot = document.querySelector('#meta .fresh-dot');
+  if (!dot) return;
+  if (on) {
+    if (!dot.dataset.prev) dot.dataset.prev = dot.className;
+    dot.className = 'fresh-dot syncing';
+  } else if (dot.dataset.prev) {
+    dot.className = dot.dataset.prev;
+    delete dot.dataset.prev;
+  }
+}
+
 async function tickSync() {
   const el = document.getElementById('sync-countdown');
   if (!el) return null;
@@ -1584,6 +1597,7 @@ async function tickSync() {
   const remainingMs = next - Date.now();
 
   if (remainingMs > 60_000) {
+    setDotSyncing(false);
     const m = Math.ceil(remainingMs / 60_000);
     el.textContent = `next sync in ${m}m`;
     el.className = 'sync-countdown';
@@ -1591,6 +1605,7 @@ async function tickSync() {
     return remainingMs <= 90_000 ? 1000 : 30_000;
   }
   if (remainingMs > 0) {
+    setDotSyncing(false);
     const s = Math.max(1, Math.ceil(remainingMs / 1000));
     el.textContent = `next sync in ${s}s`;
     el.className = 'sync-countdown imminent';
@@ -1607,11 +1622,13 @@ async function tickSync() {
   const overdueMs = -remainingMs;
   const live = await fetchLiveRun();
   if (live) {
+    setDotSyncing(true);
     el.textContent = live.status === 'queued' ? 'queued…' : 'syncing…';
     el.className = 'sync-countdown syncing';
     el.title = `${live.name} #${live.run_number} — ${live.status}`;
     return 10_000; // poll quickly while live
   }
+  setDotSyncing(false);
   if (overdueMs <= CRON_JITTER_MS) {
     el.textContent = 'sync due';
     el.className = 'sync-countdown due';
