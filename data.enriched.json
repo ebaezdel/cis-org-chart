@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T20:11:50.478Z",
+  "generatedAt": "2026-05-30T21:16:30.883Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26693772422",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26695129583",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -14504,6 +14504,20 @@
           "url": "https://moveinc.atlassian.net/browse/CNTNT-623"
         },
         {
+          "key": "CNTNT-421",
+          "summary": "AWS Java SDK upgrade",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-421"
+        },
+        {
           "key": "APPSEC-111032",
           "summary": "moverdc/content-s3-https-compliance : s3_https_policy_remover.py : Command_Injection",
           "sp": 0,
@@ -14602,20 +14616,6 @@
           "board": "CNTNT",
           "resolved": "2026-05-28T07:47:24.768-0700",
           "url": "https://moveinc.atlassian.net/browse/CNTNT-465"
-        },
-        {
-          "key": "CNTNT-421",
-          "summary": "AWS Java SDK upgrade",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Intake Request",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
-          "parent": null,
-          "board": "CNTNT",
-          "resolved": "2026-05-28T07:47:14.583-0700",
-          "url": "https://moveinc.atlassian.net/browse/CNTNT-421"
         },
         {
           "key": "CNTNT-699",
@@ -14847,8 +14847,8 @@
         }
       ],
       "manager": "JB",
-      "openCount": 29,
-      "doneCount": 23
+      "openCount": 30,
+      "doneCount": 22
     }
   },
   "kanbanDoneWindowDays": 14
