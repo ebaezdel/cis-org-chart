@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T10:19:00.506Z",
+  "generatedAt": "2026-05-30T11:54:19.823Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26681341920",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26683144261",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -12305,20 +12305,6 @@
           "url": "https://moveinc.atlassian.net/browse/TCET-588"
         },
         {
-          "key": "CSPM-621",
-          "summary": "Publicly exposed VM/serverless with high privileges vulnerable to CVE-2021-44228 (Log4Shell)",
-          "sp": 0,
-          "status": "Requested",
-          "statusCat": "new",
-          "statusColor": "blue-gray",
-          "issueType": "Task",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
-          "parent": null,
-          "board": "CSPM",
-          "resolved": null,
-          "url": "https://moveinc.atlassian.net/browse/CSPM-621"
-        },
-        {
           "key": "CSPM-3977",
           "summary": "Publicly exposed VM/serverless with high privileges vulnerable to CVE-2021-44228 (Log4Shell)",
           "sp": 0,
@@ -12512,7 +12498,7 @@
         }
       ],
       "manager": "LEADERS",
-      "openCount": 7,
+      "openCount": 6,
       "doneCount": 6
     },
     "Saloni Sharma": {
