@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T05:30:56.178Z",
+  "generatedAt": "2026-05-30T08:10:04.319Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26675749211",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26678882183",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -13621,7 +13621,7 @@
           "key": "CR-9047",
           "summary": "[tarball-segregation-push-lambda] industryplatforms/tarball-segregation-push-lambda : index.py : Path_Traversal",
           "sp": 0,
-          "status": "Approved",
+          "status": "EM Review",
           "statusCat": "indeterminate",
           "statusColor": "yellow",
           "issueType": "Change Request",
@@ -14840,25 +14840,11 @@
           "board": "APPSEC",
           "resolved": "2026-05-16T17:50:40.949-0700",
           "url": "https://moveinc.atlassian.net/browse/APPSEC-108495"
-        },
-        {
-          "key": "APPSEC-90871",
-          "summary": "moverdc/content-example-python-app : Missing User Instruction",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-15T22:31:34.905-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-90871"
         }
       ],
       "manager": "JB",
       "openCount": 27,
-      "doneCount": 24
+      "doneCount": 23
     }
   },
   "kanbanDoneWindowDays": 14
