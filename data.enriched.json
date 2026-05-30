@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T18:48:56.676Z",
+  "generatedAt": "2026-05-30T20:11:50.478Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26692008853",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26693772422",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -8204,6 +8204,24 @@
           "url": "https://moveinc.atlassian.net/browse/CON-4426"
         },
         {
+          "key": "LHAPI-1233",
+          "summary": "SUCOL - Not receiving listing - Case number 12450524",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Story",
+          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
+          "parent": {
+            "key": "CON-6165",
+            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
+            "color": "ghx-label-12"
+          },
+          "board": "LHAPI",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/LHAPI-1233"
+        },
+        {
           "key": "LHAPI-1178",
           "summary": "Missing MLS report - Case number 12422697",
           "sp": 0,
@@ -8416,24 +8434,6 @@
           "board": "LHAPI",
           "resolved": "2026-05-29T05:09:05.111-0700",
           "url": "https://moveinc.atlassian.net/browse/LHAPI-1198"
-        },
-        {
-          "key": "LHAPI-1233",
-          "summary": "SUCOL - Not receiving listing - Case number 12450524",
-          "sp": 0,
-          "status": "Done",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Story",
-          "issueTypeIcon": "https://moveinc.atlassian.net/images/icons/issuetypes/story.svg",
-          "parent": {
-            "key": "CON-6165",
-            "summary": "Content Continuity - FY26 Q4 KTLO ListHub",
-            "color": "ghx-label-12"
-          },
-          "board": "LHAPI",
-          "resolved": "2026-05-28T13:53:02.829-0700",
-          "url": "https://moveinc.atlassian.net/browse/LHAPI-1233"
         },
         {
           "key": "CON-6518",
@@ -9203,8 +9203,8 @@
         }
       ],
       "manager": "MH",
-      "openCount": 14,
-      "doneCount": 47
+      "openCount": 15,
+      "doneCount": 46
     },
     "Sandhya Rani": {
       "open": [
@@ -14406,6 +14406,20 @@
           "url": "https://moveinc.atlassian.net/browse/PEWG-16"
         },
         {
+          "key": "CNTNT-809",
+          "summary": "Tech Roadmap FY27",
+          "sp": 0,
+          "status": "In Progress",
+          "statusCat": "indeterminate",
+          "statusColor": "yellow",
+          "issueType": "Intake Request",
+          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10321?size=medium",
+          "parent": null,
+          "board": "CNTNT",
+          "resolved": null,
+          "url": "https://moveinc.atlassian.net/browse/CNTNT-809"
+        },
+        {
           "key": "CNTNT-797",
           "summary": "CIS Internal incident reporting & reviewing standard",
           "sp": 0,
@@ -14833,7 +14847,7 @@
         }
       ],
       "manager": "JB",
-      "openCount": 28,
+      "openCount": 29,
       "doneCount": 23
     }
   },
