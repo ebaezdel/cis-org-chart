@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T11:21:35.798Z",
+  "generatedAt": "2026-05-31T12:59:07.576Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26711196911",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26713271734",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -118,7 +118,7 @@
       },
       {
         "key": "FC-1817",
-        "summary": "Anomaly Detection POC — MLS Feed Health & Pipeline Health",
+        "summary": "Anomaly Detection POC �� MLS Feed Health & Pipeline Health",
         "sp": 1,
         "status": "In Progress",
         "statusCat": "indeterminate",
