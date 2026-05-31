@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-30T23:43:45.676Z",
+  "generatedAt": "2026-05-31T01:55:24.617Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26698065905",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26700460702",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -14830,25 +14830,11 @@
           "board": "APPSEC",
           "resolved": "2026-05-18T17:39:50.631-0700",
           "url": "https://moveinc.atlassian.net/browse/APPSEC-110693"
-        },
-        {
-          "key": "APPSEC-108495",
-          "summary": "moverdc/content-example-python-app : python-black",
-          "sp": 0,
-          "status": "Closed (Remediated)",
-          "statusCat": "done",
-          "statusColor": "green",
-          "issueType": "Bug",
-          "issueTypeIcon": "https://moveinc.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
-          "parent": null,
-          "board": "APPSEC",
-          "resolved": "2026-05-16T17:50:40.949-0700",
-          "url": "https://moveinc.atlassian.net/browse/APPSEC-108495"
         }
       ],
       "manager": "JB",
       "openCount": 30,
-      "doneCount": 22
+      "doneCount": 21
     }
   },
   "kanbanDoneWindowDays": 14
