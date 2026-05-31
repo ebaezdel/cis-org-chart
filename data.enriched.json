@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-31T06:25:12.994Z",
+  "generatedAt": "2026-05-31T09:34:34.408Z",
   "syncTrigger": "schedule",
-  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26705310277",
+  "syncRunUrl": "https://github.com/ebaezdel/cis-org-chart/actions/runs/26709028579",
   "spField": "customfield_10034",
   "capacityCap": 10,
   "boardToManager": {
@@ -9875,7 +9875,7 @@
           "key": "CR-9097",
           "summary": "Datasource Migration to Mapping Service - NorthEastGA - NEGAR/NEGBORGA ",
           "sp": 0,
-          "status": "Approved",
+          "status": "EM Review",
           "statusCat": "indeterminate",
           "statusColor": "yellow",
           "issueType": "Change Request",
